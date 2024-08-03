@@ -1,0 +1,181 @@
+{
+  "ProfileName": "PMDG 737NG FDS COM 2 (4C5A)",
+  "DeviceName": "FDS 737NG NAVCOMM",
+  "InputCreators": [
+    {
+      "Id": "08829236-82ad-4467-b130-b0ad931e3fc0",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70469,
+      "PmdgMousePress": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "7a93d58f-62f1-45e6-9c2e-016276af1a65",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 31
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70474,
+      "PmdgMousePress": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "4922a714-b941-4ac2-aa90-de980f408bd0",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 32
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70474,
+      "PmdgMousePress": 2147483648,
+      "OnRelease": false
+    },
+    {
+      "Id": "b5cf6bc9-97bf-4984-953e-e69f6bf8263c",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 29
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70475,
+      "PmdgMousePress": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "889d8c11-6b44-4c65-a8a3-4f620f0b0797",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 30
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70475,
+      "PmdgMousePress": 2147483648,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "9f877236-818a-4df0-94f9-9f2618fc1381",
+      "IsActive": true,
+      "Description": "COM2 - Active Frequency - Power On",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 5,
+      "DigitCheckedSum": 31,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "3345b29e-2bc9-4956-a8f7-ef749fac9c35",
+      "IsActive": true,
+      "Description": "COM2 - Active Frequency - Power Off",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 5,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "a8724cc6-ee4a-453c-aae5-e514f4209122",
+      "IsActive": true,
+      "Description": "COM2 - Standby Frequency - Power On",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 5,
+      "DigitCheckedSum": 31,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "53b105b3-b227-49e7-92f4-de3bb92084df",
+      "IsActive": true,
+      "Description": "COM2 - Standby Frequency - Power Off",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 5,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "c002dbe6-9c72-43cc-9bd9-51880e211221",
+      "IsActive": true,
+      "Description": "COM2 - AC/DC Battery Bus Selector",
+      "OutputType": "LED",
+      "DataType": "PMDG737",
+      "PmdgData": "ELEC_BusPowered",
+      "PmdgDataArrayIndex": 12
+    }
+  ]
+}

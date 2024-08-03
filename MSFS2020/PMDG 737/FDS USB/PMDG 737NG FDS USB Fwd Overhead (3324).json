@@ -1,0 +1,173 @@
+{
+  "ProfileName": "PMDG 737NG FDS FwdOvrhd (3324)",
+  "DeviceName": "FDS OE1",
+  "InputCreators": [
+    {
+      "Id": "57a9e9ab-6dd8-4334-b65b-f2f1d36fb53a",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69850,
+      "PmdgMousePress": 8192,
+      "OnRelease": false
+    },
+    {
+      "Id": "c4dfb78a-9d73-4aaa-9d8b-c8c34791a734",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69850,
+      "PmdgMousePress": 16384,
+      "OnRelease": false
+    },
+    {
+      "Id": "7a093ceb-d9b7-47d1-9647-ad82153ddf93",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69852,
+      "PmdgMousePress": 8192,
+      "OnRelease": false
+    },
+    {
+      "Id": "a997cd65-8a22-4931-8082-6c00e9d13894",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69852,
+      "PmdgMousePress": 16384,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "86b25c63-4d9a-422a-972e-38c871dd0559",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ELEC_MeterDisplayTop",
+      "Modifiers": [
+        {
+          "$type": "Substring",
+          "IsActive": true,
+          "Start": 1,
+          "End": 2
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "690d0bda-dd9c-422d-bfd9-e07a84e527ed",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Outputs": [
+        3
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ELEC_MeterDisplayBottom",
+      "Modifiers": [
+        {
+          "$type": "Substring",
+          "IsActive": true,
+          "Start": 1,
+          "End": 2
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "f0badf83-c0fc-4447-b839-b751af596966",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Outputs": [
+        5
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ELEC_MeterDisplayBottom",
+      "Modifiers": [
+        {
+          "$type": "Substring",
+          "IsActive": true,
+          "Start": 5,
+          "End": 6
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "a76c8f21-6e72-4b05-9f52-6705497f71b2",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Outputs": [
+        7
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ELEC_MeterDisplayTop",
+      "Modifiers": [
+        {
+          "$type": "Substring",
+          "IsActive": true,
+          "Start": 8,
+          "End": 10
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "7e66d390-1453-4c2e-aea6-ecdcabc43cd7",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Outputs": [
+        10
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ELEC_MeterDisplayBottom",
+      "Modifiers": [
+        {
+          "$type": "Substring",
+          "IsActive": true,
+          "Start": 8,
+          "End": 10
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "e27c8816-1832-490b-8339-a1b42f5af7d3",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Outputs": [
+        13
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "AIR_DisplayLandAlt",
+      "IsPadded": false
+    },
+    {
+      "Id": "6b680c75-9e34-4d3c-ba7b-0f167d0231ca",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Outputs": [
+        18
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "AIR_DisplayFltAlt",
+      "IsPadded": false
+    }
+  ]
+}

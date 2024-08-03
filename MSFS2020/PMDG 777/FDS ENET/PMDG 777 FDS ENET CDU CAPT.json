@@ -1,0 +1,1040 @@
+{
+  "ProfileName": "PMDG777_CDU_CPT",
+  "Description": "",
+  "DeviceName": "FDS-CDU-E",
+  "InputCreators": [
+    {
+      "Id": "3b0518a0-d827-4bb1-b411-f775e64f8a0a",
+      "IsActive": true,
+      "Description": "EXEC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 55
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69981,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "3c19a60f-5869-4053-b086-55b38d625dec",
+      "IsActive": true,
+      "Description": "PROG",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 54
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69980,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "7f2e592d-cf2b-4683-826d-5f4542d30146",
+      "IsActive": true,
+      "Description": "FMCCOMM",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 53
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 73103,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "ac7f7119-08f9-4720-a2ca-c070e76dafed",
+      "IsActive": true,
+      "Description": "ALTN",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 61
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69975,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "62dae434-90be-4bd0-b4b8-152ac77702d8",
+      "IsActive": true,
+      "Description": "HOLD",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 52
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69979,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "1b0e877f-e04c-4f4c-b994-6beee2116ece",
+      "IsActive": true,
+      "Description": "LEGS",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 50
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69978,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "0ae28a24-1a5c-47ca-8ee1-76a2ed9515f4",
+      "IsActive": true,
+      "Description": "FIX",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 49
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69977,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "bf626365-afa4-413c-8215-d68c1a1677e8",
+      "IsActive": true,
+      "Description": "DEP ARR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 60
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69974,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "3be937f9-ed9a-4ed7-ab1d-9cb246c26104",
+      "IsActive": true,
+      "Description": "E",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 48
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70002,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "ab7822ac-38eb-4467-b5f9-4d31c68cec46",
+      "IsActive": true,
+      "Description": "D",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 47
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70001,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "400559a6-eb3a-485f-813a-4a199dc6dfc2",
+      "IsActive": true,
+      "Description": "C",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 46
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70000,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "e941b069-5c16-4797-b584-973dc4ce767f",
+      "IsActive": true,
+      "Description": "B",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 45
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69999,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "73b3b775-dd2b-4d3b-832b-920bf86858cd",
+      "IsActive": true,
+      "Description": "A",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 44
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69998,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "35803b82-3861-4ec5-9245-e59e331d2d30",
+      "IsActive": true,
+      "Description": "NAV RAD",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 42
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69983,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "e40a3dee-2fec-4a5d-89ec-d64a75748ce3",
+      "IsActive": true,
+      "Description": "MENU",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 41
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69982,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "cbd9b3ef-6653-4c86-8641-3519569b3799",
+      "IsActive": true,
+      "Description": "RTE",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 58
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69973,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "ab343559-d134-401b-a8be-3b0433f41468",
+      "IsActive": true,
+      "Description": "J",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 40
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70007,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "123b173b-8015-49ee-bcb2-b7e6030bec1c",
+      "IsActive": true,
+      "Description": "I",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 39
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70006,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "e33dd300-e844-4539-a06a-df53495711c2",
+      "IsActive": true,
+      "Description": "H",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 38
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70005,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "c072e898-baa2-4ba6-b27d-ae205b290368",
+      "IsActive": true,
+      "Description": "G",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 37
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70004,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "10af3b28-a021-480a-93b9-c49f89727bd4",
+      "IsActive": true,
+      "Description": "F",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 36
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70003,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "40ea3a75-66a0-4cfd-9442-f05f954c4c5d",
+      "IsActive": true,
+      "Description": "NEXT PAGE",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 34
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69985,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "76a5b2b0-697b-4e22-b7eb-0b24fa9bfedf",
+      "IsActive": true,
+      "Description": "PREV PAGE",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 33
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69984,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "5fd6af86-5777-4627-b20b-5b74f419bba7",
+      "IsActive": true,
+      "Description": "O",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 32
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70012,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "80b38285-1696-4410-9882-fb2520256e66",
+      "IsActive": true,
+      "Description": "N",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 31
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70011,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "7bc5c31d-d69b-4dba-b256-a3f05a99f244",
+      "IsActive": true,
+      "Description": "M",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 30
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70010,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "1a8d4c60-bc8c-4da2-ab13-3f45bd1ce96a",
+      "IsActive": true,
+      "Description": "L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 29
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70009,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "b3120c19-736d-4ca2-8b08-8f83b3c9ffee",
+      "IsActive": true,
+      "Description": "K",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 28
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70008,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "13157c49-1f63-48ec-82bf-5ca37da623fb",
+      "IsActive": true,
+      "Description": "3",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 27
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69988,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "4a28dd31-0fa5-4985-8019-755deac4a645",
+      "IsActive": true,
+      "Description": "2",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 26
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69987,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "e95930fd-d320-4231-8702-4d8957d5dc35",
+      "IsActive": true,
+      "Description": "1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 25
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69986,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "b7060516-4e7a-4ed5-b943-d82c57a618d8",
+      "IsActive": true,
+      "Description": "T",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 24
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70017,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "9601da93-7b8a-4556-9184-55657a6db957",
+      "IsActive": true,
+      "Description": "S",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 23
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70016,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "74fc8611-b336-4e2e-834b-17da91585a8b",
+      "IsActive": true,
+      "Description": "R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 22
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70015,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "17c19c7c-7ac5-420c-8853-ab13c668d2e5",
+      "IsActive": true,
+      "Description": "Q",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 21
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70014,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "5f56c5d7-b655-46c6-ab96-e9f88be58dff",
+      "IsActive": true,
+      "Description": "P",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 20
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70013,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "22231c92-d37d-446b-b1f7-660923d34847",
+      "IsActive": true,
+      "Description": "6",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 19
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69991,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "89295256-3490-4833-aa2b-c887af7a0e1e",
+      "IsActive": true,
+      "Description": "5",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 18
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69990,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "459fb996-d36e-4e1a-888b-e063b2479939",
+      "IsActive": true,
+      "Description": "4",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 17
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69989,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "97ecc8d0-6edd-4d0d-a1d2-9fd2fdaba701",
+      "IsActive": true,
+      "Description": "Y",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 16
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70022,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "e8b56872-9582-4e02-88db-68ed0f21824c",
+      "IsActive": true,
+      "Description": "X",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 15
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70021,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "af061c56-beab-4100-b7d7-0ab84c411090",
+      "IsActive": true,
+      "Description": "W",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 14
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70020,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "69610cfd-f628-4724-ad34-39a1653c189c",
+      "IsActive": true,
+      "Description": "V",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 13
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70019,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "c74d0f7f-0fe7-458d-90a4-0ab75421a014",
+      "IsActive": true,
+      "Description": "U",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 12
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70018,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "98eb3459-c733-4f08-bc28-fe77fad08c23",
+      "IsActive": true,
+      "Description": "9",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 11
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69994,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "1a1fe3f1-a3c2-42e5-bb0f-6264a578058e",
+      "IsActive": true,
+      "Description": "8",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 10
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69993,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "bd213d15-e723-4eae-b973-cbae534c9c50",
+      "IsActive": true,
+      "Description": "7",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69992,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "7412edd2-58da-4e46-be9c-1008a21402cf",
+      "IsActive": true,
+      "Description": "CLR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 8
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70027,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "c4e3aca8-857b-44f1-a050-fc9c2163da7d",
+      "IsActive": true,
+      "Description": "/",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 7
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70026,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "0a6584e2-e822-4657-93de-6f2f6e1ee640",
+      "IsActive": true,
+      "Description": "DEL",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 6
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70025,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "aa696d48-a048-4fdd-9278-5fbc5517377e",
+      "IsActive": true,
+      "Description": "SP",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 5
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70024,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "6f161b11-9182-4d6e-83d1-08118d85c546",
+      "IsActive": true,
+      "Description": "Z",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70023,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "983d053f-7cce-43cc-b19b-e6978435c931",
+      "IsActive": true,
+      "Description": "\u002B/-",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69997,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "d981720a-8e27-45d5-af90-c95eb2a75cc4",
+      "IsActive": true,
+      "Description": "0",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69996,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "20b3abc0-e77d-4de3-9214-d7f41551ed04",
+      "IsActive": true,
+      "Description": ".",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69995,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "768c2557-ddc7-45f0-89a9-a17fe6d5a5b8",
+      "IsActive": true,
+      "Description": "LSKL1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 35
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69960,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "38d0e0d2-e809-42b5-a02a-9fc230be5925",
+      "IsActive": true,
+      "Description": "LSKL2",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 43
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69961,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "3f464493-f6d1-48cf-9ef4-9ae0814e799f",
+      "IsActive": true,
+      "Description": "LSKL3",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 51
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69962,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "dac75fb0-f3e1-47c4-af93-c89c25fcbd6c",
+      "IsActive": true,
+      "Description": "LSKL4",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 59
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69963,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "9f1fead2-810b-4df8-ab75-2671aa861178",
+      "IsActive": true,
+      "Description": "LSKL5",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 56
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69964,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "511e3437-3120-4904-8752-f0df977e28ce",
+      "IsActive": true,
+      "Description": "LSKL6",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 71
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69965,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "92d50d58-1c57-4cf6-8e44-641719e15a5a",
+      "IsActive": true,
+      "Description": "INIT REF",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 57
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69972,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "94891b8d-5818-45fa-9787-44cb328b4e71",
+      "IsActive": true,
+      "Description": "LSKR1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 65
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69966,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "1a7828c6-6a4e-47d8-947d-9b1a583a6bf2",
+      "IsActive": true,
+      "Description": "LSKR2",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 66
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69967,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "47a01945-a30f-4788-9903-0f666163a6ab",
+      "IsActive": true,
+      "Description": "LSKR3",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 67
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69968,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "7892fb9a-742d-45d9-814e-7dd6ec43fe6b",
+      "IsActive": true,
+      "Description": "LSKR4",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 68
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69969,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "be86638a-a1d8-4f18-ab66-1b1074722de7",
+      "IsActive": true,
+      "Description": "LSKR5",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 69
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69970,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "594d6920-e0f6-4696-a329-9714b4d5ff80",
+      "IsActive": true,
+      "Description": "LSKR6",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 70
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69971,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "f9206e7c-4a46-4ff8-8446-729c48db0f49",
+      "IsActive": true,
+      "Description": "VNAV",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 62
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69976,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "76eda1d1-7735-4056-a34d-e081e98cfa91",
+      "IsActive": true,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "5ada6189-7706-4b3b-abbe-45a762659bb9",
+      "IsActive": true,
+      "Description": "EXEC",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "CDU_annunEXEC",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "ef598f28-08aa-4082-b2cf-fbd1a9e5fe1a",
+      "IsActive": true,
+      "Description": "CALL",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "CDU_annunDSPY",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "45d57b56-811e-4dc8-a91c-52eaddb64782",
+      "IsActive": true,
+      "Description": "MSG",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "CDU_annunMSG",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "8fb17137-1aa4-4d40-a947-27bc9bbc94af",
+      "IsActive": true,
+      "Description": "FAIL",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "CDU_annunFAIL",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "b42687a5-c0eb-40a8-aea7-3422b25fbff9",
+      "IsActive": true,
+      "Description": "OFST",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "CDU_annunOFST",
+      "PmdgDataArrayIndex": 0
+    }
+  ]
+}

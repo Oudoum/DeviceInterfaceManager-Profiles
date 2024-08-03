@@ -1,0 +1,2414 @@
+{
+  "ProfileName": "PMDG777_MCP1",
+  "Description": "",
+  "DeviceName": "FDS 777 MX MCP",
+  "InputCreators": [
+    {
+      "Id": "7fd6cf91-3239-4971-bd89-358fdfaad5f3",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS -1 =\u003E -10",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": -30,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "cd9589ac-da03-46af-8799-48e93626f09f",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS 0 =\u003E -1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b44682a8-3d7d-476c-854f-1af06cd42726",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS 1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "8d62514d-ec3b-43ed-a4d0-00a00faa51be",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS 10 =\u003E 1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "30",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "9220ed1e-9e5a-42dc-a43f-dc4569d62ec1",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS -10 =\u003E -1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "-30",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f3108909-dd2b-44d2-b31b-c75fe89a891f",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS -1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "5f285723-d461-424f-a816-4fbb322adfb5",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS 0 =\u003E 1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "1e37fa1a-e14e-47b4-b331-ac2640a7c40d",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS 1 =\u003E 10",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 30,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "eda1c70c-ef36-4b23-96fe-be4bd646ef6d",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO -1 =\u003E -10",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": -40,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "be8a6b52-9cfe-44cd-bed2-c66190e9c439",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO 0 =\u003E -1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "57ec5656-80fe-461b-8fca-f250cb155b83",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO 1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "8e3285be-ef8a-4c11-a09e-56784b618d0d",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO 10 =\u003E 1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "40",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f4a41f17-2776-4b7a-979a-4740adb5c4e8",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO -10 =\u003E -1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "-40",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "578f9f31-fff5-40f4-bf94-7bc0fcef82f0",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO -1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "baf7e877-a8ba-4fbc-8cc9-d327b489c2f5",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO 0 =\u003E 1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "8bbd91b5-811a-4e43-b442-af98f273f86b",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO 1 =\u003E 10",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 40,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b71c7a2a-ea7f-4359-aa9d-7dd91c7e0aae",
+      "IsActive": true,
+      "Description": "MCP SPEED SELECTOR DEC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 5
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69842,
+      "PmdgMousePress": 8192,
+      "OnRelease": false
+    },
+    {
+      "Id": "71c2ca0f-4f55-4fb2-90f0-21a454adb625",
+      "IsActive": true,
+      "Description": "MCP SPEED SELECTOR INC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 6
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69842,
+      "PmdgMousePress": 16384,
+      "OnRelease": false
+    },
+    {
+      "Id": "b0a7e110-9bdc-4171-bb1f-56d122d56435",
+      "IsActive": true,
+      "Description": "MCP HEADING SELECTOR DEC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 7
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 71812,
+      "PmdgMousePress": 8192,
+      "OnRelease": false
+    },
+    {
+      "Id": "13660ed4-ced6-4fc4-b609-a0343b9760e2",
+      "IsActive": true,
+      "Description": "MCP HEADING SELECTOR INC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 8
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 71812,
+      "PmdgMousePress": 16384,
+      "OnRelease": false
+    },
+    {
+      "Id": "8102d75e-71bc-43b4-a6c4-a19f125150c6",
+      "IsActive": true,
+      "Description": "MCP VS SELECTOR DEC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69854,
+      "PmdgMousePress": 8192,
+      "OnRelease": false
+    },
+    {
+      "Id": "5d944391-9e6a-4bcb-81da-04c9e0e2aada",
+      "IsActive": true,
+      "Description": "MCP VS SELECTOR INC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 10
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69854,
+      "PmdgMousePress": 16384,
+      "OnRelease": false
+    },
+    {
+      "Id": "464811a9-5f01-4868-8c13-ce6b7d3fe6ec",
+      "IsActive": true,
+      "Description": "MCP ALTITUDE SELECTOR DEC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 11
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 71882,
+      "PmdgMousePress": 8192,
+      "OnRelease": false
+    },
+    {
+      "Id": "1d78e972-0d31-44f6-96cb-f7843457b4ef",
+      "IsActive": true,
+      "Description": "MCP ALTITUDE SELECTOR INC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 12
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 71882,
+      "PmdgMousePress": 16384,
+      "OnRelease": false
+    },
+    {
+      "Id": "01a4eee0-5634-4db3-a3d9-f81244de90ca",
+      "IsActive": true,
+      "Description": "MCP FD SWITCH L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 17
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69834,
+      "OnRelease": false
+    },
+    {
+      "Id": "95f48e8e-e498-4a11-b334-340f9547b3a8",
+      "IsActive": true,
+      "Description": "MCP AT ARM SWITCH L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 18
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69836,
+      "OnRelease": false
+    },
+    {
+      "Id": "18ce3f3f-e2b8-4cfe-9b78-7c2528ec3425",
+      "IsActive": true,
+      "Description": "MCP AT ARM SWITCH R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 19
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69837,
+      "OnRelease": false
+    },
+    {
+      "Id": "5af4f32e-5e8a-42ab-bf34-6489d15b739c",
+      "IsActive": true,
+      "Description": "MCP IAS MACH SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 20
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69840,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "b012227c-b8d5-490f-b19c-4445e0b7fe27",
+      "IsActive": true,
+      "Description": "MCP DISENGAGE BAR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 21
+      },
+      "EventType": "PMDG777",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 69846,
+      "OnRelease": false
+    },
+    {
+      "Id": "43113990-6c39-4c92-a896-7c1d3614a8fb",
+      "IsActive": true,
+      "Description": "MCP HDG TRK SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 22
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69848,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "5788ed9d-f869-4e04-a442-b73396bb6f24",
+      "IsActive": true,
+      "Description": "MCP VS FPA SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 23
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69852,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "c12b7963-3c10-43d7-9e02-e5ccfb4b6f1f",
+      "IsActive": true,
+      "Description": "MCP FD SWITCH R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 24
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69862,
+      "OnRelease": false
+    },
+    {
+      "Id": "1e41c3c1-7b9c-4271-bef2-2c4f9699be07",
+      "IsActive": true,
+      "Description": "MCP A L SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 25
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69835,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "d2c26e2d-1a69-4ee8-ad42-9df750dd7377",
+      "IsActive": true,
+      "Description": "MCP CLB CON SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 26
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69838,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "9396df9b-9578-4f1a-82d0-9264f559427b",
+      "IsActive": true,
+      "Description": "MCP AT SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 27
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69839,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "9a9c98b1-0d16-4128-abab-631104031ec2",
+      "IsActive": true,
+      "Description": "MCP LNAV SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 28
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69843,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "dd5a5d80-b70a-47fe-9168-aa9aaecf8dcd",
+      "IsActive": true,
+      "Description": "MCP VNAV SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 29
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69844,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "acbc83e2-f814-4849-82f5-1964c8d04ceb",
+      "IsActive": true,
+      "Description": "MCP LVL CHG SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 30
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69845,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "caf4ab08-b838-447b-8ce3-a79f9df76234",
+      "IsActive": true,
+      "Description": "MCP HDG HOLD SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 31
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69851,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "3d32dacf-9cd2-4758-bd2b-28e10e833fb4",
+      "IsActive": true,
+      "Description": "MCP VS SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 32
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69855,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "79c81c60-22e3-4ba7-b8bf-bac43ad11264",
+      "IsActive": true,
+      "Description": "MCP ALT HOLD SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 33
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69858,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "dee03ac4-0647-45fe-aa91-59124561e438",
+      "IsActive": true,
+      "Description": "MCP LOC SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 34
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69859,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "378c0c2c-587f-481b-961a-843fde1dd253",
+      "IsActive": true,
+      "Description": "MCP APP SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 35
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69860,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "c6a7d1e3-fb1b-449c-9b4e-64ce212c5d1f",
+      "IsActive": true,
+      "Description": "MCP AP R SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 36
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69861,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "780a0d78-069d-4332-9548-0cdaa76c9c85",
+      "IsActive": true,
+      "Description": "MCP ALT INCR SELECTOR AUTO",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 37
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "PmdgEvent": 69857,
+      "OnRelease": false
+    },
+    {
+      "Id": "4130ee9c-7018-43c3-ab34-a7f53fb78458",
+      "IsActive": true,
+      "Description": "MCP ALT INCR SELECTOR 1000",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 38
+      },
+      "EventType": "PMDG777",
+      "DataPress": 1,
+      "PmdgEvent": 69857,
+      "OnRelease": false
+    },
+    {
+      "Id": "6e63862e-ecb0-41a6-a0d4-250477a01427",
+      "IsActive": true,
+      "Description": "MCP SPEED PUSH SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 39
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 71732,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "a6abc4ac-5cc6-4a2f-ba61-d287cf43207b",
+      "IsActive": true,
+      "Description": "DSP L INBD SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 41
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69863,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "11e31321-41d5-4b72-b366-d183d724d0d9",
+      "IsActive": true,
+      "Description": "DSP LWR CTR SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 42
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69865,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "3ff86a70-dbcb-4dd2-aee3-d8e32d651000",
+      "IsActive": true,
+      "Description": "DSP LWR CTR SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 43
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69864,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "b87e0a7c-bd16-48c8-a92c-1e51b524be6d",
+      "IsActive": true,
+      "Description": "DSP ENG SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 44
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69866,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "9337b232-cfe1-4531-821d-d8e888a62ec4",
+      "IsActive": true,
+      "Description": "DSP STAT SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 45
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69867,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "5832ec2c-8882-42a4-be69-cce411fb2c2a",
+      "IsActive": true,
+      "Description": "DSP ELEC SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 46
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69868,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "46750353-94b5-48db-8171-8f18de404346",
+      "IsActive": true,
+      "Description": "DSP HYD SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 47
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69869,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "39d9f37c-c373-4004-b69a-bed479bff55f",
+      "IsActive": true,
+      "Description": "DSP FUEL SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 48
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69870,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "4e33be9a-b506-4efc-8dee-249b23e24bbe",
+      "IsActive": true,
+      "Description": "DSP AIR SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 49
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69871,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "f2fcfc1c-8786-405b-ac6e-2cedc6588c53",
+      "IsActive": true,
+      "Description": "DSP DOOR SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 50
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69872,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "460af859-b09c-46fe-95e2-d821265fe4a0",
+      "IsActive": true,
+      "Description": "DSP GEAR SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 51
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69873,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "b6dc94bc-b767-46f1-9d57-e1c1bbd6f391",
+      "IsActive": true,
+      "Description": "DSP FCTL SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 52
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69874,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "fe917e8e-03f1-436c-a85d-21fdc3622cfa",
+      "IsActive": true,
+      "Description": "DSP CHKL SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 53
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69876,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "4fd97878-d907-40d4-b1fe-474176b0f678",
+      "IsActive": true,
+      "Description": "DSP COMM SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 54
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69877,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "869606ca-e04b-4801-a024-0b0685ffdafb",
+      "IsActive": true,
+      "Description": "DSP NAV SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 55
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69878,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "ed5222df-a7b3-441b-8eb6-4b6030c5252e",
+      "IsActive": true,
+      "Description": "DSP CANC RCL SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 56
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69879,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "b7026d0c-002e-413f-ab28-868ad170bb43",
+      "IsActive": true,
+      "Description": "MCP BANK ANGLE SELECTOR AUTO",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 57
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "PmdgEvent": 71813,
+      "OnRelease": false
+    },
+    {
+      "Id": "bb21f844-c25e-4e1b-9c6f-d70490afb7ba",
+      "IsActive": true,
+      "Description": "MCP BANK ANGLE SELECTOR 5",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 58
+      },
+      "EventType": "PMDG777",
+      "DataPress": 1,
+      "PmdgEvent": 71813,
+      "OnRelease": false
+    },
+    {
+      "Id": "28a9f4a8-8ad8-4829-aaf3-cc60a1cd4f5d",
+      "IsActive": true,
+      "Description": "MCP BANK ANGLE SELECTOR 10",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 59
+      },
+      "EventType": "PMDG777",
+      "DataPress": 2,
+      "PmdgEvent": 71813,
+      "OnRelease": false
+    },
+    {
+      "Id": "ea4bfeb9-4de7-44dc-b959-616a2b2251c3",
+      "IsActive": true,
+      "Description": "MCP BANK ANGLE SELECTOR 15",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 60
+      },
+      "EventType": "PMDG777",
+      "DataPress": 3,
+      "PmdgEvent": 71813,
+      "OnRelease": false
+    },
+    {
+      "Id": "9fc8e56b-36f7-422b-91f0-1da1cde14856",
+      "IsActive": true,
+      "Description": "MCP BANK ANGLE SELECTOR 20",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 61
+      },
+      "EventType": "PMDG777",
+      "DataPress": 4,
+      "PmdgEvent": 71813,
+      "OnRelease": false
+    },
+    {
+      "Id": "e8aa9ab7-b8e9-43ac-8b1c-1f6854c0946e",
+      "IsActive": true,
+      "Description": "MCP BANK ANGLE SELECTOR 25",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 62
+      },
+      "EventType": "PMDG777",
+      "DataPress": 5,
+      "PmdgEvent": 71813,
+      "OnRelease": false
+    },
+    {
+      "Id": "357d4a08-466a-495a-9243-e5ad479f6145",
+      "IsActive": true,
+      "Description": "MCP HEADING PUSH SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 63
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69850,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "ea9aa645-587f-4b99-89b5-b8bdfbe98a36",
+      "IsActive": true,
+      "Description": "MCP ALTITUDE PUSH SWITCH",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 64
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 71883,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "49af498d-e9a4-4f57-b187-2f65f4f4b638",
+      "IsActive": true,
+      "Description": "EFIS CPT MODE APP",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 65
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "PmdgEvent": 69817,
+      "OnRelease": false
+    },
+    {
+      "Id": "34fa9292-2311-4b1f-ad86-e6a26133497d",
+      "IsActive": true,
+      "Description": "EFIS CPT MODE VOR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 66
+      },
+      "EventType": "PMDG777",
+      "DataPress": 1,
+      "PmdgEvent": 69817,
+      "OnRelease": false
+    },
+    {
+      "Id": "7105638e-f4fe-4497-a08f-4629bf443ca1",
+      "IsActive": true,
+      "Description": "EFIS CPT MODE MAP",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 67
+      },
+      "EventType": "PMDG777",
+      "DataPress": 2,
+      "PmdgEvent": 69817,
+      "OnRelease": false
+    },
+    {
+      "Id": "422eaa3e-e3f2-4993-b05d-49012884273c",
+      "IsActive": true,
+      "Description": "EFIS CPT MODE PLN",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 68
+      },
+      "EventType": "PMDG777",
+      "DataPress": 3,
+      "PmdgEvent": 69817,
+      "OnRelease": false
+    },
+    {
+      "Id": "b139322c-2120-43b6-a6bd-b9293d0070f6",
+      "IsActive": true,
+      "Description": "EFIS CPT VOR SELECTOR L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 69
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69816,
+      "OnRelease": false
+    },
+    {
+      "Id": "e8a9314c-8d37-4263-a6f2-524fc216ad8f",
+      "IsActive": true,
+      "Description": "EFIS CPT ADF SELECTOR L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 70
+      },
+      "EventType": "PMDG777",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 69816,
+      "OnRelease": false
+    },
+    {
+      "Id": "c6738a84-836d-4557-9029-dd6d424e0316",
+      "IsActive": true,
+      "Description": "EFIS CPT VOR SELECTOR R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 71
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69816,
+      "OnRelease": false
+    },
+    {
+      "Id": "bbce8126-a80a-402d-8618-f5a99d71687a",
+      "IsActive": true,
+      "Description": "EFIS CPT ADF SELECTOR R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 72
+      },
+      "EventType": "PMDG777",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 69816,
+      "OnRelease": false
+    },
+    {
+      "Id": "566a3cc4-2854-4364-b2e5-6f8b06c8176e",
+      "IsActive": true,
+      "Description": "EFIS CPT RANGE 10",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 73
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "PmdgEvent": 69819,
+      "OnRelease": false
+    },
+    {
+      "Id": "e75b2725-80fa-4a3f-9ae5-c800af378fa0",
+      "IsActive": true,
+      "Description": "EFIS CPT RANGE 20",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 74
+      },
+      "EventType": "PMDG777",
+      "DataPress": 1,
+      "PmdgEvent": 69819,
+      "OnRelease": false
+    },
+    {
+      "Id": "dc4dfed8-079c-4950-bb8b-9daecb5d182b",
+      "IsActive": true,
+      "Description": "EFIS CPT RANGE 40",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 75
+      },
+      "EventType": "PMDG777",
+      "DataPress": 2,
+      "PmdgEvent": 69819,
+      "OnRelease": false
+    },
+    {
+      "Id": "d3ccf32c-2452-4f6e-96f4-649ce70f49bd",
+      "IsActive": true,
+      "Description": "EFIS CPT RANGE 80",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 76
+      },
+      "EventType": "PMDG777",
+      "DataPress": 3,
+      "PmdgEvent": 69819,
+      "OnRelease": false
+    },
+    {
+      "Id": "2c625f0e-42a0-4423-81e2-fd1b32214f3e",
+      "IsActive": true,
+      "Description": "EFIS CPT RANGE 160",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 77
+      },
+      "EventType": "PMDG777",
+      "DataPress": 4,
+      "PmdgEvent": 69819,
+      "OnRelease": false
+    },
+    {
+      "Id": "2c9daec2-17cc-4ab0-86f2-07236b0be58f",
+      "IsActive": true,
+      "Description": "EFIS CPT RANGE 320",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 78
+      },
+      "EventType": "PMDG777",
+      "DataPress": 5,
+      "PmdgEvent": 69819,
+      "OnRelease": false
+    },
+    {
+      "Id": "629ca847-f45c-4a88-9925-e3c4f0a443d1",
+      "IsActive": true,
+      "Description": "EFIS CPT RANGE 640",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 79
+      },
+      "EventType": "PMDG777",
+      "DataPress": 6,
+      "PmdgEvent": 69819,
+      "OnRelease": false
+    },
+    {
+      "Id": "1ad952c5-c717-4bdb-a8bd-98adf99e31cb",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS RADIO BARO",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 81
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69813,
+      "OnRelease": false
+    },
+    {
+      "Id": "331669b5-7871-45bf-ba17-d5c15f7b7d08",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO IN HPA",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 82
+      },
+      "EventType": "PMDG777",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69822,
+      "OnRelease": false
+    },
+    {
+      "Id": "7986b579-571d-4c4f-823d-7f8e45aa2954",
+      "IsActive": true,
+      "Description": "EFIS CPT FPV",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 83
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69825,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "af3f3d4b-e3f8-4121-91fa-064f06429d57",
+      "IsActive": true,
+      "Description": "EFIS CPT MTRS",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 84
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69826,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "a92814f7-7dcc-40d1-ac3f-5b95f40bc314",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS RST",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 85
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69815,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "7eb901da-5c0b-4ebd-9711-30a62f607a6a",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO STD",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 86
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69824,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "da18980c-9a1e-4b71-b9c6-d14add0e615b",
+      "IsActive": true,
+      "Description": "EFIS CPT MODE CTR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 87
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69818,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "b040ebfd-bd06-468e-b4dd-6aa9f9942360",
+      "IsActive": true,
+      "Description": "EFIS CPT MODE CTR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 88
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69820,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "ecab24b6-b65a-40c5-95be-092cdb8eafc6",
+      "IsActive": true,
+      "Description": "EFIS CPT WXR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 89
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69827,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "936dfe86-accc-4852-bf64-74efc8084d52",
+      "IsActive": true,
+      "Description": "EFIS CPT STA",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 90
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69828,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "822b04ca-c5a0-4f0e-bea1-292e9ebfb1aa",
+      "IsActive": true,
+      "Description": "EFIS CPT WPT",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 91
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69829,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "7b201765-5f91-484f-84e2-ce4610ad5454",
+      "IsActive": true,
+      "Description": "EFIS CPT ARPT",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 92
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69830,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "4295c9ff-ccfe-46a8-9dae-fc6b51b19ff8",
+      "IsActive": true,
+      "Description": "EFIS CPT DATA",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 93
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69831,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "fdecb45c-a78a-4f11-954d-e25e2f618310",
+      "IsActive": true,
+      "Description": "EFIS CPT POS",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 94
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69832,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "4fe8d7e5-6b8e-431d-b21a-463754c0cc00",
+      "IsActive": true,
+      "Description": "EFIS CPT TERR",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 95
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 69833,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "3abe5d9b-3e64-4014-afa3-d167a89b9179",
+      "IsActive": true,
+      "Description": "LABEL MCP 129-141 \u0026 DSP 161-175 \u0026 EFIS 177-180",
+      "OutputType": "LED",
+      "Outputs": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        177,
+        178,
+        179,
+        180
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:BL_MCP",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2265",
+          "Value": "0.3",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "cddec831-fb5c-4acc-bab8-2bb2497a8ba1",
+      "IsActive": true,
+      "Description": "DSP L INBD142",
+      "OutputType": "LED",
+      "Outputs": [
+        142
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "DSP_annunL_INBD"
+    },
+    {
+      "Id": "dc4ae5d0-773a-41f1-a249-c9cec2b23dc2",
+      "IsActive": true,
+      "Description": "DSP LWR CTR143",
+      "OutputType": "LED",
+      "Outputs": [
+        143
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "DSP_annunLWR_CTR"
+    },
+    {
+      "Id": "e91e0bc1-67ce-4a53-9a8b-5e9ab4a0fc17",
+      "IsActive": true,
+      "Description": "DSP R INBD144",
+      "OutputType": "LED",
+      "Outputs": [
+        144
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "DSP_annunR_INBD"
+    },
+    {
+      "Id": "de4cfde2-353e-4a0a-a752-e04b5355007d",
+      "IsActive": true,
+      "Description": "MCP AP L145",
+      "OutputType": "LED",
+      "Outputs": [
+        145
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunAP",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "61b1a3da-769d-43f4-8430-1aec1d9ac294",
+      "IsActive": true,
+      "Description": "MCP AT146",
+      "OutputType": "LED",
+      "Outputs": [
+        146
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunAT"
+    },
+    {
+      "Id": "11a4ddf0-f1a1-46af-8b6b-946ea07f382f",
+      "IsActive": true,
+      "Description": "MCP LNAV147",
+      "OutputType": "LED",
+      "Outputs": [
+        147
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunLNAV"
+    },
+    {
+      "Id": "fb603841-dc8c-4800-988f-341131a1f4e4",
+      "IsActive": true,
+      "Description": "MCP VNAV148",
+      "OutputType": "LED",
+      "Outputs": [
+        148
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunVNAV"
+    },
+    {
+      "Id": "3bd702a3-fb93-42a2-94d1-ab8a82ad7dfe",
+      "IsActive": true,
+      "Description": "MCP FLCH149",
+      "OutputType": "LED",
+      "Outputs": [
+        149
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunFLCH"
+    },
+    {
+      "Id": "cacebc01-15bf-418e-b9bd-082967458b94",
+      "IsActive": true,
+      "Description": "MCP HDG HOLD150",
+      "OutputType": "LED",
+      "Outputs": [
+        150
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunHDG_HOLD"
+    },
+    {
+      "Id": "9ad7893b-a288-4a7f-9987-a8fd9b802e16",
+      "IsActive": true,
+      "Description": "MCP VS FPA151",
+      "OutputType": "LED",
+      "Outputs": [
+        151
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunVS_FPA"
+    },
+    {
+      "Id": "19e7974a-b096-403a-af8b-5ddbf462a0b0",
+      "IsActive": true,
+      "Description": "MCP ALT HOLD152",
+      "OutputType": "LED",
+      "Outputs": [
+        152
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunALT_HOLD"
+    },
+    {
+      "Id": "34590708-2872-4646-8854-e44c5076bc9f",
+      "IsActive": true,
+      "Description": "MCP LOC153",
+      "OutputType": "LED",
+      "Outputs": [
+        153
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunLOC"
+    },
+    {
+      "Id": "ca40d9cd-c54b-4571-af2d-9bd2e34d6c19",
+      "IsActive": true,
+      "Description": "MCP APP154",
+      "OutputType": "LED",
+      "Outputs": [
+        154
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunAPP"
+    },
+    {
+      "Id": "d8e38e65-69d2-4694-b319-489ea0b909ee",
+      "IsActive": true,
+      "Description": "MCP AP R155",
+      "OutputType": "LED",
+      "Outputs": [
+        155
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_annunAP",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "8a6306a9-47d1-4f2f-a752-413386457a49",
+      "IsActive": true,
+      "Description": "MCP IASMACH MODE IAS185",
+      "OutputType": "LED",
+      "Outputs": [
+        185
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_IASMach",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2265",
+          "Value": "100",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ],
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "d9dddf4e-8dc9-4ef3-b3a0-9871a8e2ff39",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "d1db8823-bfc9-4198-8389-7e19ccfd03bc",
+      "IsActive": true,
+      "Description": "MCP IASMACH MODE MACH186",
+      "OutputType": "LED",
+      "Outputs": [
+        186
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_IASMach",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u003C",
+          "Value": "1",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ],
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "d9dddf4e-8dc9-4ef3-b3a0-9871a8e2ff39",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "55e118e5-f86b-4e14-86c4-7870103450d1",
+      "IsActive": true,
+      "Description": "MCP VS MODE VS187",
+      "OutputType": "LED",
+      "Outputs": [
+        187
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_VSDial_Mode",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "0",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ],
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "c062ee77-7c1c-44b1-898e-17c667a659a9",
+      "IsActive": true,
+      "Description": "MCP VS MODE FPA188",
+      "OutputType": "LED",
+      "Outputs": [
+        188
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_VSDial_Mode",
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "3d8fcd8f-f628-40c4-9722-c89e7fc512d5",
+      "IsActive": true,
+      "Description": "MCP HDG MODE HDG189",
+      "OutputType": "LED",
+      "Outputs": [
+        189
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_HDGDial_Mode",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "0",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ],
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f704d190-f2d1-45d2-85b6-b110f5184d52",
+      "IsActive": true,
+      "Description": "MCP HDG MODE TRK190",
+      "OutputType": "LED",
+      "Outputs": [
+        190
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_HDGDial_Mode",
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "d9dddf4e-8dc9-4ef3-b3a0-9871a8e2ff39",
+      "IsActive": true,
+      "Description": "MCP IAS MACH BLANK",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_IASBlank",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "   ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "00000000-0000-0000-0000-000000000000",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "d40b12a5-c3fb-42d6-9b1e-b83933f5490b",
+      "IsActive": true,
+      "Description": "MCP IAS",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_IASMach",
+      "IsPadded": false,
+      "DigitCount": 3,
+      "DigitCheckedSum": 7,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "d9dddf4e-8dc9-4ef3-b3a0-9871a8e2ff39",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "8a6306a9-47d1-4f2f-a752-413386457a49",
+          "Operator": "\u2265",
+          "ComparisonValue": "100",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "11a17927-ff6d-4046-8ebe-f3cb0de11f78",
+      "IsActive": true,
+      "Description": "MCP MACH",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_IASMach",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,2)"
+        }
+      ],
+      "IsPadded": false,
+      "PaddingCharacter": " ",
+      "DigitCount": 3,
+      "DigitCheckedSum": 6,
+      "DecimalPointCheckedSum": 1,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "d9dddf4e-8dc9-4ef3-b3a0-9871a8e2ff39",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "8a6306a9-47d1-4f2f-a752-413386457a49",
+          "Operator": "\u003C",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "04d722c0-b197-481f-a4b2-031ca4cf4081",
+      "IsActive": true,
+      "Description": "MCP HEADING",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        9
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_Heading",
+      "IsPadded": true,
+      "PaddingCharacter": "0",
+      "DigitCount": 3,
+      "DigitCheckedSum": 7,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "fb62570d-e7ce-4589-bfe8-68717d353378",
+      "IsActive": true,
+      "Description": "MCP VS BLANK",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        4
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_VertSpeedBlank",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "     ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "99f1c8c2-529c-484d-9a8c-c622039dc8dc",
+      "IsActive": true,
+      "Description": "MCP VS",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        4
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_VertSpeed",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "0",
+          "TrueValue": "",
+          "FalseValue": "0000"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 5,
+      "DigitCheckedSum": 31,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "fb62570d-e7ce-4589-bfe8-68717d353378",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "55e118e5-f86b-4e14-86c4-7870103450d1",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "ec49c62f-c15e-4289-9510-7dae614c2041",
+      "IsActive": true,
+      "Description": "MCP FPA",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        4
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_FPA",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,1)"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "9",
+          "TrueValue": "",
+          "FalseValue": "9.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "8",
+          "TrueValue": "",
+          "FalseValue": "8.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "7",
+          "TrueValue": "",
+          "FalseValue": "7.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "6",
+          "TrueValue": "",
+          "FalseValue": "6.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "5",
+          "TrueValue": "",
+          "FalseValue": "5.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "4",
+          "TrueValue": "",
+          "FalseValue": "4.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "3",
+          "TrueValue": "",
+          "FalseValue": "3.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "2",
+          "TrueValue": "",
+          "FalseValue": "2.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "1",
+          "TrueValue": "",
+          "FalseValue": "1.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "0",
+          "TrueValue": "",
+          "FalseValue": "0.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-1",
+          "TrueValue": "",
+          "FalseValue": "-1.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-2",
+          "TrueValue": "",
+          "FalseValue": "-2.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-3",
+          "TrueValue": "",
+          "FalseValue": "-3.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-4",
+          "TrueValue": "",
+          "FalseValue": "-4.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-5",
+          "TrueValue": "",
+          "FalseValue": "-5.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-6",
+          "TrueValue": "",
+          "FalseValue": "-6.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-7",
+          "TrueValue": "",
+          "FalseValue": "-7.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-8",
+          "TrueValue": "",
+          "FalseValue": "-8.0"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-9",
+          "TrueValue": "",
+          "FalseValue": "-9.0"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 5,
+      "DigitCheckedSum": 31,
+      "DecimalPointCheckedSum": 8,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "fb62570d-e7ce-4589-bfe8-68717d353378",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "55e118e5-f86b-4e14-86c4-7870103450d1",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "665efed9-1c2a-409c-bcfa-1743a25f6778",
+      "IsActive": true,
+      "Description": "MCP ALTITUDE",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        12
+      ],
+      "DataType": "PMDG777",
+      "PmdgData": "MCP_Altitude",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "0",
+          "TrueValue": "",
+          "FalseValue": "00000"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 5,
+      "DigitCheckedSum": 31,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "3ef78c7c-a3f0-4b61-b663-6ab44f6b3ef3",
+      "IsActive": true,
+      "Description": "BATTERY 185-190",
+      "OutputType": "LED",
+      "Outputs": [
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:Battery",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "0",
+          "TrueValue": "0",
+          "FalseValue": ""
+        }
+      ]
+    },
+    {
+      "Id": "fef87664-5f61-4d8b-ae94-5faef2027fcc",
+      "IsActive": true,
+      "Description": "BATTERY 7SEG CLEAR",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:Battery",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "0",
+          "TrueValue": "                ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "1fb13365-baa8-403d-ae6f-ecabdf9f6e02",
+      "IsActive": true,
+      "Description": "EFIS CPT MINIMUMS",
+      "OutputType": "Dataline",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:CAMinsKnob"
+    },
+    {
+      "Id": "7bbec529-d06d-43ed-a912-bae55ed0bd01",
+      "IsActive": true,
+      "Description": "EFIS CPT BARO",
+      "OutputType": "Dataline",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:CABaroKnob"
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "ProfileName": "PMDG 737NG FDS AftOvrhd (4101)",
+  "DeviceName": "IIT HIO 32 64",
+  "InputCreators": [
+    {
+      "Id": "4b1eb3ad-6182-4543-8c80-7e2b8f9c92a3",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 13
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69936,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "88c62d60-ec6e-415a-8cbe-45bc07df394f",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 12
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69935,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "61df254d-0bc5-4773-afb6-293a2100bfc7",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 25
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69856,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "ab3bd4f8-ef29-46f9-9918-a01ad7811b86",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 11
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69934,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "682be624-7b90-4398-9163-c1360ad47583",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 17
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "PmdgEvent": 69887,
+      "OnRelease": false
+    },
+    {
+      "Id": "62bc947b-143d-41bd-a372-22443a1c040f",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 10
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69933,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "5109dbd1-9b54-49fc-bd54-ae599d499bc4",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 18
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "PmdgEvent": 69887,
+      "OnRelease": false
+    },
+    {
+      "Id": "3a8d91c8-a03a-4aaa-a5ff-1f83da0f292a",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 69931,
+      "OnRelease": false
+    },
+    {
+      "Id": "03a48b41-bfa2-49c5-944e-1e2f998c50dd",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 19
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "PmdgEvent": 69887,
+      "OnRelease": false
+    },
+    {
+      "Id": "76393341-ba9d-49dd-9625-80e8dbe9da29",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 69897,
+      "OnRelease": false
+    },
+    {
+      "Id": "921cc3bf-1848-455f-b114-37541735abf6",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 20
+      },
+      "EventType": "PMDG737",
+      "DataPress": 3,
+      "PmdgEvent": 69887,
+      "OnRelease": false
+    },
+    {
+      "Id": "24435e56-5e7c-4a1b-8075-ae5241459db4",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69903,
+      "PmdgMousePress": 2147483648,
+      "OnRelease": false
+    },
+    {
+      "Id": "f9bab709-d44e-48b1-96be-1073d36d09af",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 21
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "PmdgEvent": 69888,
+      "OnRelease": false
+    },
+    {
+      "Id": "37f28b8d-29ff-46a0-87af-56805a557fb0",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 22
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "PmdgEvent": 69888,
+      "OnRelease": false
+    },
+    {
+      "Id": "01f38182-da8f-49e8-829b-cc89a909d497",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 24
+      },
+      "EventType": "PMDG737",
+      "DataPress": 3,
+      "PmdgEvent": 69888,
+      "OnRelease": false
+    },
+    {
+      "Id": "7747b3f6-3e89-45fc-a809-8c29a4e12e55",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 23
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "PmdgEvent": 69888,
+      "OnRelease": false
+    },
+    {
+      "Id": "d5c7e67b-b59e-4b0c-b83f-200651293fab",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 69900,
+      "PmdgMousePress": 2147483648,
+      "OnRelease": false
+    },
+    {
+      "Id": "3daef3ea-f2eb-4622-bea3-8a9a8758f6f4",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 69896,
+      "OnRelease": false
+    },
+    {
+      "Id": "4a17bf98-bb2e-48dd-a4d2-248c03690ee7",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 69930,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "ad7a1f20-3fa9-4168-96b2-347b87f37987",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_annunREVERSER",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "d85145dc-f31b-4e2a-a0b1-27a3b5f3a3ba",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_annunENGINE_CONTROL",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "ed9f221c-f306-442a-bbdf-31e5b06c6ef6",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_EECSwitch",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "77a121ab-190c-44f9-8602-b2f07a7d0244",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_annunALTN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "556ffc1c-a87b-4e6f-ac7b-861ca05180ec",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_EECSwitch",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "252c5a2c-9929-4934-9e07-cbb6d8f3b611",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_annunALTN",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "e765bdcb-6fbd-4e79-a936-983e802a6ad6",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        7
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_annunENGINE_CONTROL",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "242af433-4b50-4255-a57e-daf3d82dcdd7",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        8
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ENG_annunREVERSER",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "e45b1d07-63c1-419a-a2ad-0948892f54db",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        9
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunALIGN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "b689fd43-b622-4396-afca-116d25903878",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        10
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunON_DC",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "031d2898-817f-4324-ab86-de12f9a2c9e1",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        11
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunALIGN",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "d5186126-233b-47f4-a687-e4d78f6aec41",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        12
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunON_DC",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "0b1c3f3f-5b49-43d7-8180-08826b0c5faf",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        13
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunFAULT",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "ca3e394d-40ee-40b3-a55c-2bce84a726d3",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        14
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunDC_FAIL",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "30a17505-ad4b-484e-9c1a-7a749994c925",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        15
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunFAULT",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "2559b1d4-11b2-4fc9-a980-0efa1c5640b7",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        16
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunDC_FAIL",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "83109038-556f-4678-a3b2-8da482607c57",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        17
+      ],
+      "DataType": "PMDG737"
+    },
+    {
+      "Id": "e3935228-3565-4e21-9c2b-b0885d634a51",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        18
+      ],
+      "DataType": "PMDG737"
+    },
+    {
+      "Id": "069c56a2-96da-4276-83d8-437825712688",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        19
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "IRS_annunGPS"
+    },
+    {
+      "Id": "869a1445-51f6-4ef9-8af7-28b90f674042",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        20
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunPSEU"
+    },
+    {
+      "Id": "5916f7a2-eca8-4893-bba8-8220d09322e4",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        21
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "GEAR_annunOvhdLEFT"
+    },
+    {
+      "Id": "2e6599e4-aaf4-463e-b9d7-049568bf6fe7",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        22
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "GEAR_annunOvhdRIGHT"
+    },
+    {
+      "Id": "14ff0dea-9146-475b-9557-34e00e718daa",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        23
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "GEAR_annunOvhdNOSE"
+    },
+    {
+      "Id": "ba09873a-5e98-4ecc-a354-60b812983e33",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        25
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2259_73X"
+    },
+    {
+      "Id": "14cd2cb5-3852-470d-8e67-3e037fdbd776",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        26
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2266_73X"
+    },
+    {
+      "Id": "d134f13d-b0c9-4783-8f9d-94320a4bf9b9",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        27
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2269_73X"
+    },
+    {
+      "Id": "24870bc8-8854-4437-b279-b5850e922a86",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        28
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2267_73X"
+    },
+    {
+      "Id": "7a89d21f-7c78-4e14-a0fd-a94643ba2b4a",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        29
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2258_73X"
+    },
+    {
+      "Id": "50cbeb92-bf1a-4bc8-9352-93e7cc0766e6",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        30
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2257_73X"
+    },
+    {
+      "Id": "0e5a42db-8fb6-4ce9-9e1c-536b000320a1",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        33
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2246_73X"
+    },
+    {
+      "Id": "d51f9d30-0876-4520-b68f-646ca73d6d68",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        34
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2247_73X"
+    },
+    {
+      "Id": "e17598c5-914b-4e41-9edc-9ab7799fe544",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        35
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2256_73X"
+    },
+    {
+      "Id": "d351c0e4-9726-48d6-bc7d-dc8e20871b00",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        36
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2251_73X"
+    },
+    {
+      "Id": "4283594f-3ae3-4c33-842e-277926c39179",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        37
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2242_73X"
+    },
+    {
+      "Id": "00c77c93-a074-46fe-b5e1-175cdb573755",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        38
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:switch_2241_73X"
+    },
+    {
+      "Id": "9cd29c8d-5244-4f6b-a734-b3247b6c6958",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        42
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "OXY_annunPASS_OXY_ON"
+    },
+    {
+      "Id": "cde9208b-9558-4a02-a2e4-6472f5616520",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        49
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FLTREC_annunOFF"
+    }
+  ]
+}

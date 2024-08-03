@@ -1,0 +1,1086 @@
+{
+  "ProfileName": "PMDG 737NG FDS Pedestal (4102)",
+  "DeviceName": "IIT HIO 64 128",
+  "InputCreators": [
+    {
+      "Id": "1f45edc9-b07b-4e7f-8ddf-a6831dd6ff84",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70337,
+      "OnRelease": false
+    },
+    {
+      "Id": "265d5a45-bbc8-4c82-88e7-c109e53390db",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70337,
+      "OnRelease": false
+    },
+    {
+      "Id": "85d8ad6f-5e9d-4c0a-abca-5ee97e6d9dc0",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70347,
+      "OnRelease": false
+    },
+    {
+      "Id": "b42d48ec-95ce-4271-8dbc-9891156705f7",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 5
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70347,
+      "OnRelease": false
+    },
+    {
+      "Id": "96ba4be4-017f-45fa-99ab-3d962ccb44c2",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 6
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70610,
+      "OnRelease": false
+    },
+    {
+      "Id": "50e31ebc-53d7-4e27-9b63-85d48931d82c",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 6
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 76623,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "fe31ecef-7e82-4bbe-9380-1ccbd007bcaa",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 7
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70331,
+      "PmdgMousePress": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "be523a6d-8c6e-4195-b7b2-4fa7d88a118b",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 8
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70331,
+      "PmdgMousePress": 2147483648,
+      "OnRelease": false
+    },
+    {
+      "Id": "95fbf8b5-d189-4c94-851e-38df084e9f6a",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70608,
+      "OnRelease": false
+    },
+    {
+      "Id": "296190c0-eb1c-42ab-bb66-68b7e4e555f2",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 76603,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "4f448527-5aae-4d0e-b236-b769549572ba",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 10
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70329,
+      "PmdgMousePress": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "634a92a3-02b6-431c-a7ee-60dd421e2f31",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 11
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70329,
+      "PmdgMousePress": 2147483648,
+      "OnRelease": false
+    },
+    {
+      "Id": "a9b00075-4831-41b6-9cda-320e5c7d77b7",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 14
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70609,
+      "OnRelease": false
+    },
+    {
+      "Id": "dced9746-c193-4c6b-b837-0f7c6b3934eb",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 14
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 76613,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "07ce9a5a-749e-4d60-aa19-2c29023c8441",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 15
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70330,
+      "PmdgMousePress": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "944d314f-5b7d-44c2-998d-f1bc3fd7bbcc",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 16
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70330,
+      "PmdgMousePress": 2147483648,
+      "OnRelease": false
+    },
+    {
+      "Id": "53fdf180-3669-40af-b894-2c5ae2eab940",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 17
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70422,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "d3272461-aa6c-4970-b6cf-766ea0ed7f82",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 18
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70423,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "d4182899-4f35-49a6-b6aa-30006887a555",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 19
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70548,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "8d496556-b6f7-4482-9452-09a56d6b7a4e",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 20
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70424,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "d0a226ae-316f-4a7d-8ccb-9574a2b276ab",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 22
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70549,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "a05be035-d9ec-4ac2-b8e3-231dfa69957f",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 21
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70425,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "53cf2e22-72d9-4eac-9ea6-589f53dc0d45",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 24
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70550,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "d2334d6a-d9b5-4aea-8a04-5ec2a3c2cc36",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 25
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70551,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "d7f2b49e-400e-4fba-b09d-364cf9f43eea",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 26
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70428,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "597b8c88-0532-407d-adc5-6702a2990887",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 27
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70552,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "296fe1e3-5b41-4bdd-b388-a551dc849e79",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 28
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70429,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "c2e895e4-6441-4ee6-a3ec-a99ffd10f57f",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 29
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70553,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "5a951f9a-0e82-4cfe-a9ac-566faac8df22",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 30
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70466,
+      "OnRelease": false
+    },
+    {
+      "Id": "3382e8f2-52d8-46e2-b66f-65a1c27ec407",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 31
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70466,
+      "OnRelease": false
+    },
+    {
+      "Id": "c3d6d567-a053-4168-ab81-5834f6b36022",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 32
+      },
+      "EventType": "PMDG737",
+      "DataPress": 3,
+      "DataRelease": 2,
+      "PmdgEvent": 70466,
+      "OnRelease": false
+    },
+    {
+      "Id": "4e69dd35-5f9d-49d8-aae9-f95921686ad6",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 33
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70378,
+      "OnRelease": false
+    },
+    {
+      "Id": "ff1f6535-2fa9-4045-b3ae-5f6852ae200b",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 34
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70379,
+      "OnRelease": false
+    },
+    {
+      "Id": "4618f6b2-49ee-432f-b327-45cb645407b7",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 35
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70380,
+      "OnRelease": false
+    },
+    {
+      "Id": "9ee02bdf-e936-4ce2-a3d0-30df0dc387cf",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 36
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70381,
+      "OnRelease": false
+    },
+    {
+      "Id": "52844c37-0963-42bb-b7f1-0964a95e7329",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 37
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70382,
+      "OnRelease": false
+    },
+    {
+      "Id": "9bed7bee-a607-4a79-9430-692ebdc9e3f7",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 38
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70371,
+      "OnRelease": false
+    },
+    {
+      "Id": "4f8d472f-5054-4cfb-9f29-d398f3f9ae6b",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 39
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70372,
+      "OnRelease": false
+    },
+    {
+      "Id": "9e684988-31e3-4df8-b588-0de08e2f8385",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 40
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70463,
+      "OnRelease": false
+    },
+    {
+      "Id": "ab2e78b4-a542-488e-a7ef-370f2ba10e92",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 40
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 2,
+      "PmdgEvent": 70462,
+      "OnRelease": false
+    },
+    {
+      "Id": "ae71e7ff-4fa6-4b11-999b-6efb3ad21370",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 41
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70401,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "004f767b-9629-47ee-90be-3a803dc3c915",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 42
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70395,
+      "OnRelease": false
+    },
+    {
+      "Id": "bd98c34a-81e4-4d3d-9b27-01c1f1862654",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 43
+      },
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "PmdgEvent": 70397,
+      "OnRelease": false
+    },
+    {
+      "Id": "4874b07f-07bd-4917-8d33-72d922d27205",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 45
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70392,
+      "OnRelease": false
+    },
+    {
+      "Id": "b109780e-c12c-4689-9a4e-ab0a65c8c095",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 46
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70392,
+      "OnRelease": false
+    },
+    {
+      "Id": "fc23144b-e23b-4433-8a86-d7143399b38f",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 47
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70393,
+      "OnRelease": false
+    },
+    {
+      "Id": "68e2ae69-3218-4ae0-b31b-1780bb82fb07",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 48
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70393,
+      "OnRelease": false
+    },
+    {
+      "Id": "15584c7d-e8fb-48d8-bc84-b8ca255331da",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 49
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70443,
+      "OnRelease": false
+    },
+    {
+      "Id": "f22162f2-3a52-4804-9cff-9d145bdfbfc7",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 50
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70443,
+      "OnRelease": false
+    },
+    {
+      "Id": "966da2b1-bd7e-4651-acd9-8323405cf8c2",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 51
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70442,
+      "OnRelease": false
+    },
+    {
+      "Id": "c6e7a625-8778-4d13-ad76-8766595e7ade",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 52
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70442,
+      "OnRelease": false
+    },
+    {
+      "Id": "86704ce0-6564-4d1a-bfc2-cc1bba8151fc",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 53
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70326,
+      "OnRelease": false
+    },
+    {
+      "Id": "e385e94b-558b-4bdf-b388-446f349a39e3",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 54
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70326,
+      "OnRelease": false
+    },
+    {
+      "Id": "dc19851d-1b1a-4386-ad7b-fbb5933766ca",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 55
+      },
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70328,
+      "OnRelease": false
+    },
+    {
+      "Id": "8754825d-f28c-490b-9efe-06c9a2537e42",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 56
+      },
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70328,
+      "OnRelease": false
+    },
+    {
+      "Id": "60270bf8-1d54-4e8c-b7a6-fff953ee8d6e",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 44
+      },
+      "EventType": "PMDG737",
+      "PmdgEvent": 70399,
+      "PmdgMousePress": 536870912,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "69f34fe2-b9e0-47bd-b8c1-02c2ce26f2bd",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "908af44e-18fc-435b-8259-7c46ea76812a",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "8715b231-dba7-44e5-96ac-ddb7d310eddd",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "be43383e-d979-4ba5-b8e2-af4daca08c8d",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "2ea3f9d6-3876-4036-bec6-15f71c885fc6",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunExtinguisherTest",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "c3a6ae0e-247a-49b3-8ef4-7a67b5637ecc",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunExtinguisherTest",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "5b2777b5-8de3-4d00-9637-4c00e856addd",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        7
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunExtinguisherTest",
+      "PmdgDataArrayIndex": 2
+    },
+    {
+      "Id": "bad97ba3-b85f-4e50-bc2f-e3453914b55c",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        9
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunOVHT_DET"
+    },
+    {
+      "Id": "03efa1b0-c371-40f6-afe7-273bc12c27dc",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        10
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunWHEEL_WELL"
+    },
+    {
+      "Id": "e2be8fd0-0560-4515-bd33-a48802226fea",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        11
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunFAULT"
+    },
+    {
+      "Id": "8cddfdc2-f6be-452d-9cbf-5e83fe740963",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        12
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunAPU_DET_INOP"
+    },
+    {
+      "Id": "8f840d8f-d6f7-4877-9f04-df298460c94a",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        13
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunAPU_BOTTLE_DISCHARGE"
+    },
+    {
+      "Id": "d75c2958-26d2-4c9c-a5f1-1fb89b7f8c95",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        14
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunOVHT_DET"
+    },
+    {
+      "Id": "2fabdbe5-7c55-49d2-a497-12c3e5bbb4fc",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        15
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunBOTTLE_DISCHARGE",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "7344ea90-61a8-40c0-9038-671f2fc643cc",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        16
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "FIRE_annunBOTTLE_DISCHARGE",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "5251ec90-6899-446d-9a9b-4bed6be0c70a",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        17
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "6b8272d9-f731-4de7-8b17-c33bbd434ee7",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        18
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "fde9c4c7-0a8d-4c68-a217-5516c1300a7e",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        19
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "5b2d8eb1-ebf1-4eca-a430-9180e79c7114",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        20
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "dff286f2-9bf8-44e1-9e62-e9c9bce2284e",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        21
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "54385a6e-ef35-463e-92a5-b10e1b01bd47",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        22
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "455511b0-09de-4b77-adc0-7f64f50007a4",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        23
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "b3a10a23-c7b9-450e-998c-c1c178ac3f54",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        24
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "018dbaad-fab8-4707-bca9-3080e17eae79",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        25
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunDISCH"
+    },
+    {
+      "Id": "57d3b644-d2ea-47ea-999b-f097da77ea94",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        26
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunDISCH"
+    },
+    {
+      "Id": "da49be6d-a936-404d-b8cd-9ca2d73aa04a",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        27
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunFWD"
+    },
+    {
+      "Id": "59a2fbaf-20f9-4757-a7b9-cced34f023f1",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        28
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunFWD"
+    },
+    {
+      "Id": "75b53bbb-d257-4014-9ef6-a752a4b7d959",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        29
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunAFT"
+    },
+    {
+      "Id": "ebcee37d-0dd3-4ddb-a6dc-f878b36eef2f",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        30
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunAFT"
+    },
+    {
+      "Id": "6bf20b4c-cf7c-4c16-9b1a-b50f97494487",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        31
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunDISCH"
+    },
+    {
+      "Id": "1250852d-cc1b-4c3a-9af0-e665da9d8488",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        32
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunDISCH"
+    },
+    {
+      "Id": "00173217-a6a1-48a7-8881-dbb20f2ebc8b",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        33
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "CARGO_annunDETECTOR_FAULT"
+    },
+    {
+      "Id": "02d27123-c981-48ee-889d-5b7b872c71ff",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        41
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "PED_annunLOCK_FAIL"
+    },
+    {
+      "Id": "80cdaa00-09f7-468e-9424-24acad465aca",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Outputs": [
+        42
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "PED_annunAUTO_UNLK"
+    }
+  ]
+}

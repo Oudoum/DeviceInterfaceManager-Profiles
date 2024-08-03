@@ -1,0 +1,793 @@
+{
+  "ProfileName": "PMDG777_FO_MCOMM",
+  "DeviceName": "JetMAX 737 RADIO",
+  "InputCreators": [
+    {
+      "Id": "6bff06c4-0150-4a93-abc6-1ab6ab00bde1",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70427,
+      "OnRelease": false,
+      "DataPress": 1
+    },
+    {
+      "Id": "92458a6d-9788-4f43-a16f-8675dfb330d3",
+      "IsActive": true,
+      "Description": "COM1 VHFL",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70430,
+      "OnRelease": false,
+      "DataPress": 1
+    },
+    {
+      "Id": "13f9299b-2895-4934-9ec4-610954076711",
+      "IsActive": true,
+      "InputType": "Switch",
+      "EventType": "PMDG777",
+      "PmdgEvent": 70429,
+      "OnRelease": false,
+      "DataPress": 1
+    },
+    {
+      "Id": "bf0d7ba3-75f1-45dc-ab5c-42d6005589f2",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 5
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70428,
+      "OnRelease": false,
+      "DataPress": 1
+    },
+    {
+      "Id": "0845a5cb-2884-494b-bab0-b3f07734560b",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 6
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70426,
+      "OnRelease": false,
+      "DataPress": 1
+    },
+    {
+      "Id": "bd56a376-6a12-4677-9f26-b23e6284cc2a",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 7
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70425,
+      "OnRelease": false,
+      "DataPress": 1
+    },
+    {
+      "Id": "d82ee588-ac90-4655-acd9-c70dc3ce1fc8",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 8
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70424,
+      "OnRelease": false,
+      "DataPress": 1
+    },
+    {
+      "Id": "c73b17f1-2375-4965-9bd9-438f2e0fac00",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 12
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70432,
+      "OnRelease": false,
+      "PmdgMousePress": 16384
+    },
+    {
+      "Id": "6701d122-0813-456e-93e4-80cd7401e575",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 11
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70432,
+      "OnRelease": false,
+      "PmdgMousePress": 8192
+    },
+    {
+      "Id": "9ad896d0-fbf9-469c-be61-370188781d8e",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 10
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70431,
+      "OnRelease": false,
+      "PmdgMousePress": 16384
+    },
+    {
+      "Id": "e157521a-bd1d-43de-b262-14a59f03d963",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70431,
+      "OnRelease": false,
+      "PmdgMousePress": 8192
+    },
+    {
+      "Id": "44ae43bb-89f1-4d40-8dac-5c991e3a8d31",
+      "IsActive": true,
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "PMDG777",
+      "PmdgEvent": 70433,
+      "OnRelease": false,
+      "DataPress": 1
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "67693d8a-d9b4-43b2-aaee-85ec89e5f355",
+      "IsActive": true,
+      "Description": "COM1 AM Selected",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_annunAM",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": false
+    },
+    {
+      "Id": "637f9de1-2b5a-4a86-90c3-d4bbd92354d6",
+      "IsActive": true,
+      "Description": "COM1 Active",
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 1
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "IsPadded": false,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b9792a72-cbad-41c8-8577-e6c5b8ab70b3",
+      "IsActive": true,
+      "Description": "COM1 Stby",
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 7
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "e35550c8-9ed5-4096-9fa0-c2a7fd98accd",
+      "IsActive": true,
+      "Description": "COM2 Active",
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 1
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:2",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "6138a700-c7a6-4f99-a209-d3acb2e0226c",
+      "IsActive": true,
+      "Description": "COM2 Stby",
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 7
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:2",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "59070754-c0ac-454b-9ef0-b043d8ea3a9d",
+      "IsActive": true,
+      "Description": "COM3 Active",
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 1
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:3",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "NumericFormat": "",
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "3f4a78d0-10a6-4459-8d9b-97bd6fc94112",
+      "IsActive": true,
+      "Description": "COM3 Stby",
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 7
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:3",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "eced726d-1186-4088-a887-7e0d1610a715",
+      "IsActive": true,
+      "Description": "COM1 VHL Selected",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_SelectedRadio",
+      "PmdgDataArrayIndex": 1,
+      "Operator": "=",
+      "ComparisonValue": "0",
+      "IsInverted": false
+    },
+    {
+      "Id": "fd60c691-06d9-4105-b554-3589648f6bb0",
+      "IsActive": true,
+      "Description": "COM1 VHC Selected",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_SelectedRadio",
+      "PmdgDataArrayIndex": 1,
+      "Operator": "=",
+      "ComparisonValue": "1",
+      "IsInverted": false
+    },
+    {
+      "Id": "35a29ad8-4f84-4d15-9292-fa61b2ad9fc5",
+      "IsActive": true,
+      "Description": "COM1 VHR Selected",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_SelectedRadio",
+      "PmdgDataArrayIndex": 1,
+      "Operator": "=",
+      "ComparisonValue": "2",
+      "IsInverted": false
+    },
+    {
+      "Id": "97ac892e-1f10-42f2-90a7-9616ea17cb98",
+      "IsActive": true,
+      "Description": "COM1 HF1 Selected",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_SelectedRadio",
+      "PmdgDataArrayIndex": 1,
+      "Operator": "=",
+      "ComparisonValue": "3",
+      "IsInverted": false
+    },
+    {
+      "Id": "8bd7a0ac-3643-40c7-a3e9-3d80dd23a62c",
+      "IsActive": true,
+      "Description": "COM1 HF2 Selected",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_SelectedRadio",
+      "PmdgDataArrayIndex": 1,
+      "Operator": "=",
+      "ComparisonValue": "5",
+      "IsInverted": false
+    },
+    {
+      "Id": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+      "IsActive": true,
+      "Description": "COM1 Selected Radio",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_SelectedRadio",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": false
+    },
+    {
+      "Id": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+      "IsActive": true,
+      "Description": "COM1 PWR",
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": false
+    },
+    {
+      "Id": "32749669-bd21-4e48-90ba-0a6998d0cb0c",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 105
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "a73ed637-b5b3-412e-8216-5e14aec894b8",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 106
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": false
+    },
+    {
+      "Id": "06450d52-02e6-475f-a695-e57dea793612",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 107
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "5114a4c7-80b6-47ca-aa4c-046b8c626b94",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 108
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "936ddd65-7ac7-49c6-b1cb-0419f0f0c3b9",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 109
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "02ebf686-e031-4004-aa71-3c8279bd4989",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 110
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "75519aeb-c173-4057-9f3d-19cd1123a563",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 111
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "df214d9a-edcd-4a94-8c33-be9c9d4e88e3",
+      "IsActive": true,
+      "OutputType": "LED",
+      "Output": {
+        "Position": 112
+      },
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "8acab692-3a7b-4b1d-a72c-8d67a97ff4ea",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "bca85a2f-2dd9-4728-a791-f259e76adeeb",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": false
+    },
+    {
+      "Id": "0e7f2dd9-169c-44e8-bf69-cf758e72406c",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "8d7444c6-4eed-4859-85e1-d704fdcd50d8",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "33b89359-acd2-44e7-a489-fe5a7cb5d6e4",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "333455e8-ad81-48a0-ac21-a082698aa872",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "1fa2161c-9cc5-4d40-8e1f-bceb185a0a9b",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "5d026291-f35b-4d9e-b954-d63bc6312106",
+      "IsActive": true,
+      "OutputType": "LED",
+      "DataType": "PMDG777",
+      "PmdgData": "COMM_RadioPanelOff",
+      "PmdgDataArrayIndex": 1,
+      "IsInverted": true
+    },
+    {
+      "Id": "95372787-504e-40e3-a392-48892c0b6b0e",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 1
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "NumericFormat": "",
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "TRUE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "1918d936-5727-41a4-8757-109da4548763",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 7
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "TRUE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "ee884e17-21cf-483e-a08d-159651faab42",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 1
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "NumericFormat": "------",
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b96c46e9-7d13-44cb-ac38-6e1782ebff0e",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 7
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "NumericFormat": "------",
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f76af6d5-afac-46ac-be0b-e7fe75a57f23",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 1
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "NumericFormat": "------",
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "a5530172-d187-4f02-b41d-28de9994b7b3",
+      "IsActive": true,
+      "OutputType": "7 Segment",
+      "Output": {
+        "Position": 7
+      },
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:1",
+      "Unit": "MHz",
+      "IsInverted": false,
+      "NumericFormat": "------",
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "876c4118-cdbe-4a6f-ad86-70a189862b2b",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ce0f22b9-880c-4ea4-be5a-740d71d4620c",
+          "Operator": "=",
+          "ComparisonValue": "FALSE",
+          "IsOrOperator": false
+        }
+      ]
+    }
+  ]
+}
