@@ -1923,15 +1923,6 @@
         }
       ],
       "IsPadded": false,
-      "Preconditions": [
-        {
-          "IsActive": true,
-          "ReferenceId": "00000000-0000-0000-0000-000000000000",
-          "Operator": "=",
-          "ComparisonValue": "0",
-          "IsOrOperator": false
-        }
-      ]
     },
     {
       "Id": "d40b12a5-c3fb-42d6-9b1e-b83933f5490b",
