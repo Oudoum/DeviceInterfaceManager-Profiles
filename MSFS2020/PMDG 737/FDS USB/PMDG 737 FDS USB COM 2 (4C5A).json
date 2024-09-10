@@ -1,79 +1,79 @@
 {
-  "ProfileName": "PMDG 737NG FDS COM 1 (4C5A)",
+  "ProfileName": "PMDG 737 FDS USB COM 2 (4C5A)",
   "DeviceName": "FDS 737NG NAVCOMM",
   "InputCreators": [
     {
-      "Id": "820ee8c8-2cda-4aee-99a6-0cc6d6996de3",
+      "Id": "08829236-82ad-4467-b130-b0ad931e3fc0",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 1
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70353,
+      "PmdgEvent": 70469,
       "PmdgMousePress": 536870912,
       "OnRelease": false
     },
     {
-      "Id": "9086722f-9c33-4829-925b-ca62680df84b",
+      "Id": "7a93d58f-62f1-45e6-9c2e-016276af1a65",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 31
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70358,
+      "PmdgEvent": 70474,
       "PmdgMousePress": 536870912,
       "OnRelease": false
     },
     {
-      "Id": "e613cb0b-4ec7-452f-a9a7-f3b441a1422d",
+      "Id": "4922a714-b941-4ac2-aa90-de980f408bd0",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 32
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70358,
+      "PmdgEvent": 70474,
       "PmdgMousePress": 2147483648,
       "OnRelease": false
     },
     {
-      "Id": "0cab96c8-8d6f-4f56-ac05-e192ac18c8a3",
+      "Id": "b5cf6bc9-97bf-4984-953e-e69f6bf8263c",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 29
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70359,
+      "PmdgEvent": 70475,
       "PmdgMousePress": 536870912,
       "OnRelease": false
     },
     {
-      "Id": "2e764332-d9ad-4de5-b91d-c7e1b8e4a3ac",
+      "Id": "889d8c11-6b44-4c65-a8a3-4f620f0b0797",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 30
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70359,
+      "PmdgEvent": 70475,
       "PmdgMousePress": 2147483648,
       "OnRelease": false
     }
   ],
   "OutputCreators": [
     {
-      "Id": "9e7441a3-eee2-4b91-a51a-13d49f4ec8a5",
+      "Id": "9f877236-818a-4df0-94f9-9f2618fc1381",
       "IsActive": true,
-      "Description": "COM1 - Active Frequency - Power On",
+      "Description": "COM2 - Active Frequency - Power On",
       "OutputType": "7 Segment",
       "Outputs": [
         1
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "COM ACTIVE FREQUENCY:1",
+      "Data": "COM ACTIVE FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -83,7 +83,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
           "Operator": "=",
           "ComparisonValue": "1",
           "IsOrOperator": false
@@ -91,15 +91,15 @@
       ]
     },
     {
-      "Id": "5599444a-24d6-4386-b154-be639bd731d3",
+      "Id": "3345b29e-2bc9-4956-a8f7-ef749fac9c35",
       "IsActive": true,
-      "Description": "COM1 - Active Frequency - Power Off",
+      "Description": "COM2 - Active Frequency - Power Off",
       "OutputType": "7 Segment",
       "Outputs": [
         1
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "COM ACTIVE FREQUENCY:1",
+      "Data": "COM ACTIVE FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -109,7 +109,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
           "Operator": "=",
           "ComparisonValue": "0",
           "IsOrOperator": false
@@ -117,15 +117,15 @@
       ]
     },
     {
-      "Id": "c807460a-2afe-4f9f-8ba2-17e3edcd6e6a",
+      "Id": "a8724cc6-ee4a-453c-aae5-e514f4209122",
       "IsActive": true,
-      "Description": "COM1 - Standby Frequency - Power On",
+      "Description": "COM2 - Standby Frequency - Power On",
       "OutputType": "7 Segment",
       "Outputs": [
         6
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "COM STANDBY FREQUENCY:1",
+      "Data": "COM STANDBY FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -135,7 +135,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
           "Operator": "=",
           "ComparisonValue": "1",
           "IsOrOperator": false
@@ -143,15 +143,15 @@
       ]
     },
     {
-      "Id": "5c0dad64-5cf9-4a56-96ed-027ee2840771",
+      "Id": "53b105b3-b227-49e7-92f4-de3bb92084df",
       "IsActive": true,
-      "Description": "COM1 - Standby Frequency - Power Off",
+      "Description": "COM2 - Standby Frequency - Power Off",
       "OutputType": "7 Segment",
       "Outputs": [
         6
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "COM STANDBY FREQUENCY:1",
+      "Data": "COM STANDBY FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -161,7 +161,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "ReferenceId": "c002dbe6-9c72-43cc-9bd9-51880e211221",
           "Operator": "=",
           "ComparisonValue": "0",
           "IsOrOperator": false
@@ -169,13 +169,13 @@
       ]
     },
     {
-      "Id": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+      "Id": "c002dbe6-9c72-43cc-9bd9-51880e211221",
       "IsActive": true,
-      "Description": "COM1 - AC/DC Battery Bus Selector",
+      "Description": "COM2 - AC/DC Battery Bus Selector",
       "OutputType": "LED",
       "DataType": "PMDG737",
       "PmdgData": "ELEC_BusPowered",
-      "PmdgDataArrayIndex": 15
+      "PmdgDataArrayIndex": 12
     }
   ]
 }

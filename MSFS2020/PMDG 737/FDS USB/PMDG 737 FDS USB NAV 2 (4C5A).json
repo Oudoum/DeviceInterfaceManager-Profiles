@@ -1,79 +1,79 @@
 {
-  "ProfileName": "PMDG 737NG FDS NAV 1 (4C5A)",
+  "ProfileName": "PMDG 737 FDS USB NAV 2 (4C5A)",
   "DeviceName": "FDS 737NG NAVCOMM",
   "InputCreators": [
     {
-      "Id": "f225acef-3641-4b8d-a46b-d55031144ca4",
+      "Id": "b52a14e5-1c1a-4bc8-9711-df1e31e896ba",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 1
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70361,
+      "PmdgEvent": 70477,
       "PmdgMousePress": 536870912,
       "OnRelease": false
     },
     {
-      "Id": "b6a27627-b823-4c7c-8d2c-2c17dc55aa8b",
+      "Id": "0a158367-ebad-4a20-925f-8059e7e047dd",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 31
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70365,
+      "PmdgEvent": 70480,
       "PmdgMousePress": 536870912,
       "OnRelease": false
     },
     {
-      "Id": "61c9a2a4-1a5f-4b61-9de5-e40935fd956d",
+      "Id": "e9b65db7-f832-49db-9de1-3dbbf9d83e59",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 32
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70365,
+      "PmdgEvent": 70480,
       "PmdgMousePress": 2147483648,
       "OnRelease": false
     },
     {
-      "Id": "df416839-89d0-4aeb-916e-9846bf3c39d1",
+      "Id": "bcad69df-3358-43af-badc-e2984327f390",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 29
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70364,
+      "PmdgEvent": 70481,
       "PmdgMousePress": 536870912,
       "OnRelease": false
     },
     {
-      "Id": "2b889cdc-5cc3-450d-b98c-85a5370d844b",
+      "Id": "f7ea9c65-946d-41dd-9d8c-35058db71738",
       "IsActive": true,
       "InputType": "Switch",
       "Input": {
         "Position": 30
       },
       "EventType": "PMDG737",
-      "PmdgEvent": 70364,
+      "PmdgEvent": 70481,
       "PmdgMousePress": 2147483648,
       "OnRelease": false
     }
   ],
   "OutputCreators": [
     {
-      "Id": "464ef606-533c-4757-b783-48bebe9d9271",
+      "Id": "abf5a19a-997e-471e-9e20-5ae9bfd1805e",
       "IsActive": true,
-      "Description": "NAV1 - Active Frequency - Power On",
+      "Description": "NAV2 - Active Frequency - Power On",
       "OutputType": "7 Segment",
       "Outputs": [
         1
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "NAV ACTIVE FREQUENCY:1",
+      "Data": "NAV ACTIVE FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -83,7 +83,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "e23dd236-01ee-4af7-b6db-52e0d67d3e5f",
+          "ReferenceId": "c171557d-a27f-4481-a550-336d07e3d1dc",
           "Operator": "=",
           "ComparisonValue": "1",
           "IsOrOperator": false
@@ -91,15 +91,15 @@
       ]
     },
     {
-      "Id": "790dd570-08f3-41c4-9da6-2d9b99f46080",
+      "Id": "33432af1-b4cc-450b-8968-6fee12e11e98",
       "IsActive": true,
-      "Description": "NAV1 - Active Frequency - Power Off",
+      "Description": "NAV2 - Active Frequency - Power Off",
       "OutputType": "7 Segment",
       "Outputs": [
         1
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "NAV ACTIVE FREQUENCY:1",
+      "Data": "NAV ACTIVE FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -109,7 +109,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "e23dd236-01ee-4af7-b6db-52e0d67d3e5f",
+          "ReferenceId": "c171557d-a27f-4481-a550-336d07e3d1dc",
           "Operator": "=",
           "ComparisonValue": "0",
           "IsOrOperator": false
@@ -117,15 +117,15 @@
       ]
     },
     {
-      "Id": "e7cd4a79-9a89-46fc-956c-c6ded6f61166",
+      "Id": "7afefa62-ad21-406d-a49a-69eac92f77e9",
       "IsActive": true,
-      "Description": "NAV1 - Standby Frequency - Power On",
+      "Description": "NAV2 - Standby Frequency - Power On",
       "OutputType": "7 Segment",
       "Outputs": [
         6
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "NAV STANDBY FREQUENCY:1",
+      "Data": "NAV STANDBY FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -135,7 +135,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "e23dd236-01ee-4af7-b6db-52e0d67d3e5f",
+          "ReferenceId": "c171557d-a27f-4481-a550-336d07e3d1dc",
           "Operator": "=",
           "ComparisonValue": "1",
           "IsOrOperator": false
@@ -143,15 +143,15 @@
       ]
     },
     {
-      "Id": "7565afca-55d6-4989-9359-0fbfbe9ad86f",
+      "Id": "f9312cdb-d08b-4ed0-a8ce-f27028354eef",
       "IsActive": true,
-      "Description": "NAV1 - Standby Frequency - Power Off",
+      "Description": "NAV2 - Standby Frequency - Power Off",
       "OutputType": "7 Segment",
       "Outputs": [
         6
       ],
       "DataType": "MSFS/SimConnect/LVar",
-      "Data": "NAV STANDBY FREQUENCY:1",
+      "Data": "NAV STANDBY FREQUENCY:2",
       "Unit": "MHz",
       "IsPadded": false,
       "PaddingCharacter": "0",
@@ -161,7 +161,7 @@
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "e23dd236-01ee-4af7-b6db-52e0d67d3e5f",
+          "ReferenceId": "c171557d-a27f-4481-a550-336d07e3d1dc",
           "Operator": "=",
           "ComparisonValue": "0",
           "IsOrOperator": false
@@ -169,13 +169,13 @@
       ]
     },
     {
-      "Id": "e23dd236-01ee-4af7-b6db-52e0d67d3e5f",
+      "Id": "c171557d-a27f-4481-a550-336d07e3d1dc",
       "IsActive": true,
-      "Description": "NAV1 - AC/DC Battery Bus Selector",
+      "Description": "NAV2 - AC/DC Battery Bus Selector",
       "OutputType": "LED",
       "DataType": "PMDG737",
       "PmdgData": "ELEC_BusPowered",
-      "PmdgDataArrayIndex": 15
+      "PmdgDataArrayIndex": 12
     }
   ]
 }
