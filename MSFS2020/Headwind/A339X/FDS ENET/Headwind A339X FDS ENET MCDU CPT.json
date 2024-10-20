@@ -1,0 +1,937 @@
+{
+  "ProfileName": "Headwind A339X FDS ENET MCDU CPT",
+  "DeviceName": "FDS-CDU-E",
+  "InputCreators": [
+    {
+      "Id": "0ad3fc18-e133-439b-a584-d4c847ce0abd",
+      "IsActive": true,
+      "Description": "Dot",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 1
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_DOT)",
+      "OnRelease": false
+    },
+    {
+      "Id": "962de382-152a-4882-9a44-18fdf0f8f812",
+      "IsActive": true,
+      "Description": "0",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 2
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_0)",
+      "OnRelease": false
+    },
+    {
+      "Id": "a45303fb-373a-4853-a905-a992786dfe24",
+      "IsActive": true,
+      "Description": "\u002B/-",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 3
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_PLUSMINUS)",
+      "OnRelease": false
+    },
+    {
+      "Id": "f39dcbd1-eee3-4677-95c6-254ab5450a47",
+      "IsActive": true,
+      "Description": "Z",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 4
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_Z)",
+      "OnRelease": false
+    },
+    {
+      "Id": "89bc59f8-f2dc-4bab-8236-86106d766e19",
+      "IsActive": true,
+      "Description": "Slash",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 5
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_DIV)",
+      "OnRelease": false
+    },
+    {
+      "Id": "370a7986-88e9-452d-af58-2921d27d4d2f",
+      "IsActive": true,
+      "Description": "Space",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 6
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_SP)",
+      "OnRelease": false
+    },
+    {
+      "Id": "98912f08-fae2-4717-a629-4e048e5bfa70",
+      "IsActive": true,
+      "Description": "Overfly",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 7
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_OVFY)",
+      "OnRelease": false
+    },
+    {
+      "Id": "2659ef1f-d321-42bc-b57b-8ace7ea4663f",
+      "IsActive": true,
+      "Description": "Clear",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 8
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_CLR)",
+      "OnRelease": false
+    },
+    {
+      "Id": "c7b9e828-9a3a-4505-aa31-0897fb166615",
+      "IsActive": true,
+      "Description": "7",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 9
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_7)",
+      "OnRelease": false
+    },
+    {
+      "Id": "63ea6f92-e16e-422b-a43a-0ea5853771ae",
+      "IsActive": true,
+      "Description": "8",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 10
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_8)",
+      "OnRelease": false
+    },
+    {
+      "Id": "898f3570-31c6-4edb-a5a1-d91d4a6230af",
+      "IsActive": true,
+      "Description": "9",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 11
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_9)",
+      "OnRelease": false
+    },
+    {
+      "Id": "5f3d99ab-e07e-40da-b08b-a44aa3f78366",
+      "IsActive": true,
+      "Description": "U",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 12
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_U)",
+      "OnRelease": false
+    },
+    {
+      "Id": "1d0955e5-8173-4eb0-b712-985cdfc0ccbc",
+      "IsActive": true,
+      "Description": "V",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 13
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_V)",
+      "OnRelease": false
+    },
+    {
+      "Id": "d9597ad5-910d-49cf-8b11-db7e873bf39f",
+      "IsActive": true,
+      "Description": "W",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 14
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_W)",
+      "OnRelease": false
+    },
+    {
+      "Id": "96580da9-1ec7-41e6-8534-ba70dbb22b49",
+      "IsActive": true,
+      "Description": "X",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 15
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_X)",
+      "OnRelease": false
+    },
+    {
+      "Id": "0f9ded81-008d-4658-851f-36c7b1b18f35",
+      "IsActive": true,
+      "Description": "Y",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 16
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_Y)",
+      "OnRelease": false
+    },
+    {
+      "Id": "44565402-4ce9-459b-b219-53edcd811a2d",
+      "IsActive": true,
+      "Description": "4",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 17
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_4)",
+      "OnRelease": false
+    },
+    {
+      "Id": "8a0a6e08-b4da-48dd-9fb5-f0a77d8365dc",
+      "IsActive": true,
+      "Description": "5",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 18
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_5)",
+      "OnRelease": false
+    },
+    {
+      "Id": "c4d47367-6d21-4780-9b37-d91e5ce7cf3e",
+      "IsActive": true,
+      "Description": "6",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 19
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_6)",
+      "OnRelease": false
+    },
+    {
+      "Id": "76915798-0df3-4fa4-b8b8-62757fa6651e",
+      "IsActive": true,
+      "Description": "P",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 20
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_P)",
+      "OnRelease": false
+    },
+    {
+      "Id": "7380dc70-da6a-4d38-a94e-b526734b3140",
+      "IsActive": true,
+      "Description": "Q",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 21
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_Q)",
+      "OnRelease": false
+    },
+    {
+      "Id": "0fb7faeb-8e13-472b-858f-dba72abcdfbc",
+      "IsActive": true,
+      "Description": "R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 22
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_R)",
+      "OnRelease": false
+    },
+    {
+      "Id": "4d236c4a-2549-4bb8-9d60-7b7f00ae6438",
+      "IsActive": true,
+      "Description": "S",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 23
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_S)",
+      "OnRelease": false
+    },
+    {
+      "Id": "9727e8f1-dcbd-4b47-a69d-84a0bd04d9e4",
+      "IsActive": true,
+      "Description": "T",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 24
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_T)",
+      "OnRelease": false
+    },
+    {
+      "Id": "77915cb0-0636-4e61-b7ca-240a3b723c60",
+      "IsActive": true,
+      "Description": "1",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 25
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_1)",
+      "OnRelease": false
+    },
+    {
+      "Id": "2fbbe7e9-0585-40ce-873d-66083e4589f0",
+      "IsActive": true,
+      "Description": "2",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 26
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_2)",
+      "OnRelease": false
+    },
+    {
+      "Id": "ff77a4d7-9ac5-46e6-a9e3-c22df6f6b0e9",
+      "IsActive": true,
+      "Description": "3",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 27
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_3)",
+      "OnRelease": false
+    },
+    {
+      "Id": "7aabe83f-c912-4774-aacd-551938816aa2",
+      "IsActive": true,
+      "Description": "K",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 28
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_K)",
+      "OnRelease": false
+    },
+    {
+      "Id": "f4a77c19-d199-456a-9ee4-8b86761123ab",
+      "IsActive": true,
+      "Description": "L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 29
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_L)",
+      "OnRelease": false
+    },
+    {
+      "Id": "255ae33a-56af-4923-9387-d48585f7a2fe",
+      "IsActive": true,
+      "Description": "M",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 30
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_M)",
+      "OnRelease": false
+    },
+    {
+      "Id": "4fdcc54c-2e64-4a89-b5bf-107bc56d2f71",
+      "IsActive": true,
+      "Description": "N",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 31
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_N)",
+      "OnRelease": false
+    },
+    {
+      "Id": "3a7f0bf5-7b3a-49fc-9535-b233252e8eba",
+      "IsActive": true,
+      "Description": "O",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 32
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_O)",
+      "OnRelease": false
+    },
+    {
+      "Id": "2c00da42-1c38-4d93-85c5-395fdd4e1381",
+      "IsActive": true,
+      "Description": "prev page",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 33
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_PREVPAGE)",
+      "OnRelease": false
+    },
+    {
+      "Id": "680d758a-32a3-4732-8d2a-bba578cb0e4f",
+      "IsActive": true,
+      "Description": "UP",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 34
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_UP)",
+      "OnRelease": false
+    },
+    {
+      "Id": "01a081ff-3fcb-4417-ad28-0c860e0ac7b3",
+      "IsActive": true,
+      "Description": "LSK1L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 35
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_L1)",
+      "OnRelease": false
+    },
+    {
+      "Id": "272f1461-2b48-45bb-91d3-405c17ade978",
+      "IsActive": true,
+      "Description": "F",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 36
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_F)",
+      "OnRelease": false
+    },
+    {
+      "Id": "397e952b-4f46-4401-ba86-7f474036fdae",
+      "IsActive": true,
+      "Description": "G",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 37
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_G)",
+      "OnRelease": false
+    },
+    {
+      "Id": "fd3fd3a5-7978-4e8b-951b-0a6ca8a760f5",
+      "IsActive": true,
+      "Description": "H",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 38
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_H)",
+      "OnRelease": false
+    },
+    {
+      "Id": "fc37402c-e333-4a55-a8a2-a6cfba5291cd",
+      "IsActive": true,
+      "Description": "I",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 39
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_I)",
+      "OnRelease": false
+    },
+    {
+      "Id": "5cd441c0-1afd-4191-8694-291e954ca80d",
+      "IsActive": true,
+      "Description": "J",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 40
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_J)",
+      "OnRelease": false
+    },
+    {
+      "Id": "91d3e27c-95b9-474f-9885-17cbafb8dba7",
+      "IsActive": true,
+      "Description": "Airport",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 41
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_AIRPORT)",
+      "OnRelease": false
+    },
+    {
+      "Id": "1019775b-45d3-44b1-9355-09c673498001",
+      "IsActive": true,
+      "Description": "LSK2L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 43
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_L2)",
+      "OnRelease": false
+    },
+    {
+      "Id": "001631be-181e-45c0-a43f-9137dfd70c4d",
+      "IsActive": true,
+      "Description": "A",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 44
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_A)",
+      "OnRelease": false
+    },
+    {
+      "Id": "cdb37c15-43c9-4904-851f-75f5416235a8",
+      "IsActive": true,
+      "Description": "B",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 45
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_B)",
+      "OnRelease": false
+    },
+    {
+      "Id": "095016f0-87f7-4655-b048-e6a4ef5df6bf",
+      "IsActive": true,
+      "Description": "C",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 46
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_C)",
+      "OnRelease": false
+    },
+    {
+      "Id": "f1afe0c4-0b1f-4cd0-8845-309c9b84397d",
+      "IsActive": true,
+      "Description": "D",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 47
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_D)",
+      "OnRelease": false
+    },
+    {
+      "Id": "cb4c5da7-203f-47b1-9843-ee37c8420851",
+      "IsActive": true,
+      "Description": "E",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 48
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_E)",
+      "OnRelease": false
+    },
+    {
+      "Id": "fc6b8839-20af-4b9b-9b6a-05fd8f105992",
+      "IsActive": true,
+      "Description": "F-PLN",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 49
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_FPLN)",
+      "OnRelease": false
+    },
+    {
+      "Id": "5eff38dc-8247-4d22-9da4-cbd5595b20af",
+      "IsActive": true,
+      "Description": "RAD",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 50
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_RAD)",
+      "OnRelease": false
+    },
+    {
+      "Id": "08f2e89a-1c5a-42dd-a977-006ca953dccc",
+      "IsActive": true,
+      "Description": "LSK3L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 51
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_L3)",
+      "OnRelease": false
+    },
+    {
+      "Id": "6731183b-264e-4c3d-be42-7fa8c40b3239",
+      "IsActive": true,
+      "Description": "Fuel",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 52
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_FUEL)",
+      "OnRelease": false
+    },
+    {
+      "Id": "212759e9-8ec5-4e98-b8ff-d616f3a407d0",
+      "IsActive": true,
+      "Description": "Sec F-PLN",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 53
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_SEC)",
+      "OnRelease": false
+    },
+    {
+      "Id": "f6f9e6a1-be19-4f0d-bd16-79cc7d86d54e",
+      "IsActive": true,
+      "Description": "ATC",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 54
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_ATC)",
+      "OnRelease": false
+    },
+    {
+      "Id": "34cf086a-36e7-4c3c-b0a4-19c6a5c05bbf",
+      "IsActive": true,
+      "Description": "Menu",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 55
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_MENU)",
+      "OnRelease": false
+    },
+    {
+      "Id": "8345ca60-00c9-42cd-8381-439383531c3c",
+      "IsActive": true,
+      "Description": "LSK5L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 56
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_L5)",
+      "OnRelease": false
+    },
+    {
+      "Id": "ba6f0d01-0f1e-4984-9aeb-e5ab6d6265d5",
+      "IsActive": true,
+      "Description": "Direct",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 57
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_DIR)",
+      "OnRelease": false
+    },
+    {
+      "Id": "07865d15-b8fe-4e94-bb7f-8e740226ff35",
+      "IsActive": true,
+      "Description": "Progress",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 58
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_PROG)",
+      "OnRelease": false
+    },
+    {
+      "Id": "b9fe9cf7-84bc-4f30-8b84-7fd9ba2c4caf",
+      "IsActive": true,
+      "Description": "LSK4L",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 59
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_L4)",
+      "OnRelease": false
+    },
+    {
+      "Id": "b576ea8a-393e-4ae7-952c-730a1cdff327",
+      "IsActive": true,
+      "Description": "Performance",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 60
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_PERF)",
+      "OnRelease": false
+    },
+    {
+      "Id": "c063be43-8d01-4816-a565-9b3874ebdf81",
+      "IsActive": true,
+      "Description": "Init page",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 61
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_INIT)",
+      "OnRelease": false
+    },
+    {
+      "Id": "c3becfd5-9c5f-422a-a0d2-9fdf7809c9b9",
+      "IsActive": true,
+      "Description": "Data",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 62
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_DATA)",
+      "OnRelease": false
+    },
+    {
+      "Id": "1ea7d7ae-dc34-429e-9c35-3d997406b537",
+      "IsActive": true,
+      "Description": "LSK1R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 65
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_R1)",
+      "OnRelease": false
+    },
+    {
+      "Id": "05fc658f-54fd-4528-9bcf-5604464f5e8c",
+      "IsActive": true,
+      "Description": "LSK2R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 66
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_R2)",
+      "OnRelease": false
+    },
+    {
+      "Id": "c243cccf-2603-4440-9c15-5b547a399231",
+      "IsActive": true,
+      "Description": "LSK3R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 67
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_R3)",
+      "OnRelease": false
+    },
+    {
+      "Id": "b15cd40d-b10b-468c-9a03-ef3a5d0b6bd6",
+      "IsActive": true,
+      "Description": "LSK4R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 68
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_R4)",
+      "OnRelease": false
+    },
+    {
+      "Id": "6d8711e5-0c25-4578-87a9-2f7e761b8344",
+      "IsActive": true,
+      "Description": "LSK5R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 69
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_R5)",
+      "OnRelease": false
+    },
+    {
+      "Id": "9a8b1ff0-cbef-4ac2-a43e-90c952fc8d03",
+      "IsActive": true,
+      "Description": "LSK6R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 70
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_R6)",
+      "OnRelease": false
+    },
+    {
+      "Id": "132bc3a6-dcce-4070-8c2c-5475b63252c2",
+      "IsActive": true,
+      "Description": "LSK6R",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 71
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_L6)",
+      "OnRelease": false
+    },
+    {
+      "Id": "f4424037-d649-4af7-a4da-5c8bf9022184",
+      "IsActive": true,
+      "Description": "next page",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 73
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_NEXTPAGE)",
+      "OnRelease": false
+    },
+    {
+      "Id": "c8ef3d99-069a-43ea-aa8e-ceaa6382d17e",
+      "IsActive": true,
+      "Description": "down",
+      "InputType": "Switch",
+      "Input": {
+        "Position": 74
+      },
+      "EventType": "RPN/H-Events",
+      "Event": "(\u003EH:A320_Neo_CDU_1_BTN_DOWN)",
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "c18fb322-5781-4297-a2b7-20be95ce5bfa",
+      "IsActive": true,
+      "Description": "Fail",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_FAIL"
+    },
+    {
+      "Id": "cfd85d3a-4d5d-4102-a0bd-e6eaf1406a3e",
+      "IsActive": true,
+      "Description": "MCDU MENU",
+      "OutputType": "LED",
+      "Outputs": [
+        3,
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_MCDU_MENU"
+    },
+    {
+      "Id": "54f72c3f-77ac-41cd-8d78-4d0ba4ae4c14",
+      "IsActive": true,
+      "Description": "FMCG",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_FMCG"
+    },
+    {
+      "Id": "8dda5b73-b31e-4346-85db-ee87b6c5d134",
+      "IsActive": true,
+      "Description": "FM1",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_FM1"
+    },
+    {
+      "Id": "a4958cf2-b937-466e-9266-9eefbd6363b7",
+      "IsActive": true,
+      "Description": "IND",
+      "OutputType": "LED",
+      "Outputs": [
+        7
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_IND"
+    },
+    {
+      "Id": "dc833033-8a2e-486c-bfd3-11efe6d26044",
+      "IsActive": true,
+      "Description": "RDY",
+      "OutputType": "LED",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_RDY"
+    },
+    {
+      "Id": "f29ef0b6-bd87-4ffc-9e89-b0c4cedffd90",
+      "IsActive": true,
+      "Description": "-",
+      "OutputType": "LED",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_BLANK"
+    },
+    {
+      "Id": "fedf545c-36a1-468a-bda4-9cf3662a8204",
+      "IsActive": true,
+      "Description": "FM2",
+      "OutputType": "LED",
+      "Outputs": [
+        10
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A32NX_MCDU_L_ANNUNC_FM2"
+    }
+  ]
+}
