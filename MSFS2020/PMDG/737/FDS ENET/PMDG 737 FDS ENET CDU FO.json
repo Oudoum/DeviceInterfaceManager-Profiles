@@ -7,9 +7,7 @@
       "IsActive": true,
       "Description": ".",
       "InputType": "Switch",
-      "Input": {
-        "Position": 1
-      },
+      "Input": 1,
       "EventType": "PMDG737",
       "PmdgEvent": 70274,
       "PmdgMousePress": 536870912,
@@ -21,9 +19,7 @@
       "IsActive": true,
       "Description": "0",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "PMDG737",
       "PmdgEvent": 70275,
       "PmdgMousePress": 536870912,
@@ -35,9 +31,7 @@
       "IsActive": true,
       "Description": "\u002B/-",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "PMDG737",
       "PmdgEvent": 70276,
       "PmdgMousePress": 536870912,
@@ -49,9 +43,7 @@
       "IsActive": true,
       "Description": "Z",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "PMDG737",
       "PmdgEvent": 70302,
       "PmdgMousePress": 536870912,
@@ -63,9 +55,7 @@
       "IsActive": true,
       "Description": "SP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 5
-      },
+      "Input": 5,
       "EventType": "PMDG737",
       "PmdgEvent": 70303,
       "PmdgMousePress": 536870912,
@@ -77,9 +67,7 @@
       "IsActive": true,
       "Description": "DEL",
       "InputType": "Switch",
-      "Input": {
-        "Position": 6
-      },
+      "Input": 6,
       "EventType": "PMDG737",
       "PmdgEvent": 70304,
       "PmdgMousePress": 536870912,
@@ -91,9 +79,7 @@
       "IsActive": true,
       "Description": "/",
       "InputType": "Switch",
-      "Input": {
-        "Position": 7
-      },
+      "Input": 7,
       "EventType": "PMDG737",
       "PmdgEvent": 70305,
       "PmdgMousePress": 536870912,
@@ -105,9 +91,7 @@
       "IsActive": true,
       "Description": "CLR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 8
-      },
+      "Input": 8,
       "EventType": "PMDG737",
       "PmdgEvent": 70306,
       "PmdgMousePress": 536870912,
@@ -119,9 +103,7 @@
       "IsActive": true,
       "Description": "7",
       "InputType": "Switch",
-      "Input": {
-        "Position": 9
-      },
+      "Input": 9,
       "EventType": "PMDG737",
       "PmdgEvent": 70271,
       "PmdgMousePress": 536870912,
@@ -133,9 +115,7 @@
       "IsActive": true,
       "Description": "8",
       "InputType": "Switch",
-      "Input": {
-        "Position": 10
-      },
+      "Input": 10,
       "EventType": "PMDG737",
       "PmdgEvent": 70272,
       "PmdgMousePress": 536870912,
@@ -147,9 +127,7 @@
       "IsActive": true,
       "Description": "9",
       "InputType": "Switch",
-      "Input": {
-        "Position": 11
-      },
+      "Input": 11,
       "EventType": "PMDG737",
       "PmdgEvent": 70273,
       "PmdgMousePress": 536870912,
@@ -161,9 +139,7 @@
       "IsActive": true,
       "Description": "U",
       "InputType": "Switch",
-      "Input": {
-        "Position": 12
-      },
+      "Input": 12,
       "EventType": "PMDG737",
       "PmdgEvent": 70297,
       "PmdgMousePress": 536870912,
@@ -175,9 +151,7 @@
       "IsActive": true,
       "Description": "V",
       "InputType": "Switch",
-      "Input": {
-        "Position": 13
-      },
+      "Input": 13,
       "EventType": "PMDG737",
       "PmdgEvent": 70298,
       "PmdgMousePress": 536870912,
@@ -189,9 +163,7 @@
       "IsActive": true,
       "Description": "W",
       "InputType": "Switch",
-      "Input": {
-        "Position": 14
-      },
+      "Input": 14,
       "EventType": "PMDG737",
       "PmdgEvent": 70299,
       "PmdgMousePress": 536870912,
@@ -203,9 +175,7 @@
       "IsActive": true,
       "Description": "X",
       "InputType": "Switch",
-      "Input": {
-        "Position": 15
-      },
+      "Input": 15,
       "EventType": "PMDG737",
       "PmdgEvent": 70300,
       "PmdgMousePress": 536870912,
@@ -217,9 +187,7 @@
       "IsActive": true,
       "Description": "Y",
       "InputType": "Switch",
-      "Input": {
-        "Position": 16
-      },
+      "Input": 16,
       "EventType": "PMDG737",
       "PmdgEvent": 70301,
       "PmdgMousePress": 536870912,
@@ -231,9 +199,7 @@
       "IsActive": true,
       "Description": "4",
       "InputType": "Switch",
-      "Input": {
-        "Position": 17
-      },
+      "Input": 17,
       "EventType": "PMDG737",
       "PmdgEvent": 70268,
       "PmdgMousePress": 536870912,
@@ -245,9 +211,7 @@
       "IsActive": true,
       "Description": "5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 18
-      },
+      "Input": 18,
       "EventType": "PMDG737",
       "PmdgEvent": 70269,
       "PmdgMousePress": 536870912,
@@ -259,9 +223,7 @@
       "IsActive": true,
       "Description": "6",
       "InputType": "Switch",
-      "Input": {
-        "Position": 19
-      },
+      "Input": 19,
       "EventType": "PMDG737",
       "PmdgEvent": 70270,
       "PmdgMousePress": 536870912,
@@ -273,9 +235,7 @@
       "IsActive": true,
       "Description": "P",
       "InputType": "Switch",
-      "Input": {
-        "Position": 20
-      },
+      "Input": 20,
       "EventType": "PMDG737",
       "PmdgEvent": 70292,
       "PmdgMousePress": 536870912,
@@ -287,9 +247,7 @@
       "IsActive": true,
       "Description": "Q",
       "InputType": "Switch",
-      "Input": {
-        "Position": 21
-      },
+      "Input": 21,
       "EventType": "PMDG737",
       "PmdgEvent": 70293,
       "PmdgMousePress": 536870912,
@@ -301,9 +259,7 @@
       "IsActive": true,
       "Description": "R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 22
-      },
+      "Input": 22,
       "EventType": "PMDG737",
       "PmdgEvent": 70294,
       "PmdgMousePress": 536870912,
@@ -315,9 +271,7 @@
       "IsActive": true,
       "Description": "S",
       "InputType": "Switch",
-      "Input": {
-        "Position": 23
-      },
+      "Input": 23,
       "EventType": "PMDG737",
       "PmdgEvent": 70295,
       "PmdgMousePress": 536870912,
@@ -329,9 +283,7 @@
       "IsActive": true,
       "Description": "T",
       "InputType": "Switch",
-      "Input": {
-        "Position": 24
-      },
+      "Input": 24,
       "EventType": "PMDG737",
       "PmdgEvent": 70296,
       "PmdgMousePress": 536870912,
@@ -343,9 +295,7 @@
       "IsActive": true,
       "Description": "1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 25
-      },
+      "Input": 25,
       "EventType": "PMDG737",
       "PmdgEvent": 70265,
       "PmdgMousePress": 536870912,
@@ -357,9 +307,7 @@
       "IsActive": true,
       "Description": "2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 26
-      },
+      "Input": 26,
       "EventType": "PMDG737",
       "PmdgEvent": 70266,
       "PmdgMousePress": 536870912,
@@ -371,9 +319,7 @@
       "IsActive": true,
       "Description": "3",
       "InputType": "Switch",
-      "Input": {
-        "Position": 27
-      },
+      "Input": 27,
       "EventType": "PMDG737",
       "PmdgEvent": 70267,
       "PmdgMousePress": 536870912,
@@ -385,9 +331,7 @@
       "IsActive": true,
       "Description": "K",
       "InputType": "Switch",
-      "Input": {
-        "Position": 28
-      },
+      "Input": 28,
       "EventType": "PMDG737",
       "PmdgEvent": 70287,
       "PmdgMousePress": 536870912,
@@ -399,9 +343,7 @@
       "IsActive": true,
       "Description": "L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 29
-      },
+      "Input": 29,
       "EventType": "PMDG737",
       "PmdgEvent": 70288,
       "PmdgMousePress": 536870912,
@@ -413,9 +355,7 @@
       "IsActive": true,
       "Description": "M",
       "InputType": "Switch",
-      "Input": {
-        "Position": 30
-      },
+      "Input": 30,
       "EventType": "PMDG737",
       "PmdgEvent": 70289,
       "PmdgMousePress": 536870912,
@@ -427,9 +367,7 @@
       "IsActive": true,
       "Description": "N",
       "InputType": "Switch",
-      "Input": {
-        "Position": 31
-      },
+      "Input": 31,
       "EventType": "PMDG737",
       "PmdgEvent": 70290,
       "PmdgMousePress": 536870912,
@@ -441,9 +379,7 @@
       "IsActive": true,
       "Description": "O",
       "InputType": "Switch",
-      "Input": {
-        "Position": 32
-      },
+      "Input": 32,
       "EventType": "PMDG737",
       "PmdgEvent": 70291,
       "PmdgMousePress": 536870912,
@@ -455,9 +391,7 @@
       "IsActive": true,
       "Description": "PREV PAGE",
       "InputType": "Switch",
-      "Input": {
-        "Position": 33
-      },
+      "Input": 33,
       "EventType": "PMDG737",
       "PmdgEvent": 70263,
       "PmdgMousePress": 536870912,
@@ -469,9 +403,7 @@
       "IsActive": true,
       "Description": "NEXT PAGE",
       "InputType": "Switch",
-      "Input": {
-        "Position": 34
-      },
+      "Input": 34,
       "EventType": "PMDG737",
       "PmdgEvent": 70264,
       "PmdgMousePress": 536870912,
@@ -483,9 +415,7 @@
       "IsActive": true,
       "Description": "LSKL1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 35
-      },
+      "Input": 35,
       "EventType": "PMDG737",
       "PmdgEvent": 70238,
       "PmdgMousePress": 536870912,
@@ -497,9 +427,7 @@
       "IsActive": true,
       "Description": "F",
       "InputType": "Switch",
-      "Input": {
-        "Position": 36
-      },
+      "Input": 36,
       "EventType": "PMDG737",
       "PmdgEvent": 70282,
       "PmdgMousePress": 536870912,
@@ -511,9 +439,7 @@
       "IsActive": true,
       "Description": "G",
       "InputType": "Switch",
-      "Input": {
-        "Position": 37
-      },
+      "Input": 37,
       "EventType": "PMDG737",
       "PmdgEvent": 70283,
       "PmdgMousePress": 536870912,
@@ -525,9 +451,7 @@
       "IsActive": true,
       "Description": "H",
       "InputType": "Switch",
-      "Input": {
-        "Position": 38
-      },
+      "Input": 38,
       "EventType": "PMDG737",
       "PmdgEvent": 70284,
       "PmdgMousePress": 536870912,
@@ -539,9 +463,7 @@
       "IsActive": true,
       "Description": "I",
       "InputType": "Switch",
-      "Input": {
-        "Position": 39
-      },
+      "Input": 39,
       "EventType": "PMDG737",
       "PmdgEvent": 70285,
       "PmdgMousePress": 536870912,
@@ -553,9 +475,7 @@
       "IsActive": true,
       "Description": "J",
       "InputType": "Switch",
-      "Input": {
-        "Position": 40
-      },
+      "Input": 40,
       "EventType": "PMDG737",
       "PmdgEvent": 70286,
       "PmdgMousePress": 536870912,
@@ -567,9 +487,7 @@
       "IsActive": true,
       "Description": "N1 LIMIT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 41
-      },
+      "Input": 41,
       "EventType": "PMDG737",
       "PmdgEvent": 70261,
       "PmdgMousePress": 536870912,
@@ -581,9 +499,7 @@
       "IsActive": true,
       "Description": "FIX",
       "InputType": "Switch",
-      "Input": {
-        "Position": 42
-      },
+      "Input": 42,
       "EventType": "PMDG737",
       "PmdgEvent": 70262,
       "PmdgMousePress": 536870912,
@@ -595,9 +511,7 @@
       "IsActive": true,
       "Description": "LSKL2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 43
-      },
+      "Input": 43,
       "EventType": "PMDG737",
       "PmdgEvent": 70239,
       "PmdgMousePress": 536870912,
@@ -609,9 +523,7 @@
       "IsActive": true,
       "Description": "A",
       "InputType": "Switch",
-      "Input": {
-        "Position": 44
-      },
+      "Input": 44,
       "EventType": "PMDG737",
       "PmdgEvent": 70277,
       "PmdgMousePress": 536870912,
@@ -623,9 +535,7 @@
       "IsActive": true,
       "Description": "B",
       "InputType": "Switch",
-      "Input": {
-        "Position": 45
-      },
+      "Input": 45,
       "EventType": "PMDG737",
       "PmdgEvent": 70278,
       "PmdgMousePress": 536870912,
@@ -637,9 +547,7 @@
       "IsActive": true,
       "Description": "C",
       "InputType": "Switch",
-      "Input": {
-        "Position": 46
-      },
+      "Input": 46,
       "EventType": "PMDG737",
       "PmdgEvent": 70279,
       "PmdgMousePress": 536870912,
@@ -651,9 +559,7 @@
       "IsActive": true,
       "Description": "D",
       "InputType": "Switch",
-      "Input": {
-        "Position": 47
-      },
+      "Input": 47,
       "EventType": "PMDG737",
       "PmdgEvent": 70280,
       "PmdgMousePress": 536870912,
@@ -665,9 +571,7 @@
       "IsActive": true,
       "Description": "E",
       "InputType": "Switch",
-      "Input": {
-        "Position": 48
-      },
+      "Input": 48,
       "EventType": "PMDG737",
       "PmdgEvent": 70281,
       "PmdgMousePress": 536870912,
@@ -679,9 +583,7 @@
       "IsActive": true,
       "Description": "MENU",
       "InputType": "Switch",
-      "Input": {
-        "Position": 49
-      },
+      "Input": 49,
       "EventType": "PMDG737",
       "PmdgEvent": 70255,
       "PmdgMousePress": 536870912,
@@ -693,9 +595,7 @@
       "IsActive": true,
       "Description": "LEGS",
       "InputType": "Switch",
-      "Input": {
-        "Position": 50
-      },
+      "Input": 50,
       "EventType": "PMDG737",
       "PmdgEvent": 70256,
       "PmdgMousePress": 536870912,
@@ -707,9 +607,7 @@
       "IsActive": true,
       "Description": "LSKL3",
       "InputType": "Switch",
-      "Input": {
-        "Position": 51
-      },
+      "Input": 51,
       "EventType": "PMDG737",
       "PmdgEvent": 70240,
       "PmdgMousePress": 536870912,
@@ -721,9 +619,7 @@
       "IsActive": true,
       "Description": "DEP ARR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 52
-      },
+      "Input": 52,
       "EventType": "PMDG737",
       "PmdgEvent": 70257,
       "PmdgMousePress": 536870912,
@@ -735,9 +631,7 @@
       "IsActive": true,
       "Description": "HOLD",
       "InputType": "Switch",
-      "Input": {
-        "Position": 53
-      },
+      "Input": 53,
       "EventType": "PMDG737",
       "PmdgEvent": 70258,
       "PmdgMousePress": 536870912,
@@ -749,9 +643,7 @@
       "IsActive": true,
       "Description": "PROG",
       "InputType": "Switch",
-      "Input": {
-        "Position": 54
-      },
+      "Input": 54,
       "EventType": "PMDG737",
       "PmdgEvent": 70259,
       "PmdgMousePress": 536870912,
@@ -763,9 +655,7 @@
       "IsActive": true,
       "Description": "EXEC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 55
-      },
+      "Input": 55,
       "EventType": "PMDG737",
       "PmdgEvent": 70260,
       "PmdgMousePress": 536870912,
@@ -777,9 +667,7 @@
       "IsActive": true,
       "Description": "LSKL5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 56
-      },
+      "Input": 56,
       "EventType": "PMDG737",
       "PmdgEvent": 70242,
       "PmdgMousePress": 536870912,
@@ -791,9 +679,7 @@
       "IsActive": true,
       "Description": "INIT REF",
       "InputType": "Switch",
-      "Input": {
-        "Position": 57
-      },
+      "Input": 57,
       "EventType": "PMDG737",
       "PmdgEvent": 70250,
       "PmdgMousePress": 536870912,
@@ -805,9 +691,7 @@
       "IsActive": true,
       "Description": "RTE",
       "InputType": "Switch",
-      "Input": {
-        "Position": 58
-      },
+      "Input": 58,
       "EventType": "PMDG737",
       "PmdgEvent": 70251,
       "PmdgMousePress": 536870912,
@@ -819,9 +703,7 @@
       "IsActive": true,
       "Description": "LSKL4",
       "InputType": "Switch",
-      "Input": {
-        "Position": 59
-      },
+      "Input": 59,
       "EventType": "PMDG737",
       "PmdgEvent": 70241,
       "PmdgMousePress": 536870912,
@@ -833,9 +715,7 @@
       "IsActive": true,
       "Description": "CLB",
       "InputType": "Switch",
-      "Input": {
-        "Position": 60
-      },
+      "Input": 60,
       "EventType": "PMDG737",
       "PmdgEvent": 70252,
       "PmdgMousePress": 536870912,
@@ -847,9 +727,7 @@
       "IsActive": true,
       "Description": "CRZ",
       "InputType": "Switch",
-      "Input": {
-        "Position": 61
-      },
+      "Input": 61,
       "EventType": "PMDG737",
       "PmdgEvent": 70253,
       "PmdgMousePress": 536870912,
@@ -861,9 +739,7 @@
       "IsActive": true,
       "Description": "DES",
       "InputType": "Switch",
-      "Input": {
-        "Position": 62
-      },
+      "Input": 62,
       "EventType": "PMDG737",
       "PmdgEvent": 70254,
       "PmdgMousePress": 536870912,
@@ -875,9 +751,7 @@
       "IsActive": true,
       "Description": "LSKR1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 65
-      },
+      "Input": 65,
       "EventType": "PMDG737",
       "PmdgEvent": 70244,
       "PmdgMousePress": 536870912,
@@ -889,9 +763,7 @@
       "IsActive": true,
       "Description": "LSKR2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 66
-      },
+      "Input": 66,
       "EventType": "PMDG737",
       "PmdgEvent": 70245,
       "PmdgMousePress": 536870912,
@@ -903,9 +775,7 @@
       "IsActive": true,
       "Description": "LSKR3",
       "InputType": "Switch",
-      "Input": {
-        "Position": 67
-      },
+      "Input": 67,
       "EventType": "PMDG737",
       "PmdgEvent": 70246,
       "PmdgMousePress": 536870912,
@@ -917,9 +787,7 @@
       "IsActive": true,
       "Description": "LSKR4",
       "InputType": "Switch",
-      "Input": {
-        "Position": 68
-      },
+      "Input": 68,
       "EventType": "PMDG737",
       "PmdgEvent": 70247,
       "PmdgMousePress": 536870912,
@@ -931,9 +799,7 @@
       "IsActive": true,
       "Description": "LSKR5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 69
-      },
+      "Input": 69,
       "EventType": "PMDG737",
       "PmdgEvent": 70248,
       "PmdgMousePress": 536870912,
@@ -945,9 +811,7 @@
       "IsActive": true,
       "Description": "LSKR6",
       "InputType": "Switch",
-      "Input": {
-        "Position": 70
-      },
+      "Input": 70,
       "EventType": "PMDG737",
       "PmdgEvent": 70249,
       "PmdgMousePress": 536870912,
@@ -959,9 +823,7 @@
       "IsActive": true,
       "Description": "LSKL6",
       "InputType": "Switch",
-      "Input": {
-        "Position": 71
-      },
+      "Input": 71,
       "EventType": "PMDG737",
       "PmdgEvent": 70243,
       "PmdgMousePress": 536870912,

@@ -7,9 +7,7 @@
       "IsActive": true,
       "Description": "Dot",
       "InputType": "Switch",
-      "Input": {
-        "Position": 1
-      },
+      "Input": 1,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_DOT)",
       "OnRelease": false
@@ -19,9 +17,7 @@
       "IsActive": true,
       "Description": "0",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_0)",
       "OnRelease": false
@@ -31,9 +27,7 @@
       "IsActive": true,
       "Description": "\u002B/-",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_PLUSMINUS)",
       "OnRelease": false
@@ -43,9 +37,7 @@
       "IsActive": true,
       "Description": "Z",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_Z)",
       "OnRelease": false
@@ -55,9 +47,7 @@
       "IsActive": true,
       "Description": "Slash",
       "InputType": "Switch",
-      "Input": {
-        "Position": 5
-      },
+      "Input": 5,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_DIV)",
       "OnRelease": false
@@ -67,9 +57,7 @@
       "IsActive": true,
       "Description": "Space",
       "InputType": "Switch",
-      "Input": {
-        "Position": 6
-      },
+      "Input": 6,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_SP)",
       "OnRelease": false
@@ -79,9 +67,7 @@
       "IsActive": true,
       "Description": "Overfly",
       "InputType": "Switch",
-      "Input": {
-        "Position": 7
-      },
+      "Input": 7,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_OVFY)",
       "OnRelease": false
@@ -91,9 +77,7 @@
       "IsActive": true,
       "Description": "Clear",
       "InputType": "Switch",
-      "Input": {
-        "Position": 8
-      },
+      "Input": 8,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_CLR)",
       "OnRelease": false
@@ -103,9 +87,7 @@
       "IsActive": true,
       "Description": "7",
       "InputType": "Switch",
-      "Input": {
-        "Position": 9
-      },
+      "Input": 9,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_7)",
       "OnRelease": false
@@ -115,9 +97,7 @@
       "IsActive": true,
       "Description": "8",
       "InputType": "Switch",
-      "Input": {
-        "Position": 10
-      },
+      "Input": 10,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_8)",
       "OnRelease": false
@@ -127,9 +107,7 @@
       "IsActive": true,
       "Description": "9",
       "InputType": "Switch",
-      "Input": {
-        "Position": 11
-      },
+      "Input": 11,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_9)",
       "OnRelease": false
@@ -139,9 +117,7 @@
       "IsActive": true,
       "Description": "U",
       "InputType": "Switch",
-      "Input": {
-        "Position": 12
-      },
+      "Input": 12,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_U)",
       "OnRelease": false
@@ -151,9 +127,7 @@
       "IsActive": true,
       "Description": "V",
       "InputType": "Switch",
-      "Input": {
-        "Position": 13
-      },
+      "Input": 13,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_V)",
       "OnRelease": false
@@ -163,9 +137,7 @@
       "IsActive": true,
       "Description": "W",
       "InputType": "Switch",
-      "Input": {
-        "Position": 14
-      },
+      "Input": 14,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_W)",
       "OnRelease": false
@@ -175,9 +147,7 @@
       "IsActive": true,
       "Description": "X",
       "InputType": "Switch",
-      "Input": {
-        "Position": 15
-      },
+      "Input": 15,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_X)",
       "OnRelease": false
@@ -187,9 +157,7 @@
       "IsActive": true,
       "Description": "Y",
       "InputType": "Switch",
-      "Input": {
-        "Position": 16
-      },
+      "Input": 16,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_Y)",
       "OnRelease": false
@@ -199,9 +167,7 @@
       "IsActive": true,
       "Description": "4",
       "InputType": "Switch",
-      "Input": {
-        "Position": 17
-      },
+      "Input": 17,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_4)",
       "OnRelease": false
@@ -211,9 +177,7 @@
       "IsActive": true,
       "Description": "5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 18
-      },
+      "Input": 18,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_5)",
       "OnRelease": false
@@ -223,9 +187,7 @@
       "IsActive": true,
       "Description": "6",
       "InputType": "Switch",
-      "Input": {
-        "Position": 19
-      },
+      "Input": 19,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_6)",
       "OnRelease": false
@@ -235,9 +197,7 @@
       "IsActive": true,
       "Description": "P",
       "InputType": "Switch",
-      "Input": {
-        "Position": 20
-      },
+      "Input": 20,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_P)",
       "OnRelease": false
@@ -247,9 +207,7 @@
       "IsActive": true,
       "Description": "Q",
       "InputType": "Switch",
-      "Input": {
-        "Position": 21
-      },
+      "Input": 21,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_Q)",
       "OnRelease": false
@@ -259,9 +217,7 @@
       "IsActive": true,
       "Description": "R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 22
-      },
+      "Input": 22,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_R)",
       "OnRelease": false
@@ -271,9 +227,7 @@
       "IsActive": true,
       "Description": "S",
       "InputType": "Switch",
-      "Input": {
-        "Position": 23
-      },
+      "Input": 23,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_S)",
       "OnRelease": false
@@ -283,9 +237,7 @@
       "IsActive": true,
       "Description": "T",
       "InputType": "Switch",
-      "Input": {
-        "Position": 24
-      },
+      "Input": 24,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_T)",
       "OnRelease": false
@@ -295,9 +247,7 @@
       "IsActive": true,
       "Description": "1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 25
-      },
+      "Input": 25,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_1)",
       "OnRelease": false
@@ -307,9 +257,7 @@
       "IsActive": true,
       "Description": "2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 26
-      },
+      "Input": 26,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_2)",
       "OnRelease": false
@@ -319,9 +267,7 @@
       "IsActive": true,
       "Description": "3",
       "InputType": "Switch",
-      "Input": {
-        "Position": 27
-      },
+      "Input": 27,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_3)",
       "OnRelease": false
@@ -331,9 +277,7 @@
       "IsActive": true,
       "Description": "K",
       "InputType": "Switch",
-      "Input": {
-        "Position": 28
-      },
+      "Input": 28,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_K)",
       "OnRelease": false
@@ -343,9 +287,7 @@
       "IsActive": true,
       "Description": "L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 29
-      },
+      "Input": 29,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_L)",
       "OnRelease": false
@@ -355,9 +297,7 @@
       "IsActive": true,
       "Description": "M",
       "InputType": "Switch",
-      "Input": {
-        "Position": 30
-      },
+      "Input": 30,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_M)",
       "OnRelease": false
@@ -367,9 +307,7 @@
       "IsActive": true,
       "Description": "N",
       "InputType": "Switch",
-      "Input": {
-        "Position": 31
-      },
+      "Input": 31,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_N)",
       "OnRelease": false
@@ -379,9 +317,7 @@
       "IsActive": true,
       "Description": "O",
       "InputType": "Switch",
-      "Input": {
-        "Position": 32
-      },
+      "Input": 32,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_O)",
       "OnRelease": false
@@ -391,9 +327,7 @@
       "IsActive": true,
       "Description": "prev page",
       "InputType": "Switch",
-      "Input": {
-        "Position": 33
-      },
+      "Input": 33,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_PREVPAGE)",
       "OnRelease": false
@@ -403,9 +337,7 @@
       "IsActive": true,
       "Description": "UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 34
-      },
+      "Input": 34,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_UP)",
       "OnRelease": false
@@ -415,9 +347,7 @@
       "IsActive": true,
       "Description": "LSK1L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 35
-      },
+      "Input": 35,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_L1)",
       "OnRelease": false
@@ -427,9 +357,7 @@
       "IsActive": true,
       "Description": "F",
       "InputType": "Switch",
-      "Input": {
-        "Position": 36
-      },
+      "Input": 36,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_F)",
       "OnRelease": false
@@ -439,9 +367,7 @@
       "IsActive": true,
       "Description": "G",
       "InputType": "Switch",
-      "Input": {
-        "Position": 37
-      },
+      "Input": 37,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_G)",
       "OnRelease": false
@@ -451,9 +377,7 @@
       "IsActive": true,
       "Description": "H",
       "InputType": "Switch",
-      "Input": {
-        "Position": 38
-      },
+      "Input": 38,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_H)",
       "OnRelease": false
@@ -463,9 +387,7 @@
       "IsActive": true,
       "Description": "I",
       "InputType": "Switch",
-      "Input": {
-        "Position": 39
-      },
+      "Input": 39,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_I)",
       "OnRelease": false
@@ -475,9 +397,7 @@
       "IsActive": true,
       "Description": "J",
       "InputType": "Switch",
-      "Input": {
-        "Position": 40
-      },
+      "Input": 40,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_J)",
       "OnRelease": false
@@ -487,9 +407,7 @@
       "IsActive": true,
       "Description": "Airport",
       "InputType": "Switch",
-      "Input": {
-        "Position": 41
-      },
+      "Input": 41,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_AIRPORT)",
       "OnRelease": false
@@ -499,9 +417,7 @@
       "IsActive": true,
       "Description": "LSK2L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 43
-      },
+      "Input": 43,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_L2)",
       "OnRelease": false
@@ -511,9 +427,7 @@
       "IsActive": true,
       "Description": "A",
       "InputType": "Switch",
-      "Input": {
-        "Position": 44
-      },
+      "Input": 44,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_A)",
       "OnRelease": false
@@ -523,9 +437,7 @@
       "IsActive": true,
       "Description": "B",
       "InputType": "Switch",
-      "Input": {
-        "Position": 45
-      },
+      "Input": 45,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_B)",
       "OnRelease": false
@@ -535,9 +447,7 @@
       "IsActive": true,
       "Description": "C",
       "InputType": "Switch",
-      "Input": {
-        "Position": 46
-      },
+      "Input": 46,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_C)",
       "OnRelease": false
@@ -547,9 +457,7 @@
       "IsActive": true,
       "Description": "D",
       "InputType": "Switch",
-      "Input": {
-        "Position": 47
-      },
+      "Input": 47,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_D)",
       "OnRelease": false
@@ -559,9 +467,7 @@
       "IsActive": true,
       "Description": "E",
       "InputType": "Switch",
-      "Input": {
-        "Position": 48
-      },
+      "Input": 48,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_E)",
       "OnRelease": false
@@ -571,9 +477,7 @@
       "IsActive": true,
       "Description": "F-PLN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 49
-      },
+      "Input": 49,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_FPLN)",
       "OnRelease": false
@@ -583,9 +487,7 @@
       "IsActive": true,
       "Description": "RAD",
       "InputType": "Switch",
-      "Input": {
-        "Position": 50
-      },
+      "Input": 50,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_RAD)",
       "OnRelease": false
@@ -595,9 +497,7 @@
       "IsActive": true,
       "Description": "LSK3L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 51
-      },
+      "Input": 51,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_L3)",
       "OnRelease": false
@@ -607,9 +507,7 @@
       "IsActive": true,
       "Description": "Fuel",
       "InputType": "Switch",
-      "Input": {
-        "Position": 52
-      },
+      "Input": 52,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_FUEL)",
       "OnRelease": false
@@ -619,9 +517,7 @@
       "IsActive": true,
       "Description": "Sec F-PLN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 53
-      },
+      "Input": 53,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_SEC)",
       "OnRelease": false
@@ -631,9 +527,7 @@
       "IsActive": true,
       "Description": "ATC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 54
-      },
+      "Input": 54,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_ATC)",
       "OnRelease": false
@@ -643,9 +537,7 @@
       "IsActive": true,
       "Description": "Menu",
       "InputType": "Switch",
-      "Input": {
-        "Position": 55
-      },
+      "Input": 55,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_MENU)",
       "OnRelease": false
@@ -655,9 +547,7 @@
       "IsActive": true,
       "Description": "LSK5L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 56
-      },
+      "Input": 56,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_L5)",
       "OnRelease": false
@@ -667,9 +557,7 @@
       "IsActive": true,
       "Description": "Direct",
       "InputType": "Switch",
-      "Input": {
-        "Position": 57
-      },
+      "Input": 57,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_DIR)",
       "OnRelease": false
@@ -679,9 +567,7 @@
       "IsActive": true,
       "Description": "Progress",
       "InputType": "Switch",
-      "Input": {
-        "Position": 58
-      },
+      "Input": 58,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_PROG)",
       "OnRelease": false
@@ -691,9 +577,7 @@
       "IsActive": true,
       "Description": "LSK4L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 59
-      },
+      "Input": 59,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_L4)",
       "OnRelease": false
@@ -703,9 +587,7 @@
       "IsActive": true,
       "Description": "Performance",
       "InputType": "Switch",
-      "Input": {
-        "Position": 60
-      },
+      "Input": 60,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_PERF)",
       "OnRelease": false
@@ -715,9 +597,7 @@
       "IsActive": true,
       "Description": "Init page",
       "InputType": "Switch",
-      "Input": {
-        "Position": 61
-      },
+      "Input": 61,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_INIT)",
       "OnRelease": false
@@ -727,9 +607,7 @@
       "IsActive": true,
       "Description": "Data",
       "InputType": "Switch",
-      "Input": {
-        "Position": 62
-      },
+      "Input": 62,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_DATA)",
       "OnRelease": false
@@ -739,9 +617,7 @@
       "IsActive": true,
       "Description": "LSK1R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 65
-      },
+      "Input": 65,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_R1)",
       "OnRelease": false
@@ -751,9 +627,7 @@
       "IsActive": true,
       "Description": "LSK2R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 66
-      },
+      "Input": 66,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_R2)",
       "OnRelease": false
@@ -763,9 +637,7 @@
       "IsActive": true,
       "Description": "LSK3R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 67
-      },
+      "Input": 67,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_R3)",
       "OnRelease": false
@@ -775,9 +647,7 @@
       "IsActive": true,
       "Description": "LSK4R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 68
-      },
+      "Input": 68,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_R4)",
       "OnRelease": false
@@ -787,9 +657,7 @@
       "IsActive": true,
       "Description": "LSK5R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 69
-      },
+      "Input": 69,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_R5)",
       "OnRelease": false
@@ -799,9 +667,7 @@
       "IsActive": true,
       "Description": "LSK6R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 70
-      },
+      "Input": 70,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_R6)",
       "OnRelease": false
@@ -811,9 +677,7 @@
       "IsActive": true,
       "Description": "LSK6R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 71
-      },
+      "Input": 71,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_L6)",
       "OnRelease": false
@@ -823,9 +687,7 @@
       "IsActive": true,
       "Description": "next page",
       "InputType": "Switch",
-      "Input": {
-        "Position": 73
-      },
+      "Input": 73,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_NEXTPAGE)",
       "OnRelease": false
@@ -835,9 +697,7 @@
       "IsActive": true,
       "Description": "down",
       "InputType": "Switch",
-      "Input": {
-        "Position": 74
-      },
+      "Input": 74,
       "EventType": "RPN/H-Events",
       "Event": "(\u003EH:A320_Neo_CDU_2_BTN_DOWN)",
       "OnRelease": false

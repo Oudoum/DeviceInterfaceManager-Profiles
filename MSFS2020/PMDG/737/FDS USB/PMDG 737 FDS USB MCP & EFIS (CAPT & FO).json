@@ -1,5 +1,5 @@
 {
-  "ProfileName": "PMDG 737 FDS USB MCP & EFIS (CAPT & FO)",
+  "ProfileName": "PMDG 737 FDS USB MCP \u0026 EFIS (CAPT \u0026 FO)",
   "DeviceName": "FDS 737 MX MCP",
   "InputCreators": [
     {
@@ -7,9 +7,7 @@
       "IsActive": true,
       "Description": "FD LEFT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -21,9 +19,7 @@
       "IsActive": true,
       "Description": "A/T ARM",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -35,9 +31,7 @@
       "IsActive": true,
       "Description": "N1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "PMDG737",
       "PmdgEvent": 70013,
       "PmdgMousePress": 536870912,
@@ -49,9 +43,7 @@
       "IsActive": true,
       "Description": "SPEED",
       "InputType": "Switch",
-      "Input": {
-        "Position": 5
-      },
+      "Input": 5,
       "EventType": "PMDG737",
       "PmdgEvent": 70014,
       "PmdgMousePress": 536870912,
@@ -63,9 +55,7 @@
       "IsActive": true,
       "Description": "C/O",
       "InputType": "Switch",
-      "Input": {
-        "Position": 6
-      },
+      "Input": 6,
       "EventType": "PMDG737",
       "PmdgEvent": 70015,
       "PmdgMousePress": 536870912,
@@ -77,9 +67,7 @@
       "IsActive": true,
       "Description": "SPD INTV",
       "InputType": "Switch",
-      "Input": {
-        "Position": 8
-      },
+      "Input": 8,
       "EventType": "PMDG737",
       "PmdgEvent": 70019,
       "PmdgMousePress": 536870912,
@@ -91,9 +79,7 @@
       "IsActive": true,
       "Description": "VNAV",
       "InputType": "Switch",
-      "Input": {
-        "Position": 9
-      },
+      "Input": 9,
       "EventType": "PMDG737",
       "PmdgEvent": 70018,
       "PmdgMousePress": 536870912,
@@ -105,9 +91,7 @@
       "IsActive": true,
       "Description": "LVL CHG",
       "InputType": "Switch",
-      "Input": {
-        "Position": 10
-      },
+      "Input": 10,
       "EventType": "PMDG737",
       "PmdgEvent": 70023,
       "PmdgMousePress": 536870912,
@@ -119,9 +103,7 @@
       "IsActive": true,
       "Description": "HDG SEL",
       "InputType": "Switch",
-      "Input": {
-        "Position": 12
-      },
+      "Input": 12,
       "EventType": "PMDG737",
       "PmdgEvent": 70024,
       "PmdgMousePress": 536870912,
@@ -133,9 +115,7 @@
       "IsActive": true,
       "Description": "LNAV",
       "InputType": "Switch",
-      "Input": {
-        "Position": 13
-      },
+      "Input": 13,
       "EventType": "PMDG737",
       "PmdgEvent": 70029,
       "PmdgMousePress": 536870912,
@@ -147,9 +127,7 @@
       "IsActive": true,
       "Description": "VOR LOC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 14
-      },
+      "Input": 14,
       "EventType": "PMDG737",
       "PmdgEvent": 70028,
       "PmdgMousePress": 536870912,
@@ -161,9 +139,7 @@
       "IsActive": true,
       "Description": "APP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 15
-      },
+      "Input": 15,
       "EventType": "PMDG737",
       "PmdgEvent": 70025,
       "PmdgMousePress": 536870912,
@@ -175,9 +151,7 @@
       "IsActive": true,
       "Description": "ALT HOLD",
       "InputType": "Switch",
-      "Input": {
-        "Position": 17
-      },
+      "Input": 17,
       "EventType": "PMDG737",
       "PmdgEvent": 70026,
       "PmdgMousePress": 536870912,
@@ -189,9 +163,7 @@
       "IsActive": true,
       "Description": "ALT INTV",
       "InputType": "Switch",
-      "Input": {
-        "Position": 18
-      },
+      "Input": 18,
       "EventType": "PMDG737",
       "PmdgEvent": 70517,
       "PmdgMousePress": 536870912,
@@ -203,9 +175,7 @@
       "IsActive": true,
       "Description": "V/S",
       "InputType": "Switch",
-      "Input": {
-        "Position": 19
-      },
+      "Input": 19,
       "EventType": "PMDG737",
       "PmdgEvent": 70027,
       "PmdgMousePress": 536870912,
@@ -217,9 +187,7 @@
       "IsActive": true,
       "Description": "CMD A",
       "InputType": "Switch",
-      "Input": {
-        "Position": 20
-      },
+      "Input": 20,
       "EventType": "PMDG737",
       "PmdgEvent": 70034,
       "PmdgMousePress": 536870912,
@@ -231,9 +199,7 @@
       "IsActive": true,
       "Description": "CWS A",
       "InputType": "Switch",
-      "Input": {
-        "Position": 21
-      },
+      "Input": 21,
       "EventType": "PMDG737",
       "PmdgEvent": 70036,
       "PmdgMousePress": 536870912,
@@ -245,9 +211,7 @@
       "IsActive": true,
       "Description": "DISENGAGE",
       "InputType": "Switch",
-      "Input": {
-        "Position": 22
-      },
+      "Input": 22,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -259,9 +223,7 @@
       "IsActive": true,
       "Description": "CMD B",
       "InputType": "Switch",
-      "Input": {
-        "Position": 23
-      },
+      "Input": 23,
       "EventType": "PMDG737",
       "PmdgEvent": 70035,
       "PmdgMousePress": 536870912,
@@ -273,9 +235,7 @@
       "IsActive": true,
       "Description": "CWS B",
       "InputType": "Switch",
-      "Input": {
-        "Position": 24
-      },
+      "Input": 24,
       "EventType": "PMDG737",
       "PmdgEvent": 70037,
       "PmdgMousePress": 536870912,
@@ -287,9 +247,7 @@
       "IsActive": true,
       "Description": "FD RIGHT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 25
-      },
+      "Input": 25,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -301,9 +259,7 @@
       "IsActive": true,
       "Description": "BANK ANGLE 10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 26
-      },
+      "Input": 26,
       "EventType": "PMDG737",
       "DataPress": 0,
       "PmdgEvent": 70021,
@@ -314,9 +270,7 @@
       "IsActive": true,
       "Description": "BANK ANGLE 15",
       "InputType": "Switch",
-      "Input": {
-        "Position": 27
-      },
+      "Input": 27,
       "EventType": "PMDG737",
       "DataPress": 1,
       "PmdgEvent": 70021,
@@ -327,9 +281,7 @@
       "IsActive": true,
       "Description": "BANK ANGLE 20",
       "InputType": "Switch",
-      "Input": {
-        "Position": 28
-      },
+      "Input": 28,
       "EventType": "PMDG737",
       "DataPress": 2,
       "PmdgEvent": 70021,
@@ -340,9 +292,7 @@
       "IsActive": true,
       "Description": "BANK ANGLE 25",
       "InputType": "Switch",
-      "Input": {
-        "Position": 29
-      },
+      "Input": 29,
       "EventType": "PMDG737",
       "DataPress": 3,
       "PmdgEvent": 70021,
@@ -353,9 +303,7 @@
       "IsActive": true,
       "Description": "BANK ANGLE 30",
       "InputType": "Switch",
-      "Input": {
-        "Position": 30
-      },
+      "Input": 30,
       "EventType": "PMDG737",
       "DataPress": 4,
       "PmdgEvent": 70021,
@@ -366,9 +314,7 @@
       "IsActive": true,
       "Description": "COURSE LEFT DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 33
-      },
+      "Input": 33,
       "EventType": "PMDG737",
       "PmdgEvent": 70008,
       "PmdgMousePress": 8192,
@@ -379,9 +325,7 @@
       "IsActive": true,
       "Description": "COURSE LEFT UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 34
-      },
+      "Input": 34,
       "EventType": "PMDG737",
       "PmdgEvent": 70008,
       "PmdgMousePress": 16384,
@@ -392,9 +336,7 @@
       "IsActive": true,
       "Description": "SPEED DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 35
-      },
+      "Input": 35,
       "EventType": "PMDG737",
       "PmdgEvent": 70016,
       "PmdgMousePress": 8192,
@@ -405,9 +347,7 @@
       "IsActive": true,
       "Description": "SPEED UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 36
-      },
+      "Input": 36,
       "EventType": "PMDG737",
       "PmdgEvent": 70016,
       "PmdgMousePress": 16384,
@@ -418,9 +358,7 @@
       "IsActive": true,
       "Description": "HEADING DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 37
-      },
+      "Input": 37,
       "EventType": "PMDG737",
       "PmdgEvent": 70022,
       "PmdgMousePress": 8192,
@@ -431,9 +369,7 @@
       "IsActive": true,
       "Description": "HEADING UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 38
-      },
+      "Input": 38,
       "EventType": "PMDG737",
       "PmdgEvent": 70022,
       "PmdgMousePress": 16384,
@@ -444,9 +380,7 @@
       "IsActive": true,
       "Description": "ALTITUDE DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 41
-      },
+      "Input": 41,
       "EventType": "PMDG737",
       "PmdgEvent": 70032,
       "PmdgMousePress": 8192,
@@ -457,9 +391,7 @@
       "IsActive": true,
       "Description": "ALTITUDE UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 42
-      },
+      "Input": 42,
       "EventType": "PMDG737",
       "PmdgEvent": 70032,
       "PmdgMousePress": 16384,
@@ -470,9 +402,7 @@
       "IsActive": true,
       "Description": "V/S UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 43
-      },
+      "Input": 43,
       "EventType": "PMDG737",
       "PmdgEvent": 70033,
       "PmdgMousePress": 16384,
@@ -483,9 +413,7 @@
       "IsActive": true,
       "Description": "V/S DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 44
-      },
+      "Input": 44,
       "EventType": "PMDG737",
       "PmdgEvent": 70033,
       "PmdgMousePress": 8192,
@@ -496,9 +424,7 @@
       "IsActive": true,
       "Description": "COURSE RIGHT DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 45
-      },
+      "Input": 45,
       "EventType": "PMDG737",
       "PmdgEvent": 70041,
       "PmdgMousePress": 8192,
@@ -509,9 +435,7 @@
       "IsActive": true,
       "Description": "COURSE RIGHT UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 46
-      },
+      "Input": 46,
       "EventType": "PMDG737",
       "PmdgEvent": 70041,
       "PmdgMousePress": 16384,
@@ -522,9 +446,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MINS DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 57
-      },
+      "Input": 57,
       "EventType": "PMDG737",
       "PmdgEvent": 69987,
       "PmdgMousePress": 8192,
@@ -535,9 +457,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MINS UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 58
-      },
+      "Input": 58,
       "EventType": "PMDG737",
       "PmdgEvent": 69987,
       "PmdgMousePress": 16384,
@@ -548,9 +468,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT BARO DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 59
-      },
+      "Input": 59,
       "EventType": "PMDG737",
       "PmdgEvent": 69997,
       "PmdgMousePress": 8192,
@@ -561,9 +479,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT BARO UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 60
-      },
+      "Input": 60,
       "EventType": "PMDG737",
       "PmdgEvent": 69997,
       "PmdgMousePress": 16384,
@@ -574,9 +490,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MODE APP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 65
-      },
+      "Input": 65,
       "EventType": "PMDG737",
       "DataPress": 0,
       "PmdgEvent": 69991,
@@ -587,9 +501,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MODE VOR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 66
-      },
+      "Input": 66,
       "EventType": "PMDG737",
       "DataPress": 1,
       "PmdgEvent": 69991,
@@ -600,9 +512,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MODE MAP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 67
-      },
+      "Input": 67,
       "EventType": "PMDG737",
       "DataPress": 2,
       "PmdgEvent": 69991,
@@ -613,9 +523,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MODE PLN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 68
-      },
+      "Input": 68,
       "EventType": "PMDG737",
       "DataPress": 3,
       "PmdgEvent": 69991,
@@ -626,9 +534,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT VOR 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 69
-      },
+      "Input": 69,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -640,9 +546,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT ADF 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 70
-      },
+      "Input": 70,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -654,9 +558,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT VOR 2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 71
-      },
+      "Input": 71,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -668,9 +570,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT ADF 2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 72
-      },
+      "Input": 72,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -682,9 +582,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT FPV",
       "InputType": "Switch",
-      "Input": {
-        "Position": 73
-      },
+      "Input": 73,
       "EventType": "PMDG737",
       "PmdgEvent": 69995,
       "PmdgMousePress": 536870912,
@@ -696,9 +594,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MTRS",
       "InputType": "Switch",
-      "Input": {
-        "Position": 74
-      },
+      "Input": 74,
       "EventType": "PMDG737",
       "PmdgEvent": 69996,
       "PmdgMousePress": 536870912,
@@ -710,9 +606,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MODE CTR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 75
-      },
+      "Input": 75,
       "EventType": "PMDG737",
       "PmdgEvent": 69992,
       "PmdgMousePress": 536870912,
@@ -724,9 +618,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 640",
       "InputType": "Switch",
-      "Input": {
-        "Position": 76
-      },
+      "Input": 76,
       "EventType": "PMDG737",
       "PmdgEvent": 69994,
       "PmdgMousePress": 536870912,
@@ -738,9 +630,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT MINS RST",
       "InputType": "Switch",
-      "Input": {
-        "Position": 77
-      },
+      "Input": 77,
       "EventType": "PMDG737",
       "PmdgEvent": 69989,
       "PmdgMousePress": 536870912,
@@ -752,9 +642,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT BARO STD",
       "InputType": "Switch",
-      "Input": {
-        "Position": 78
-      },
+      "Input": 78,
       "EventType": "PMDG737",
       "PmdgEvent": 69999,
       "PmdgMousePress": 536870912,
@@ -766,9 +654,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RADIO/BARO",
       "InputType": "Switch",
-      "Input": {
-        "Position": 79
-      },
+      "Input": 79,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -780,9 +666,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT IN/HPA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 80
-      },
+      "Input": 80,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -794,9 +678,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT WXR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 81
-      },
+      "Input": 81,
       "EventType": "PMDG737",
       "PmdgEvent": 70001,
       "PmdgMousePress": 536870912,
@@ -808,9 +690,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT STA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 82
-      },
+      "Input": 82,
       "EventType": "PMDG737",
       "PmdgEvent": 70002,
       "PmdgMousePress": 536870912,
@@ -822,9 +702,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT WPT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 83
-      },
+      "Input": 83,
       "EventType": "PMDG737",
       "PmdgEvent": 70003,
       "PmdgMousePress": 536870912,
@@ -836,9 +714,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT ARPT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 84
-      },
+      "Input": 84,
       "EventType": "PMDG737",
       "PmdgEvent": 70004,
       "PmdgMousePress": 536870912,
@@ -850,9 +726,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT DATA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 85
-      },
+      "Input": 85,
       "EventType": "PMDG737",
       "PmdgEvent": 70005,
       "PmdgMousePress": 536870912,
@@ -864,9 +738,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT POS",
       "InputType": "Switch",
-      "Input": {
-        "Position": 86
-      },
+      "Input": 86,
       "EventType": "PMDG737",
       "PmdgEvent": 70006,
       "PmdgMousePress": 536870912,
@@ -878,9 +750,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT TERR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 87
-      },
+      "Input": 87,
       "EventType": "PMDG737",
       "PmdgEvent": 70007,
       "PmdgMousePress": 536870912,
@@ -892,9 +762,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 89
-      },
+      "Input": 89,
       "EventType": "PMDG737",
       "DataPress": 0,
       "PmdgEvent": 69993,
@@ -905,9 +773,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 90
-      },
+      "Input": 90,
       "EventType": "PMDG737",
       "DataPress": 1,
       "PmdgEvent": 69993,
@@ -918,9 +784,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 20",
       "InputType": "Switch",
-      "Input": {
-        "Position": 91
-      },
+      "Input": 91,
       "EventType": "PMDG737",
       "DataPress": 2,
       "PmdgEvent": 69993,
@@ -931,9 +795,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 40",
       "InputType": "Switch",
-      "Input": {
-        "Position": 92
-      },
+      "Input": 92,
       "EventType": "PMDG737",
       "DataPress": 3,
       "PmdgEvent": 69993,
@@ -944,9 +806,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 80",
       "InputType": "Switch",
-      "Input": {
-        "Position": 93
-      },
+      "Input": 93,
       "EventType": "PMDG737",
       "DataPress": 4,
       "PmdgEvent": 69993,
@@ -957,9 +817,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 160",
       "InputType": "Switch",
-      "Input": {
-        "Position": 94
-      },
+      "Input": 94,
       "EventType": "PMDG737",
       "DataPress": 5,
       "PmdgEvent": 69993,
@@ -970,9 +828,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 320",
       "InputType": "Switch",
-      "Input": {
-        "Position": 95
-      },
+      "Input": 95,
       "EventType": "PMDG737",
       "DataPress": 6,
       "PmdgEvent": 69993,
@@ -983,9 +839,7 @@
       "IsActive": true,
       "Description": "EFIS LEFT RANGE 640",
       "InputType": "Switch",
-      "Input": {
-        "Position": 96
-      },
+      "Input": 96,
       "EventType": "PMDG737",
       "DataPress": 7,
       "PmdgEvent": 69993,
@@ -996,9 +850,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MINS DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 61
-      },
+      "Input": 61,
       "EventType": "PMDG737",
       "PmdgEvent": 70043,
       "PmdgMousePress": 8192,
@@ -1009,9 +861,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MINS UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 62
-      },
+      "Input": 62,
       "EventType": "PMDG737",
       "PmdgEvent": 70043,
       "PmdgMousePress": 16384,
@@ -1022,9 +872,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT BARO DOWN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 63
-      },
+      "Input": 63,
       "EventType": "PMDG737",
       "PmdgEvent": 70053,
       "PmdgMousePress": 8192,
@@ -1035,9 +883,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT BARO UP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 64
-      },
+      "Input": 64,
       "EventType": "PMDG737",
       "PmdgEvent": 70053,
       "PmdgMousePress": 16384,
@@ -1048,9 +894,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MODE APP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 97
-      },
+      "Input": 97,
       "EventType": "PMDG737",
       "DataPress": 0,
       "PmdgEvent": 70047,
@@ -1061,9 +905,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MODE VOR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 98
-      },
+      "Input": 98,
       "EventType": "PMDG737",
       "DataPress": 1,
       "PmdgEvent": 70047,
@@ -1074,9 +916,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MODE MAP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 99
-      },
+      "Input": 99,
       "EventType": "PMDG737",
       "DataPress": 2,
       "PmdgEvent": 70047,
@@ -1087,9 +927,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MODE PLN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 100
-      },
+      "Input": 100,
       "EventType": "PMDG737",
       "DataPress": 3,
       "PmdgEvent": 70047,
@@ -1100,9 +938,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT VOR 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 101
-      },
+      "Input": 101,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1114,9 +950,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT ADF 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 102
-      },
+      "Input": 102,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -1128,9 +962,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT VOR 2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 103
-      },
+      "Input": 103,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1142,9 +974,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT ADF 2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 104
-      },
+      "Input": 104,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -1156,9 +986,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT FPV",
       "InputType": "Switch",
-      "Input": {
-        "Position": 105
-      },
+      "Input": 105,
       "EventType": "PMDG737",
       "PmdgEvent": 70051,
       "PmdgMousePress": 536870912,
@@ -1170,9 +998,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MTRS",
       "InputType": "Switch",
-      "Input": {
-        "Position": 106
-      },
+      "Input": 106,
       "EventType": "PMDG737",
       "PmdgEvent": 70052,
       "PmdgMousePress": 536870912,
@@ -1184,9 +1010,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MODE CTR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 107
-      },
+      "Input": 107,
       "EventType": "PMDG737",
       "PmdgEvent": 70048,
       "PmdgMousePress": 536870912,
@@ -1198,9 +1022,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 640",
       "InputType": "Switch",
-      "Input": {
-        "Position": 108
-      },
+      "Input": 108,
       "EventType": "PMDG737",
       "PmdgEvent": 70050,
       "PmdgMousePress": 536870912,
@@ -1212,9 +1034,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT MINS RST",
       "InputType": "Switch",
-      "Input": {
-        "Position": 109
-      },
+      "Input": 109,
       "EventType": "PMDG737",
       "PmdgEvent": 70045,
       "PmdgMousePress": 536870912,
@@ -1226,9 +1046,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT BARO STD",
       "InputType": "Switch",
-      "Input": {
-        "Position": 110
-      },
+      "Input": 110,
       "EventType": "PMDG737",
       "PmdgEvent": 70055,
       "PmdgMousePress": 536870912,
@@ -1240,9 +1058,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RADIO/BARO",
       "InputType": "Switch",
-      "Input": {
-        "Position": 111
-      },
+      "Input": 111,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1254,9 +1070,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT IN/HPA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 112
-      },
+      "Input": 112,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1268,9 +1082,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT WXR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 113
-      },
+      "Input": 113,
       "EventType": "PMDG737",
       "PmdgEvent": 70057,
       "PmdgMousePress": 536870912,
@@ -1282,9 +1094,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT STA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 114
-      },
+      "Input": 114,
       "EventType": "PMDG737",
       "PmdgEvent": 70058,
       "PmdgMousePress": 536870912,
@@ -1296,9 +1106,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT WPT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 115
-      },
+      "Input": 115,
       "EventType": "PMDG737",
       "PmdgEvent": 70059,
       "PmdgMousePress": 536870912,
@@ -1310,9 +1118,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT ARPT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 116
-      },
+      "Input": 116,
       "EventType": "PMDG737",
       "PmdgEvent": 70060,
       "PmdgMousePress": 536870912,
@@ -1324,9 +1130,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT DATA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 117
-      },
+      "Input": 117,
       "EventType": "PMDG737",
       "PmdgEvent": 70061,
       "PmdgMousePress": 536870912,
@@ -1338,9 +1142,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT POS",
       "InputType": "Switch",
-      "Input": {
-        "Position": 118
-      },
+      "Input": 118,
       "EventType": "PMDG737",
       "PmdgEvent": 70062,
       "PmdgMousePress": 536870912,
@@ -1352,9 +1154,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT TERR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 119
-      },
+      "Input": 119,
       "EventType": "PMDG737",
       "PmdgEvent": 70063,
       "PmdgMousePress": 536870912,
@@ -1366,9 +1166,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 121
-      },
+      "Input": 121,
       "EventType": "PMDG737",
       "DataPress": 0,
       "PmdgEvent": 70049,
@@ -1379,9 +1177,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 122
-      },
+      "Input": 122,
       "EventType": "PMDG737",
       "DataPress": 1,
       "PmdgEvent": 70049,
@@ -1392,9 +1188,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 20",
       "InputType": "Switch",
-      "Input": {
-        "Position": 123
-      },
+      "Input": 123,
       "EventType": "PMDG737",
       "DataPress": 2,
       "PmdgEvent": 70049,
@@ -1405,9 +1199,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 40",
       "InputType": "Switch",
-      "Input": {
-        "Position": 124
-      },
+      "Input": 124,
       "EventType": "PMDG737",
       "DataPress": 3,
       "PmdgEvent": 70049,
@@ -1418,9 +1210,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 80",
       "InputType": "Switch",
-      "Input": {
-        "Position": 125
-      },
+      "Input": 125,
       "EventType": "PMDG737",
       "DataPress": 4,
       "PmdgEvent": 70049,
@@ -1431,9 +1221,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 160",
       "InputType": "Switch",
-      "Input": {
-        "Position": 126
-      },
+      "Input": 126,
       "EventType": "PMDG737",
       "DataPress": 5,
       "PmdgEvent": 70049,
@@ -1444,9 +1232,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 320",
       "InputType": "Switch",
-      "Input": {
-        "Position": 127
-      },
+      "Input": 127,
       "EventType": "PMDG737",
       "DataPress": 6,
       "PmdgEvent": 70049,
@@ -1457,9 +1243,7 @@
       "IsActive": false,
       "Description": "EFIS RIGHT RANGE 640",
       "InputType": "Switch",
-      "Input": {
-        "Position": 128
-      },
+      "Input": 128,
       "EventType": "PMDG737",
       "DataPress": 7,
       "PmdgEvent": 70049,

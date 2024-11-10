@@ -7,9 +7,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS -1 =\u003E -10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 1
-      },
+      "Input": 1,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": -30,
@@ -29,9 +27,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS 0 =\u003E -1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 1
-      },
+      "Input": 1,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": -5,
@@ -51,9 +47,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS 1 =\u003E 0",
       "InputType": "Switch",
-      "Input": {
-        "Position": 1
-      },
+      "Input": 1,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": 0,
@@ -73,9 +67,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS 10 =\u003E 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 1
-      },
+      "Input": 1,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": 5,
@@ -95,9 +87,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS -10 =\u003E -1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": -5,
@@ -117,9 +107,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS -1 =\u003E 0",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": 0,
@@ -139,9 +127,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS 0 =\u003E 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": 5,
@@ -161,9 +147,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS 1 =\u003E 10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CAMinsKnob",
       "DataPress": 30,
@@ -183,9 +167,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO -1 =\u003E -10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": -40,
@@ -205,9 +187,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO 0 =\u003E -1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": -5,
@@ -227,9 +207,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO 1 =\u003E 0",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": 0,
@@ -249,9 +227,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO 10 =\u003E 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": 5,
@@ -271,9 +247,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO -10 =\u003E -1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": -5,
@@ -293,9 +267,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO -1 =\u003E 0",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": 0,
@@ -315,9 +287,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO 0 =\u003E 1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": 5,
@@ -337,9 +307,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO 1 =\u003E 10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:CABaroKnob",
       "DataPress": 40,
@@ -359,9 +327,7 @@
       "IsActive": true,
       "Description": "MCP SPEED SELECTOR DEC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 5
-      },
+      "Input": 5,
       "EventType": "PMDG777",
       "PmdgEvent": 69842,
       "PmdgMousePress": 8192,
@@ -372,9 +338,7 @@
       "IsActive": true,
       "Description": "MCP SPEED SELECTOR INC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 6
-      },
+      "Input": 6,
       "EventType": "PMDG777",
       "PmdgEvent": 69842,
       "PmdgMousePress": 16384,
@@ -385,9 +349,7 @@
       "IsActive": true,
       "Description": "MCP HEADING SELECTOR DEC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 7
-      },
+      "Input": 7,
       "EventType": "PMDG777",
       "PmdgEvent": 71812,
       "PmdgMousePress": 8192,
@@ -398,9 +360,7 @@
       "IsActive": true,
       "Description": "MCP HEADING SELECTOR INC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 8
-      },
+      "Input": 8,
       "EventType": "PMDG777",
       "PmdgEvent": 71812,
       "PmdgMousePress": 16384,
@@ -411,9 +371,7 @@
       "IsActive": true,
       "Description": "MCP VS SELECTOR DEC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 9
-      },
+      "Input": 9,
       "EventType": "PMDG777",
       "PmdgEvent": 69854,
       "PmdgMousePress": 8192,
@@ -424,9 +382,7 @@
       "IsActive": true,
       "Description": "MCP VS SELECTOR INC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 10
-      },
+      "Input": 10,
       "EventType": "PMDG777",
       "PmdgEvent": 69854,
       "PmdgMousePress": 16384,
@@ -437,9 +393,7 @@
       "IsActive": true,
       "Description": "MCP ALTITUDE SELECTOR DEC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 11
-      },
+      "Input": 11,
       "EventType": "PMDG777",
       "PmdgEvent": 71882,
       "PmdgMousePress": 8192,
@@ -450,9 +404,7 @@
       "IsActive": true,
       "Description": "MCP ALTITUDE SELECTOR INC",
       "InputType": "Switch",
-      "Input": {
-        "Position": 12
-      },
+      "Input": 12,
       "EventType": "PMDG777",
       "PmdgEvent": 71882,
       "PmdgMousePress": 16384,
@@ -463,9 +415,7 @@
       "IsActive": true,
       "Description": "MCP FD SWITCH L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 17
-      },
+      "Input": 17,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -477,9 +427,7 @@
       "IsActive": true,
       "Description": "MCP AT ARM SWITCH L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 18
-      },
+      "Input": 18,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -491,9 +439,7 @@
       "IsActive": true,
       "Description": "MCP AT ARM SWITCH R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 19
-      },
+      "Input": 19,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -505,9 +451,7 @@
       "IsActive": true,
       "Description": "MCP IAS MACH SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 20
-      },
+      "Input": 20,
       "EventType": "PMDG777",
       "PmdgEvent": 69840,
       "PmdgMousePress": 536870912,
@@ -519,9 +463,7 @@
       "IsActive": true,
       "Description": "MCP DISENGAGE BAR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 21
-      },
+      "Input": 21,
       "EventType": "PMDG777",
       "DataPress": 1,
       "DataRelease": 0,
@@ -533,9 +475,7 @@
       "IsActive": true,
       "Description": "MCP HDG TRK SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 22
-      },
+      "Input": 22,
       "EventType": "PMDG777",
       "PmdgEvent": 69848,
       "PmdgMousePress": 536870912,
@@ -547,9 +487,7 @@
       "IsActive": true,
       "Description": "MCP VS FPA SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 23
-      },
+      "Input": 23,
       "EventType": "PMDG777",
       "PmdgEvent": 69852,
       "PmdgMousePress": 536870912,
@@ -561,9 +499,7 @@
       "IsActive": true,
       "Description": "MCP FD SWITCH R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 24
-      },
+      "Input": 24,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -575,9 +511,7 @@
       "IsActive": true,
       "Description": "MCP A L SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 25
-      },
+      "Input": 25,
       "EventType": "PMDG777",
       "PmdgEvent": 69835,
       "PmdgMousePress": 536870912,
@@ -589,9 +523,7 @@
       "IsActive": true,
       "Description": "MCP CLB CON SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 26
-      },
+      "Input": 26,
       "EventType": "PMDG777",
       "PmdgEvent": 69838,
       "PmdgMousePress": 536870912,
@@ -603,9 +535,7 @@
       "IsActive": true,
       "Description": "MCP AT SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 27
-      },
+      "Input": 27,
       "EventType": "PMDG777",
       "PmdgEvent": 69839,
       "PmdgMousePress": 536870912,
@@ -617,9 +547,7 @@
       "IsActive": true,
       "Description": "MCP LNAV SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 28
-      },
+      "Input": 28,
       "EventType": "PMDG777",
       "PmdgEvent": 69843,
       "PmdgMousePress": 536870912,
@@ -631,9 +559,7 @@
       "IsActive": true,
       "Description": "MCP VNAV SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 29
-      },
+      "Input": 29,
       "EventType": "PMDG777",
       "PmdgEvent": 69844,
       "PmdgMousePress": 536870912,
@@ -645,9 +571,7 @@
       "IsActive": true,
       "Description": "MCP LVL CHG SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 30
-      },
+      "Input": 30,
       "EventType": "PMDG777",
       "PmdgEvent": 69845,
       "PmdgMousePress": 536870912,
@@ -659,9 +583,7 @@
       "IsActive": true,
       "Description": "MCP HDG HOLD SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 31
-      },
+      "Input": 31,
       "EventType": "PMDG777",
       "PmdgEvent": 69851,
       "PmdgMousePress": 536870912,
@@ -673,9 +595,7 @@
       "IsActive": true,
       "Description": "MCP VS SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 32
-      },
+      "Input": 32,
       "EventType": "PMDG777",
       "PmdgEvent": 69855,
       "PmdgMousePress": 536870912,
@@ -687,9 +607,7 @@
       "IsActive": true,
       "Description": "MCP ALT HOLD SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 33
-      },
+      "Input": 33,
       "EventType": "PMDG777",
       "PmdgEvent": 69858,
       "PmdgMousePress": 536870912,
@@ -701,9 +619,7 @@
       "IsActive": true,
       "Description": "MCP LOC SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 34
-      },
+      "Input": 34,
       "EventType": "PMDG777",
       "PmdgEvent": 69859,
       "PmdgMousePress": 536870912,
@@ -715,9 +631,7 @@
       "IsActive": true,
       "Description": "MCP APP SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 35
-      },
+      "Input": 35,
       "EventType": "PMDG777",
       "PmdgEvent": 69860,
       "PmdgMousePress": 536870912,
@@ -729,9 +643,7 @@
       "IsActive": true,
       "Description": "MCP AP R SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 36
-      },
+      "Input": 36,
       "EventType": "PMDG777",
       "PmdgEvent": 69861,
       "PmdgMousePress": 536870912,
@@ -743,9 +655,7 @@
       "IsActive": true,
       "Description": "MCP ALT INCR SELECTOR AUTO",
       "InputType": "Switch",
-      "Input": {
-        "Position": 37
-      },
+      "Input": 37,
       "EventType": "PMDG777",
       "DataPress": 0,
       "PmdgEvent": 69857,
@@ -756,9 +666,7 @@
       "IsActive": true,
       "Description": "MCP ALT INCR SELECTOR 1000",
       "InputType": "Switch",
-      "Input": {
-        "Position": 38
-      },
+      "Input": 38,
       "EventType": "PMDG777",
       "DataPress": 1,
       "PmdgEvent": 69857,
@@ -769,9 +677,7 @@
       "IsActive": true,
       "Description": "MCP SPEED PUSH SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 39
-      },
+      "Input": 39,
       "EventType": "PMDG777",
       "PmdgEvent": 71732,
       "PmdgMousePress": 536870912,
@@ -783,9 +689,7 @@
       "IsActive": true,
       "Description": "DSP L INBD SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 41
-      },
+      "Input": 41,
       "EventType": "PMDG777",
       "PmdgEvent": 69863,
       "PmdgMousePress": 536870912,
@@ -797,9 +701,7 @@
       "IsActive": true,
       "Description": "DSP LWR CTR SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 42
-      },
+      "Input": 42,
       "EventType": "PMDG777",
       "PmdgEvent": 69865,
       "PmdgMousePress": 536870912,
@@ -811,9 +713,7 @@
       "IsActive": true,
       "Description": "DSP LWR CTR SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 43
-      },
+      "Input": 43,
       "EventType": "PMDG777",
       "PmdgEvent": 69864,
       "PmdgMousePress": 536870912,
@@ -825,9 +725,7 @@
       "IsActive": true,
       "Description": "DSP ENG SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 44
-      },
+      "Input": 44,
       "EventType": "PMDG777",
       "PmdgEvent": 69866,
       "PmdgMousePress": 536870912,
@@ -839,9 +737,7 @@
       "IsActive": true,
       "Description": "DSP STAT SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 45
-      },
+      "Input": 45,
       "EventType": "PMDG777",
       "PmdgEvent": 69867,
       "PmdgMousePress": 536870912,
@@ -853,9 +749,7 @@
       "IsActive": true,
       "Description": "DSP ELEC SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 46
-      },
+      "Input": 46,
       "EventType": "PMDG777",
       "PmdgEvent": 69868,
       "PmdgMousePress": 536870912,
@@ -867,9 +761,7 @@
       "IsActive": true,
       "Description": "DSP HYD SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 47
-      },
+      "Input": 47,
       "EventType": "PMDG777",
       "PmdgEvent": 69869,
       "PmdgMousePress": 536870912,
@@ -881,9 +773,7 @@
       "IsActive": true,
       "Description": "DSP FUEL SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 48
-      },
+      "Input": 48,
       "EventType": "PMDG777",
       "PmdgEvent": 69870,
       "PmdgMousePress": 536870912,
@@ -895,9 +785,7 @@
       "IsActive": true,
       "Description": "DSP AIR SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 49
-      },
+      "Input": 49,
       "EventType": "PMDG777",
       "PmdgEvent": 69871,
       "PmdgMousePress": 536870912,
@@ -909,9 +797,7 @@
       "IsActive": true,
       "Description": "DSP DOOR SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 50
-      },
+      "Input": 50,
       "EventType": "PMDG777",
       "PmdgEvent": 69872,
       "PmdgMousePress": 536870912,
@@ -923,9 +809,7 @@
       "IsActive": true,
       "Description": "DSP GEAR SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 51
-      },
+      "Input": 51,
       "EventType": "PMDG777",
       "PmdgEvent": 69873,
       "PmdgMousePress": 536870912,
@@ -937,9 +821,7 @@
       "IsActive": true,
       "Description": "DSP FCTL SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 52
-      },
+      "Input": 52,
       "EventType": "PMDG777",
       "PmdgEvent": 69874,
       "PmdgMousePress": 536870912,
@@ -951,9 +833,7 @@
       "IsActive": true,
       "Description": "DSP CHKL SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 53
-      },
+      "Input": 53,
       "EventType": "PMDG777",
       "PmdgEvent": 69876,
       "PmdgMousePress": 536870912,
@@ -965,9 +845,7 @@
       "IsActive": true,
       "Description": "DSP COMM SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 54
-      },
+      "Input": 54,
       "EventType": "PMDG777",
       "PmdgEvent": 69877,
       "PmdgMousePress": 536870912,
@@ -979,9 +857,7 @@
       "IsActive": true,
       "Description": "DSP NAV SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 55
-      },
+      "Input": 55,
       "EventType": "PMDG777",
       "PmdgEvent": 69878,
       "PmdgMousePress": 536870912,
@@ -993,9 +869,7 @@
       "IsActive": true,
       "Description": "DSP CANC RCL SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 56
-      },
+      "Input": 56,
       "EventType": "PMDG777",
       "PmdgEvent": 69879,
       "PmdgMousePress": 536870912,
@@ -1007,9 +881,7 @@
       "IsActive": true,
       "Description": "MCP BANK ANGLE SELECTOR AUTO",
       "InputType": "Switch",
-      "Input": {
-        "Position": 57
-      },
+      "Input": 57,
       "EventType": "PMDG777",
       "DataPress": 0,
       "PmdgEvent": 71813,
@@ -1020,9 +892,7 @@
       "IsActive": true,
       "Description": "MCP BANK ANGLE SELECTOR 5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 58
-      },
+      "Input": 58,
       "EventType": "PMDG777",
       "DataPress": 1,
       "PmdgEvent": 71813,
@@ -1033,9 +903,7 @@
       "IsActive": true,
       "Description": "MCP BANK ANGLE SELECTOR 10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 59
-      },
+      "Input": 59,
       "EventType": "PMDG777",
       "DataPress": 2,
       "PmdgEvent": 71813,
@@ -1046,9 +914,7 @@
       "IsActive": true,
       "Description": "MCP BANK ANGLE SELECTOR 15",
       "InputType": "Switch",
-      "Input": {
-        "Position": 60
-      },
+      "Input": 60,
       "EventType": "PMDG777",
       "DataPress": 3,
       "PmdgEvent": 71813,
@@ -1059,9 +925,7 @@
       "IsActive": true,
       "Description": "MCP BANK ANGLE SELECTOR 20",
       "InputType": "Switch",
-      "Input": {
-        "Position": 61
-      },
+      "Input": 61,
       "EventType": "PMDG777",
       "DataPress": 4,
       "PmdgEvent": 71813,
@@ -1072,9 +936,7 @@
       "IsActive": true,
       "Description": "MCP BANK ANGLE SELECTOR 25",
       "InputType": "Switch",
-      "Input": {
-        "Position": 62
-      },
+      "Input": 62,
       "EventType": "PMDG777",
       "DataPress": 5,
       "PmdgEvent": 71813,
@@ -1085,9 +947,7 @@
       "IsActive": true,
       "Description": "MCP HEADING PUSH SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 63
-      },
+      "Input": 63,
       "EventType": "PMDG777",
       "PmdgEvent": 69850,
       "PmdgMousePress": 536870912,
@@ -1099,9 +959,7 @@
       "IsActive": true,
       "Description": "MCP ALTITUDE PUSH SWITCH",
       "InputType": "Switch",
-      "Input": {
-        "Position": 64
-      },
+      "Input": 64,
       "EventType": "PMDG777",
       "PmdgEvent": 71883,
       "PmdgMousePress": 536870912,
@@ -1113,9 +971,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MODE APP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 65
-      },
+      "Input": 65,
       "EventType": "PMDG777",
       "DataPress": 0,
       "PmdgEvent": 69817,
@@ -1126,9 +982,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MODE VOR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 66
-      },
+      "Input": 66,
       "EventType": "PMDG777",
       "DataPress": 1,
       "PmdgEvent": 69817,
@@ -1139,9 +993,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MODE MAP",
       "InputType": "Switch",
-      "Input": {
-        "Position": 67
-      },
+      "Input": 67,
       "EventType": "PMDG777",
       "DataPress": 2,
       "PmdgEvent": 69817,
@@ -1152,9 +1004,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MODE PLN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 68
-      },
+      "Input": 68,
       "EventType": "PMDG777",
       "DataPress": 3,
       "PmdgEvent": 69817,
@@ -1165,9 +1015,7 @@
       "IsActive": true,
       "Description": "EFIS CPT VOR SELECTOR L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 69
-      },
+      "Input": 69,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1179,9 +1027,7 @@
       "IsActive": true,
       "Description": "EFIS CPT ADF SELECTOR L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 70
-      },
+      "Input": 70,
       "EventType": "PMDG777",
       "DataPress": 2,
       "DataRelease": 1,
@@ -1193,9 +1039,7 @@
       "IsActive": true,
       "Description": "EFIS CPT VOR SELECTOR R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 71
-      },
+      "Input": 71,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1207,9 +1051,7 @@
       "IsActive": true,
       "Description": "EFIS CPT ADF SELECTOR R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 72
-      },
+      "Input": 72,
       "EventType": "PMDG777",
       "DataPress": 2,
       "DataRelease": 1,
@@ -1221,9 +1063,7 @@
       "IsActive": true,
       "Description": "EFIS CPT RANGE 10",
       "InputType": "Switch",
-      "Input": {
-        "Position": 73
-      },
+      "Input": 73,
       "EventType": "PMDG777",
       "DataPress": 0,
       "PmdgEvent": 69819,
@@ -1234,9 +1074,7 @@
       "IsActive": true,
       "Description": "EFIS CPT RANGE 20",
       "InputType": "Switch",
-      "Input": {
-        "Position": 74
-      },
+      "Input": 74,
       "EventType": "PMDG777",
       "DataPress": 1,
       "PmdgEvent": 69819,
@@ -1247,9 +1085,7 @@
       "IsActive": true,
       "Description": "EFIS CPT RANGE 40",
       "InputType": "Switch",
-      "Input": {
-        "Position": 75
-      },
+      "Input": 75,
       "EventType": "PMDG777",
       "DataPress": 2,
       "PmdgEvent": 69819,
@@ -1260,9 +1096,7 @@
       "IsActive": true,
       "Description": "EFIS CPT RANGE 80",
       "InputType": "Switch",
-      "Input": {
-        "Position": 76
-      },
+      "Input": 76,
       "EventType": "PMDG777",
       "DataPress": 3,
       "PmdgEvent": 69819,
@@ -1273,9 +1107,7 @@
       "IsActive": true,
       "Description": "EFIS CPT RANGE 160",
       "InputType": "Switch",
-      "Input": {
-        "Position": 77
-      },
+      "Input": 77,
       "EventType": "PMDG777",
       "DataPress": 4,
       "PmdgEvent": 69819,
@@ -1286,9 +1118,7 @@
       "IsActive": true,
       "Description": "EFIS CPT RANGE 320",
       "InputType": "Switch",
-      "Input": {
-        "Position": 78
-      },
+      "Input": 78,
       "EventType": "PMDG777",
       "DataPress": 5,
       "PmdgEvent": 69819,
@@ -1299,9 +1129,7 @@
       "IsActive": true,
       "Description": "EFIS CPT RANGE 640",
       "InputType": "Switch",
-      "Input": {
-        "Position": 79
-      },
+      "Input": 79,
       "EventType": "PMDG777",
       "DataPress": 6,
       "PmdgEvent": 69819,
@@ -1312,9 +1140,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS RADIO BARO",
       "InputType": "Switch",
-      "Input": {
-        "Position": 81
-      },
+      "Input": 81,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1326,9 +1152,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO IN HPA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 82
-      },
+      "Input": 82,
       "EventType": "PMDG777",
       "DataPress": 0,
       "DataRelease": 1,
@@ -1340,9 +1164,7 @@
       "IsActive": true,
       "Description": "EFIS CPT FPV",
       "InputType": "Switch",
-      "Input": {
-        "Position": 83
-      },
+      "Input": 83,
       "EventType": "PMDG777",
       "PmdgEvent": 69825,
       "PmdgMousePress": 536870912,
@@ -1354,9 +1176,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MTRS",
       "InputType": "Switch",
-      "Input": {
-        "Position": 84
-      },
+      "Input": 84,
       "EventType": "PMDG777",
       "PmdgEvent": 69826,
       "PmdgMousePress": 536870912,
@@ -1368,9 +1188,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MINIMUMS RST",
       "InputType": "Switch",
-      "Input": {
-        "Position": 85
-      },
+      "Input": 85,
       "EventType": "PMDG777",
       "PmdgEvent": 69815,
       "PmdgMousePress": 536870912,
@@ -1382,9 +1200,7 @@
       "IsActive": true,
       "Description": "EFIS CPT BARO STD",
       "InputType": "Switch",
-      "Input": {
-        "Position": 86
-      },
+      "Input": 86,
       "EventType": "PMDG777",
       "PmdgEvent": 69824,
       "PmdgMousePress": 536870912,
@@ -1396,9 +1212,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MODE CTR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 87
-      },
+      "Input": 87,
       "EventType": "PMDG777",
       "PmdgEvent": 69818,
       "PmdgMousePress": 536870912,
@@ -1410,9 +1224,7 @@
       "IsActive": true,
       "Description": "EFIS CPT MODE CTR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 88
-      },
+      "Input": 88,
       "EventType": "PMDG777",
       "PmdgEvent": 69820,
       "PmdgMousePress": 536870912,
@@ -1424,9 +1236,7 @@
       "IsActive": true,
       "Description": "EFIS CPT WXR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 89
-      },
+      "Input": 89,
       "EventType": "PMDG777",
       "PmdgEvent": 69827,
       "PmdgMousePress": 536870912,
@@ -1438,9 +1248,7 @@
       "IsActive": true,
       "Description": "EFIS CPT STA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 90
-      },
+      "Input": 90,
       "EventType": "PMDG777",
       "PmdgEvent": 69828,
       "PmdgMousePress": 536870912,
@@ -1452,9 +1260,7 @@
       "IsActive": true,
       "Description": "EFIS CPT WPT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 91
-      },
+      "Input": 91,
       "EventType": "PMDG777",
       "PmdgEvent": 69829,
       "PmdgMousePress": 536870912,
@@ -1466,9 +1272,7 @@
       "IsActive": true,
       "Description": "EFIS CPT ARPT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 92
-      },
+      "Input": 92,
       "EventType": "PMDG777",
       "PmdgEvent": 69830,
       "PmdgMousePress": 536870912,
@@ -1480,9 +1284,7 @@
       "IsActive": true,
       "Description": "EFIS CPT DATA",
       "InputType": "Switch",
-      "Input": {
-        "Position": 93
-      },
+      "Input": 93,
       "EventType": "PMDG777",
       "PmdgEvent": 69831,
       "PmdgMousePress": 536870912,
@@ -1494,9 +1296,7 @@
       "IsActive": true,
       "Description": "EFIS CPT POS",
       "InputType": "Switch",
-      "Input": {
-        "Position": 94
-      },
+      "Input": 94,
       "EventType": "PMDG777",
       "PmdgEvent": 69832,
       "PmdgMousePress": 536870912,
@@ -1508,9 +1308,7 @@
       "IsActive": true,
       "Description": "EFIS CPT TERR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 95
-      },
+      "Input": 95,
       "EventType": "PMDG777",
       "PmdgEvent": 69833,
       "PmdgMousePress": 536870912,

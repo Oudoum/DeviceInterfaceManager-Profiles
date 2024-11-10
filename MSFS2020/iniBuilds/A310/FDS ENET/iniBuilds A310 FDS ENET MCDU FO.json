@@ -7,9 +7,7 @@
       "IsActive": true,
       "Description": "DIR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 57
-      },
+      "Input": 57,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_DIR_TO",
       "DataPress": 1,
@@ -21,9 +19,7 @@
       "IsActive": true,
       "Description": "INIT",
       "InputType": "Switch",
-      "Input": {
-        "Position": 61
-      },
+      "Input": 61,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_INIT",
       "DataPress": 1,
@@ -35,9 +31,7 @@
       "IsActive": true,
       "Description": "REF",
       "InputType": "Switch",
-      "Input": {
-        "Position": 62
-      },
+      "Input": 62,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_REF",
       "DataPress": 1,
@@ -49,9 +43,7 @@
       "IsActive": true,
       "Description": "FPLN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 49
-      },
+      "Input": 49,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_FPLAN",
       "DataPress": 1,
@@ -63,9 +55,7 @@
       "IsActive": true,
       "Description": "Tact Mode",
       "InputType": "Switch",
-      "Input": {
-        "Position": 60
-      },
+      "Input": 60,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_TACT_MODE",
       "DataPress": 1,
@@ -77,9 +67,7 @@
       "IsActive": true,
       "Description": "Sec FLPN",
       "InputType": "Switch",
-      "Input": {
-        "Position": 53
-      },
+      "Input": 53,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_SEC_PLAN",
       "DataPress": 1,
@@ -91,9 +79,7 @@
       "IsActive": true,
       "Description": "Mode",
       "InputType": "Switch",
-      "Input": {
-        "Position": 58
-      },
+      "Input": 58,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_MODE",
       "DataPress": 1,
@@ -105,9 +91,7 @@
       "IsActive": true,
       "Description": "Up",
       "InputType": "Switch",
-      "Input": {
-        "Position": 34
-      },
+      "Input": 34,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_UARROW",
       "DataPress": 1,
@@ -119,9 +103,7 @@
       "IsActive": true,
       "Description": "Menu",
       "InputType": "Switch",
-      "Input": {
-        "Position": 54
-      },
+      "Input": 54,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_MENU",
       "DataPress": 1,
@@ -133,9 +115,7 @@
       "IsActive": true,
       "Description": "TO/APR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 50
-      },
+      "Input": 50,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_TO_APPR",
       "DataPress": 1,
@@ -147,9 +127,7 @@
       "IsActive": true,
       "Description": "Eng out",
       "InputType": "Switch",
-      "Input": {
-        "Position": 55
-      },
+      "Input": 55,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_ENGOUT",
       "DataPress": 1,
@@ -161,9 +139,7 @@
       "IsActive": true,
       "Description": "Next page",
       "InputType": "Switch",
-      "Input": {
-        "Position": 73
-      },
+      "Input": 73,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_NEXT",
       "DataPress": 1,
@@ -175,9 +151,7 @@
       "IsActive": true,
       "Description": "Prog",
       "InputType": "Switch",
-      "Input": {
-        "Position": 33
-      },
+      "Input": 33,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_PROG",
       "DataPress": 1,
@@ -189,9 +163,7 @@
       "IsActive": true,
       "Description": "Down",
       "InputType": "Switch",
-      "Input": {
-        "Position": 74
-      },
+      "Input": 74,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_DOWN",
       "DataPress": 1,
@@ -203,9 +175,7 @@
       "IsActive": true,
       "Description": "LSK1L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 35
-      },
+      "Input": 35,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK1L",
       "DataPress": 1,
@@ -217,9 +187,7 @@
       "IsActive": true,
       "Description": "LSK2L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 43
-      },
+      "Input": 43,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK2L",
       "DataPress": 1,
@@ -231,9 +199,7 @@
       "IsActive": true,
       "Description": "LSK3L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 51
-      },
+      "Input": 51,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK3L",
       "DataPress": 1,
@@ -245,9 +211,7 @@
       "IsActive": true,
       "Description": "LSK4L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 59
-      },
+      "Input": 59,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK4L",
       "DataPress": 1,
@@ -259,9 +223,7 @@
       "IsActive": true,
       "Description": "LSK5L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 56
-      },
+      "Input": 56,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK5L",
       "DataPress": 1,
@@ -273,9 +235,7 @@
       "IsActive": true,
       "Description": "LSK6L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 71
-      },
+      "Input": 71,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK6L",
       "DataPress": 1,
@@ -287,9 +247,7 @@
       "IsActive": true,
       "Description": "LSK1R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 65
-      },
+      "Input": 65,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK1R",
       "DataPress": 1,
@@ -301,9 +259,7 @@
       "IsActive": true,
       "Description": "LSK2R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 66
-      },
+      "Input": 66,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK2R",
       "DataPress": 1,
@@ -315,9 +271,7 @@
       "IsActive": true,
       "Description": "LSK3R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 67
-      },
+      "Input": 67,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK3R",
       "DataPress": 1,
@@ -329,9 +283,7 @@
       "IsActive": true,
       "Description": "LSK4R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 68
-      },
+      "Input": 68,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK4R",
       "DataPress": 1,
@@ -343,9 +295,7 @@
       "IsActive": true,
       "Description": "LSK5R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 69
-      },
+      "Input": 69,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK5R",
       "DataPress": 1,
@@ -357,9 +307,7 @@
       "IsActive": true,
       "Description": "LSK6R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 70
-      },
+      "Input": 70,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_LSK6R",
       "DataPress": 1,
@@ -371,9 +319,7 @@
       "IsActive": true,
       "Description": "A",
       "InputType": "Switch",
-      "Input": {
-        "Position": 44
-      },
+      "Input": 44,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_A",
       "DataPress": 1,
@@ -385,9 +331,7 @@
       "IsActive": true,
       "Description": "B",
       "InputType": "Switch",
-      "Input": {
-        "Position": 45
-      },
+      "Input": 45,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_B",
       "DataPress": 1,
@@ -399,9 +343,7 @@
       "IsActive": true,
       "Description": "C",
       "InputType": "Switch",
-      "Input": {
-        "Position": 46
-      },
+      "Input": 46,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_C",
       "DataPress": 1,
@@ -413,9 +355,7 @@
       "IsActive": true,
       "Description": "D",
       "InputType": "Switch",
-      "Input": {
-        "Position": 47
-      },
+      "Input": 47,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_D",
       "DataPress": 1,
@@ -427,9 +367,7 @@
       "IsActive": true,
       "Description": "E",
       "InputType": "Switch",
-      "Input": {
-        "Position": 48
-      },
+      "Input": 48,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_E",
       "DataPress": 1,
@@ -441,9 +379,7 @@
       "IsActive": true,
       "Description": "F",
       "InputType": "Switch",
-      "Input": {
-        "Position": 36
-      },
+      "Input": 36,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_F",
       "DataPress": 1,
@@ -455,9 +391,7 @@
       "IsActive": true,
       "Description": "G",
       "InputType": "Switch",
-      "Input": {
-        "Position": 37
-      },
+      "Input": 37,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_G",
       "DataPress": 1,
@@ -469,9 +403,7 @@
       "IsActive": true,
       "Description": "H",
       "InputType": "Switch",
-      "Input": {
-        "Position": 38
-      },
+      "Input": 38,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_H",
       "DataPress": 1,
@@ -483,9 +415,7 @@
       "IsActive": true,
       "Description": "I",
       "InputType": "Switch",
-      "Input": {
-        "Position": 39
-      },
+      "Input": 39,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_I",
       "DataPress": 1,
@@ -497,9 +427,7 @@
       "IsActive": true,
       "Description": "J",
       "InputType": "Switch",
-      "Input": {
-        "Position": 40
-      },
+      "Input": 40,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_J",
       "DataPress": 1,
@@ -511,9 +439,7 @@
       "IsActive": true,
       "Description": "K",
       "InputType": "Switch",
-      "Input": {
-        "Position": 28
-      },
+      "Input": 28,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_K",
       "DataPress": 1,
@@ -525,9 +451,7 @@
       "IsActive": true,
       "Description": "L",
       "InputType": "Switch",
-      "Input": {
-        "Position": 29
-      },
+      "Input": 29,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_L",
       "DataPress": 1,
@@ -539,9 +463,7 @@
       "IsActive": true,
       "Description": "M",
       "InputType": "Switch",
-      "Input": {
-        "Position": 30
-      },
+      "Input": 30,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_M",
       "DataPress": 1,
@@ -553,9 +475,7 @@
       "IsActive": true,
       "Description": "N",
       "InputType": "Switch",
-      "Input": {
-        "Position": 31
-      },
+      "Input": 31,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_N",
       "DataPress": 1,
@@ -567,9 +487,7 @@
       "IsActive": true,
       "Description": "O",
       "InputType": "Switch",
-      "Input": {
-        "Position": 32
-      },
+      "Input": 32,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_O",
       "DataPress": 1,
@@ -581,9 +499,7 @@
       "IsActive": true,
       "Description": "P",
       "InputType": "Switch",
-      "Input": {
-        "Position": 20
-      },
+      "Input": 20,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_P",
       "DataPress": 1,
@@ -595,9 +511,7 @@
       "IsActive": true,
       "Description": "Q",
       "InputType": "Switch",
-      "Input": {
-        "Position": 21
-      },
+      "Input": 21,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_Q",
       "DataPress": 1,
@@ -609,9 +523,7 @@
       "IsActive": true,
       "Description": "R",
       "InputType": "Switch",
-      "Input": {
-        "Position": 22
-      },
+      "Input": 22,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_Q",
       "DataPress": 1,
@@ -623,9 +535,7 @@
       "IsActive": true,
       "Description": "S",
       "InputType": "Switch",
-      "Input": {
-        "Position": 23
-      },
+      "Input": 23,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_S",
       "DataPress": 1,
@@ -637,9 +547,7 @@
       "IsActive": true,
       "Description": "T",
       "InputType": "Switch",
-      "Input": {
-        "Position": 24
-      },
+      "Input": 24,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_T",
       "DataPress": 1,
@@ -651,9 +559,7 @@
       "IsActive": true,
       "Description": "U",
       "InputType": "Switch",
-      "Input": {
-        "Position": 12
-      },
+      "Input": 12,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_U",
       "DataPress": 1,
@@ -665,9 +571,7 @@
       "IsActive": true,
       "Description": "V",
       "InputType": "Switch",
-      "Input": {
-        "Position": 13
-      },
+      "Input": 13,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_V",
       "DataPress": 1,
@@ -679,9 +583,7 @@
       "IsActive": true,
       "Description": "W",
       "InputType": "Switch",
-      "Input": {
-        "Position": 14
-      },
+      "Input": 14,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_W",
       "DataPress": 1,
@@ -693,9 +595,7 @@
       "IsActive": true,
       "Description": "X",
       "InputType": "Switch",
-      "Input": {
-        "Position": 15
-      },
+      "Input": 15,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_X",
       "DataPress": 1,
@@ -707,9 +607,7 @@
       "IsActive": true,
       "Description": "Y",
       "InputType": "Switch",
-      "Input": {
-        "Position": 16
-      },
+      "Input": 16,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_Y",
       "DataPress": 1,
@@ -721,9 +619,7 @@
       "IsActive": true,
       "Description": "Z",
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_Z",
       "DataPress": 1,
@@ -735,9 +631,7 @@
       "IsActive": true,
       "Description": "0",
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_0",
       "DataPress": 1,
@@ -749,9 +643,7 @@
       "IsActive": true,
       "Description": "1",
       "InputType": "Switch",
-      "Input": {
-        "Position": 25
-      },
+      "Input": 25,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_1",
       "DataPress": 1,
@@ -763,9 +655,7 @@
       "IsActive": true,
       "Description": "2",
       "InputType": "Switch",
-      "Input": {
-        "Position": 26
-      },
+      "Input": 26,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_2",
       "DataPress": 1,
@@ -777,9 +667,7 @@
       "IsActive": true,
       "Description": "3",
       "InputType": "Switch",
-      "Input": {
-        "Position": 27
-      },
+      "Input": 27,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_3",
       "DataPress": 1,
@@ -791,9 +679,7 @@
       "IsActive": true,
       "Description": "4",
       "InputType": "Switch",
-      "Input": {
-        "Position": 17
-      },
+      "Input": 17,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_4",
       "DataPress": 1,
@@ -805,9 +691,7 @@
       "IsActive": true,
       "Description": "5",
       "InputType": "Switch",
-      "Input": {
-        "Position": 18
-      },
+      "Input": 18,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_5",
       "DataPress": 1,
@@ -819,9 +703,7 @@
       "IsActive": true,
       "Description": "6",
       "InputType": "Switch",
-      "Input": {
-        "Position": 19
-      },
+      "Input": 19,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_6",
       "DataPress": 1,
@@ -833,9 +715,7 @@
       "IsActive": true,
       "Description": "7",
       "InputType": "Switch",
-      "Input": {
-        "Position": 9
-      },
+      "Input": 9,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_7",
       "DataPress": 1,
@@ -847,9 +727,7 @@
       "IsActive": true,
       "Description": "8",
       "InputType": "Switch",
-      "Input": {
-        "Position": 10
-      },
+      "Input": 10,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_8",
       "DataPress": 1,
@@ -861,9 +739,7 @@
       "IsActive": true,
       "Description": "9",
       "InputType": "Switch",
-      "Input": {
-        "Position": 11
-      },
+      "Input": 11,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_9",
       "DataPress": 1,
@@ -875,9 +751,7 @@
       "IsActive": true,
       "Description": "/",
       "InputType": "Switch",
-      "Input": {
-        "Position": 5
-      },
+      "Input": 5,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_SLASH",
       "DataPress": 1,
@@ -889,9 +763,7 @@
       "IsActive": true,
       "Description": ".",
       "InputType": "Switch",
-      "Input": {
-        "Position": 1
-      },
+      "Input": 1,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_DOT",
       "DataPress": 1,
@@ -903,9 +775,7 @@
       "IsActive": true,
       "Description": "CLR",
       "InputType": "Switch",
-      "Input": {
-        "Position": 8
-      },
+      "Input": 8,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_CLR",
       "DataPress": 1,
@@ -917,9 +787,7 @@
       "IsActive": true,
       "Description": "\u002B",
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_PLUS",
       "DataPress": 1,
@@ -931,9 +799,7 @@
       "IsActive": true,
       "Description": "-",
       "InputType": "Switch",
-      "Input": {
-        "Position": 6
-      },
+      "Input": 6,
       "EventType": "MSFS/SimConnect/LVar",
       "Event": "L:A310_MCDU2_MINUS",
       "DataPress": 1,

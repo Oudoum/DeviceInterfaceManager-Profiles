@@ -6,9 +6,7 @@
       "Id": "1f45edc9-b07b-4e7f-8ddf-a6831dd6ff84",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 2
-      },
+      "Input": 2,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -19,9 +17,7 @@
       "Id": "265d5a45-bbc8-4c82-88e7-c109e53390db",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 3
-      },
+      "Input": 3,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -32,9 +28,7 @@
       "Id": "85d8ad6f-5e9d-4c0a-abca-5ee97e6d9dc0",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 4
-      },
+      "Input": 4,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -45,9 +39,7 @@
       "Id": "b42d48ec-95ce-4271-8dbc-9891156705f7",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 5
-      },
+      "Input": 5,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -58,9 +50,7 @@
       "Id": "96ba4be4-017f-45fa-99ab-3d962ccb44c2",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 6
-      },
+      "Input": 6,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -71,9 +61,7 @@
       "Id": "50e31ebc-53d7-4e27-9b63-85d48931d82c",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 6
-      },
+      "Input": 6,
       "EventType": "PMDG737",
       "PmdgEvent": 76623,
       "PmdgMousePress": 536870912,
@@ -84,9 +72,7 @@
       "Id": "fe31ecef-7e82-4bbe-9380-1ccbd007bcaa",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 7
-      },
+      "Input": 7,
       "EventType": "PMDG737",
       "PmdgEvent": 70331,
       "PmdgMousePress": 536870912,
@@ -96,9 +82,7 @@
       "Id": "be523a6d-8c6e-4195-b7b2-4fa7d88a118b",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 8
-      },
+      "Input": 8,
       "EventType": "PMDG737",
       "PmdgEvent": 70331,
       "PmdgMousePress": 2147483648,
@@ -108,9 +92,7 @@
       "Id": "95fbf8b5-d189-4c94-851e-38df084e9f6a",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 9
-      },
+      "Input": 9,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -121,9 +103,7 @@
       "Id": "296190c0-eb1c-42ab-bb66-68b7e4e555f2",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 9
-      },
+      "Input": 9,
       "EventType": "PMDG737",
       "PmdgEvent": 76603,
       "PmdgMousePress": 536870912,
@@ -134,9 +114,7 @@
       "Id": "4f448527-5aae-4d0e-b236-b769549572ba",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 10
-      },
+      "Input": 10,
       "EventType": "PMDG737",
       "PmdgEvent": 70329,
       "PmdgMousePress": 536870912,
@@ -146,9 +124,7 @@
       "Id": "634a92a3-02b6-431c-a7ee-60dd421e2f31",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 11
-      },
+      "Input": 11,
       "EventType": "PMDG737",
       "PmdgEvent": 70329,
       "PmdgMousePress": 2147483648,
@@ -158,9 +134,7 @@
       "Id": "a9b00075-4831-41b6-9cda-320e5c7d77b7",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 14
-      },
+      "Input": 14,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -171,9 +145,7 @@
       "Id": "dced9746-c193-4c6b-b837-0f7c6b3934eb",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 14
-      },
+      "Input": 14,
       "EventType": "PMDG737",
       "PmdgEvent": 76613,
       "PmdgMousePress": 536870912,
@@ -184,9 +156,7 @@
       "Id": "07ce9a5a-749e-4d60-aa19-2c29023c8441",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 15
-      },
+      "Input": 15,
       "EventType": "PMDG737",
       "PmdgEvent": 70330,
       "PmdgMousePress": 536870912,
@@ -196,9 +166,7 @@
       "Id": "944d314f-5b7d-44c2-998d-f1bc3fd7bbcc",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 16
-      },
+      "Input": 16,
       "EventType": "PMDG737",
       "PmdgEvent": 70330,
       "PmdgMousePress": 2147483648,
@@ -208,9 +176,7 @@
       "Id": "53fdf180-3669-40af-b894-2c5ae2eab940",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 17
-      },
+      "Input": 17,
       "EventType": "PMDG737",
       "PmdgEvent": 70422,
       "PmdgMousePress": 536870912,
@@ -221,9 +187,7 @@
       "Id": "d3272461-aa6c-4970-b6cf-766ea0ed7f82",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 18
-      },
+      "Input": 18,
       "EventType": "PMDG737",
       "PmdgEvent": 70423,
       "PmdgMousePress": 536870912,
@@ -234,9 +198,7 @@
       "Id": "d4182899-4f35-49a6-b6aa-30006887a555",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 19
-      },
+      "Input": 19,
       "EventType": "PMDG737",
       "PmdgEvent": 70548,
       "PmdgMousePress": 536870912,
@@ -247,9 +209,7 @@
       "Id": "8d496556-b6f7-4482-9452-09a56d6b7a4e",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 20
-      },
+      "Input": 20,
       "EventType": "PMDG737",
       "PmdgEvent": 70424,
       "PmdgMousePress": 536870912,
@@ -260,9 +220,7 @@
       "Id": "d0a226ae-316f-4a7d-8ccb-9574a2b276ab",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 22
-      },
+      "Input": 22,
       "EventType": "PMDG737",
       "PmdgEvent": 70549,
       "PmdgMousePress": 536870912,
@@ -273,9 +231,7 @@
       "Id": "a05be035-d9ec-4ac2-b8e3-231dfa69957f",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 21
-      },
+      "Input": 21,
       "EventType": "PMDG737",
       "PmdgEvent": 70425,
       "PmdgMousePress": 536870912,
@@ -286,9 +242,7 @@
       "Id": "53cf2e22-72d9-4eac-9ea6-589f53dc0d45",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 24
-      },
+      "Input": 24,
       "EventType": "PMDG737",
       "PmdgEvent": 70550,
       "PmdgMousePress": 536870912,
@@ -299,9 +253,7 @@
       "Id": "d2334d6a-d9b5-4aea-8a04-5ec2a3c2cc36",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 25
-      },
+      "Input": 25,
       "EventType": "PMDG737",
       "PmdgEvent": 70551,
       "PmdgMousePress": 536870912,
@@ -312,9 +264,7 @@
       "Id": "d7f2b49e-400e-4fba-b09d-364cf9f43eea",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 26
-      },
+      "Input": 26,
       "EventType": "PMDG737",
       "PmdgEvent": 70428,
       "PmdgMousePress": 536870912,
@@ -325,9 +275,7 @@
       "Id": "597b8c88-0532-407d-adc5-6702a2990887",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 27
-      },
+      "Input": 27,
       "EventType": "PMDG737",
       "PmdgEvent": 70552,
       "PmdgMousePress": 536870912,
@@ -338,9 +286,7 @@
       "Id": "296fe1e3-5b41-4bdd-b388-a551dc849e79",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 28
-      },
+      "Input": 28,
       "EventType": "PMDG737",
       "PmdgEvent": 70429,
       "PmdgMousePress": 536870912,
@@ -351,9 +297,7 @@
       "Id": "c2e895e4-6441-4ee6-a3ec-a99ffd10f57f",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 29
-      },
+      "Input": 29,
       "EventType": "PMDG737",
       "PmdgEvent": 70553,
       "PmdgMousePress": 536870912,
@@ -364,9 +308,7 @@
       "Id": "5a951f9a-0e82-4cfe-a9ac-566faac8df22",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 30
-      },
+      "Input": 30,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -377,9 +319,7 @@
       "Id": "3382e8f2-52d8-46e2-b66f-65a1c27ec407",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 31
-      },
+      "Input": 31,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -390,9 +330,7 @@
       "Id": "c3d6d567-a053-4168-ab81-5834f6b36022",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 32
-      },
+      "Input": 32,
       "EventType": "PMDG737",
       "DataPress": 3,
       "DataRelease": 2,
@@ -403,9 +341,7 @@
       "Id": "4e69dd35-5f9d-49d8-aae9-f95921686ad6",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 33
-      },
+      "Input": 33,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -416,9 +352,7 @@
       "Id": "ff1f6535-2fa9-4045-b3ae-5f6852ae200b",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 34
-      },
+      "Input": 34,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -429,9 +363,7 @@
       "Id": "4618f6b2-49ee-432f-b327-45cb645407b7",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 35
-      },
+      "Input": 35,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -442,9 +374,7 @@
       "Id": "9ee02bdf-e936-4ce2-a3d0-30df0dc387cf",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 36
-      },
+      "Input": 36,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -455,9 +385,7 @@
       "Id": "52844c37-0963-42bb-b7f1-0964a95e7329",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 37
-      },
+      "Input": 37,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -468,9 +396,7 @@
       "Id": "9bed7bee-a607-4a79-9430-692ebdc9e3f7",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 38
-      },
+      "Input": 38,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -481,9 +407,7 @@
       "Id": "4f8d472f-5054-4cfb-9f29-d398f3f9ae6b",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 39
-      },
+      "Input": 39,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -494,9 +418,7 @@
       "Id": "9e684988-31e3-4df8-b588-0de08e2f8385",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 40
-      },
+      "Input": 40,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -507,9 +429,7 @@
       "Id": "ab2e78b4-a542-488e-a7ef-370f2ba10e92",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 40
-      },
+      "Input": 40,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 2,
@@ -520,9 +440,7 @@
       "Id": "ae71e7ff-4fa6-4b11-999b-6efb3ad21370",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 41
-      },
+      "Input": 41,
       "EventType": "PMDG737",
       "PmdgEvent": 70401,
       "PmdgMousePress": 536870912,
@@ -533,9 +451,7 @@
       "Id": "004f767b-9629-47ee-90be-3a803dc3c915",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 42
-      },
+      "Input": 42,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -546,9 +462,7 @@
       "Id": "bd98c34a-81e4-4d3d-9b27-01c1f1862654",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 43
-      },
+      "Input": 43,
       "EventType": "PMDG737",
       "DataPress": 1,
       "DataRelease": 0,
@@ -559,9 +473,7 @@
       "Id": "4874b07f-07bd-4917-8d33-72d922d27205",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 45
-      },
+      "Input": 45,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -572,9 +484,7 @@
       "Id": "b109780e-c12c-4689-9a4e-ab0a65c8c095",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 46
-      },
+      "Input": 46,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -585,9 +495,7 @@
       "Id": "fc23144b-e23b-4433-8a86-d7143399b38f",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 47
-      },
+      "Input": 47,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -598,9 +506,7 @@
       "Id": "68e2ae69-3218-4ae0-b31b-1780bb82fb07",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 48
-      },
+      "Input": 48,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -611,9 +517,7 @@
       "Id": "15584c7d-e8fb-48d8-bc84-b8ca255331da",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 49
-      },
+      "Input": 49,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -624,9 +528,7 @@
       "Id": "f22162f2-3a52-4804-9cff-9d145bdfbfc7",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 50
-      },
+      "Input": 50,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -637,9 +539,7 @@
       "Id": "966da2b1-bd7e-4651-acd9-8323405cf8c2",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 51
-      },
+      "Input": 51,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -650,9 +550,7 @@
       "Id": "c6e7a625-8778-4d13-ad76-8766595e7ade",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 52
-      },
+      "Input": 52,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -663,9 +561,7 @@
       "Id": "86704ce0-6564-4d1a-bfc2-cc1bba8151fc",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 53
-      },
+      "Input": 53,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -676,9 +572,7 @@
       "Id": "e385e94b-558b-4bdf-b388-446f349a39e3",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 54
-      },
+      "Input": 54,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -689,9 +583,7 @@
       "Id": "dc19851d-1b1a-4386-ad7b-fbb5933766ca",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 55
-      },
+      "Input": 55,
       "EventType": "PMDG737",
       "DataPress": 0,
       "DataRelease": 1,
@@ -702,9 +594,7 @@
       "Id": "8754825d-f28c-490b-9efe-06c9a2537e42",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 56
-      },
+      "Input": 56,
       "EventType": "PMDG737",
       "DataPress": 2,
       "DataRelease": 1,
@@ -715,9 +605,7 @@
       "Id": "60270bf8-1d54-4e8c-b7a6-fff953ee8d6e",
       "IsActive": true,
       "InputType": "Switch",
-      "Input": {
-        "Position": 44
-      },
+      "Input": 44,
       "EventType": "PMDG737",
       "PmdgEvent": 70399,
       "PmdgMousePress": 536870912,
