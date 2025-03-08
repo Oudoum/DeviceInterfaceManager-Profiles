@@ -504,74 +504,62 @@
       "OnRelease": false
     },
     {
-      "Id": "bf0eaf51-0f28-4e8e-bcef-caabd16270c8",
+      "Id": "1e9368fa-7663-4169-903a-827fa8e0b0d5",
       "IsActive": true,
-      "InputType": "Switch",
-      "Input": 8,
-      "EventType": "K:Event",
-      "Event": "GEAR_UP",
-      "OnRelease": false,
-      "Preconditions": [
-        {
-          "IsActive": true,
-          "ReferenceId": "b4d3ead1-c01a-442b-9a73-9c9965541105",
-          "Operator": "\u2265",
-          "ComparisonValue": "1",
-          "IsOrOperator": false
-        }
-      ]
-    },
-    {
-      "Id": "78c4f134-f063-4083-a328-e6d21085359c",
-      "IsActive": true,
-      "InputType": "Switch",
-      "Input": 8,
-      "EventType": "PMDG737",
-      "PmdgEvent": 74183,
-      "PmdgMouseRelease": 536870912,
-      "OnRelease": false,
-      "Preconditions": [
-        {
-          "IsActive": true,
-          "ReferenceId": "b4d3ead1-c01a-442b-9a73-9c9965541105",
-          "Operator": "\u2260",
-          "ComparisonValue": "1",
-          "IsOrOperator": false
-        }
-      ]
-    },
-    {
-      "Id": "16662c76-4e45-44f6-ab6a-774c303c3442",
-      "IsActive": true,
+      "Description": "L:DIMVAR_GEAR_LEVER",
       "InputType": "Switch",
       "Input": 7,
-      "EventType": "PMDG737",
-      "PmdgEvent": 74183,
-      "PmdgMouseRelease": 536870912,
-      "OnRelease": false,
-      "Preconditions": [
-        {
-          "IsActive": true,
-          "ReferenceId": "b4d3ead1-c01a-442b-9a73-9c9965541105",
-          "Operator": "\u2260",
-          "ComparisonValue": "1",
-          "IsOrOperator": false
-        }
-      ]
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_GEAR_LEVER",
+      "DataPress": 0,
+      "OnRelease": false
     },
     {
       "Id": "f6e41c44-7654-4c91-bea6-a796f49cd361",
       "IsActive": true,
+      "Description": "GEAR_DOWN",
       "InputType": "Switch",
       "Input": 7,
       "EventType": "K:Event",
       "Event": "GEAR_DOWN",
+      "OnRelease": false
+    },
+    {
+      "Id": "9ab79d13-440c-40bf-999c-c431edcdd111",
+      "IsActive": true,
+      "Description": "L:DIMVAR_GEAR_LEVER",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_GEAR_LEVER",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "bf0eaf51-0f28-4e8e-bcef-caabd16270c8",
+      "IsActive": true,
+      "Description": "GEAR_UP",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "K:Event",
+      "Event": "GEAR_UP",
+      "OnRelease": false
+    },
+    {
+      "Id": "78c4f134-f063-4083-a328-e6d21085359c",
+      "IsActive": true,
+      "Description": "EVT_GEAR_LEVER_OFF",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "PMDG737",
+      "PmdgEvent": 74183,
+      "PmdgMouseRelease": 536870912,
       "OnRelease": false,
       "Preconditions": [
         {
           "IsActive": true,
-          "ReferenceId": "b4d3ead1-c01a-442b-9a73-9c9965541105",
-          "Operator": "\u2264",
+          "ReferenceId": "0391fb34-bba5-4908-a47e-fd7e4c1b8330",
+          "Operator": "=",
           "ComparisonValue": "1",
           "IsOrOperator": false
         }
@@ -1080,6 +1068,14 @@
       "DataType": "PMDG737",
       "PmdgData": "WARN_annunFIRE_WARN",
       "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "0391fb34-bba5-4908-a47e-fd7e4c1b8330",
+      "IsActive": true,
+      "Description": "L:DIMVAR_GEAR_LEVER",
+      "OutputType": "LED",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:DIMVAR_GEAR_LEVER"
     }
   ]
 }
