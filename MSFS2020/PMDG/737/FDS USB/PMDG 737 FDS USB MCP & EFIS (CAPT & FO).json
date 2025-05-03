@@ -1541,6 +1541,14 @@
           "$type": "Comparison",
           "IsActive": true,
           "Operator": "\u2260",
+          "Value": "0",
+          "TrueValue": "",
+          "FalseValue": " "
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
           "Value": "1",
           "TrueValue": "",
           "FalseValue": "A"
@@ -1550,7 +1558,7 @@
           "IsActive": true,
           "Operator": "\u2260",
           "Value": "2",
-          "TrueValue": " ",
+          "TrueValue": "",
           "FalseValue": "B"
         }
       ],
@@ -1571,6 +1579,28 @@
           "IsOrOperator": false
         }
       ]
+    },
+    {
+      "Id": "cbfc6378-05e6-4a86-8e3e-c90476a3e268",
+      "IsActive": true,
+      "Description": "IAS BLANK",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        5
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MCP_IASBlank",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "    ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false
     },
     {
       "Id": "d8ea72cd-a5af-4b5b-805e-cca7e86736b9",
@@ -1605,6 +1635,13 @@
           "IsActive": true,
           "ReferenceId": "f5be8aed-f10f-4390-b4d0-72fdcf58b1a1",
           "Operator": "\u2260",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "cbfc6378-05e6-4a86-8e3e-c90476a3e268",
+          "Operator": "=",
           "ComparisonValue": "0",
           "IsOrOperator": false
         }
@@ -1660,6 +1697,13 @@
           "ReferenceId": "d8ea72cd-a5af-4b5b-805e-cca7e86736b9",
           "Operator": "\u003C",
           "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "cbfc6378-05e6-4a86-8e3e-c90476a3e268",
+          "Operator": "=",
+          "ComparisonValue": "0",
           "IsOrOperator": false
         }
       ]
