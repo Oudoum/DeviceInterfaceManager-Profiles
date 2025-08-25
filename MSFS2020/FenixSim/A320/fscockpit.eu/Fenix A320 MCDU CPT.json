@@ -1,0 +1,1018 @@
+{
+  "DeviceName": "Airbus MCDU Lite",
+  "InputCreators": [
+    {
+      "Id": "3bba47c0-d218-46c4-80f7-40e16978cd6e",
+      "IsActive": true,
+      "Description": "LSK1L",
+      "InputType": "Switch",
+      "Input": 36,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK1L",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "585b11ac-2e24-49df-b2f5-2360281342b5",
+      "IsActive": true,
+      "Description": "LSK2L",
+      "InputType": "Switch",
+      "Input": 37,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK2L",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e6523e91-04a1-4c92-8401-4aa5c2069520",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK3L",
+      "InputType": "Switch",
+      "Input": 38,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK3L",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "a5a43671-ffde-4d0d-9ae5-d6d72bfcb2c1",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK4L",
+      "InputType": "Switch",
+      "Input": 39,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK4L",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "072406fb-e500-48a2-8b1b-dd887494fb27",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK5L",
+      "InputType": "Switch",
+      "Input": 40,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK5L",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "149af854-2593-4bf7-8394-a51cc9afa4f6",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK6L",
+      "InputType": "Switch",
+      "Input": 41,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK6L",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "53623e9c-76d8-4e27-ae59-71055f9cdde5",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_RSK1L",
+      "InputType": "Switch",
+      "Input": 42,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK1R",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "f964e2e2-2b7f-4c79-94d3-e0ec7e3f47c3",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK2R",
+      "InputType": "Switch",
+      "Input": 43,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK2R",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "cfde0b8c-743b-4a69-bd62-b7b4896fde37",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK3R",
+      "InputType": "Switch",
+      "Input": 44,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK3R",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "773b9789-e433-47e6-b7b9-2152d8d0c021",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK4R",
+      "InputType": "Switch",
+      "Input": 45,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK4R",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "1ba2fd56-d560-48df-90d3-c0392f0ae358",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK5R",
+      "InputType": "Switch",
+      "Input": 46,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK5R",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "73c5a0d6-81d2-4b55-ac65-43ac8390658e",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_LSK6R",
+      "InputType": "Switch",
+      "Input": 47,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_LSK6R",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b7a0cb88-f540-4274-96ab-243f1e2d18ac",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_DIR",
+      "InputType": "Switch",
+      "Input": 54,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_DIR",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3f0081aa-986f-485d-8108-4fd73683be59",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_PROG",
+      "InputType": "Switch",
+      "Input": 55,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_PROG",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e0c29476-2a3e-4b19-a9da-4326144d1aaa",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_PERF",
+      "InputType": "Switch",
+      "Input": 56,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_PERF",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "055503b8-dc1a-44d1-afb4-78da9d7c0c27",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_INIT",
+      "InputType": "Switch",
+      "Input": 57,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_INIT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "85497a62-9934-4ae7-b9df-7985ed952f55",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_DATA",
+      "InputType": "Switch",
+      "Input": 58,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_DATA",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "7e8dc7ac-23f6-449c-a3f7-6f2a71df43c5",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_FPLN",
+      "InputType": "Switch",
+      "Input": 59,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_FPLN",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "d3fa57d1-6826-43c9-864a-a8632ba0913a",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_RAD_NAV",
+      "InputType": "Switch",
+      "Input": 60,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_RAD_NAV",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e386ff38-f1db-4190-8e37-9158589ec8f0",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_FUEL_PRED",
+      "InputType": "Switch",
+      "Input": 61,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_FUEL_PRED",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "072e0592-6ab8-49e9-81f4-02a90654ce3f",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_SEC_FPLN",
+      "InputType": "Switch",
+      "Input": 62,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_SEC_FPLN",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c64e6aad-56cf-41df-ad12-9011fa810c68",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_ATC_COM",
+      "InputType": "Switch",
+      "Input": 63,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_ATC_COM",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "40b89379-6667-4f36-85e3-fce7373aa878",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_KEY_MENU",
+      "InputType": "Switch",
+      "Input": 64,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_MENU",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b06f73c3-cbba-43d0-88f3-adf92d03fafa",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_AIRPORT",
+      "InputType": "Switch",
+      "Input": 65,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_AIRPORT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "90f81276-2ad4-44de-877e-1e6f6da418d9",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_ARROW_LEFT",
+      "InputType": "Switch",
+      "Input": 67,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_ARROW_LEFT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "76cd0a89-7c68-4dea-b30d-799437994f39",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_ARROW_RIGHT",
+      "InputType": "Switch",
+      "Input": 68,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_ARROW_RIGHT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "a3900763-9b39-436b-95ba-8c624c3d159b",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_ARROW_UP",
+      "InputType": "Switch",
+      "Input": 69,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_ARROW_UP",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "48c840e0-4b5d-492c-aa8a-740eeb2dc77d",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_ARROW_DOWN",
+      "InputType": "Switch",
+      "Input": 70,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_ARROW_DOWN",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "ecc82e67-d31f-4a0e-b4f7-3b38b9d264c8",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_1",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_1",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "5d71c355-7b93-4d87-b7cc-47fcf604e4fd",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_2",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_2",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "521347f2-fdae-40ad-bf52-302b60157b50",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_3",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_3",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "896d7108-ab7b-45d6-b747-c8df15500ca0",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_4",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_4",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "f837e4e5-9abf-479b-9e35-d840471cacdd",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_5",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_5",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "a5bd2668-eb8b-40ef-9cd5-29faa3c0e18c",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_6",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_6",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "85c50261-c6bf-4125-b9ca-c0ae706e050f",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_7",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_7",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "bcad6321-a02c-4ade-a557-8aab512fa7b1",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_8",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_8",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "344bc5e7-50f4-456c-83c2-e5249f8af394",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_9",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_9",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b9576a3d-4090-43f2-8e10-c4611cbbf80a",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_0",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_0",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c289ab4b-7838-4e56-a235-9485c5812bdc",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_DOT",
+      "InputType": "Switch",
+      "Input": 48,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_DOT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6830fb50-e4fe-41d1-90fc-10b309dcccf3",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_MINUS",
+      "InputType": "Switch",
+      "Input": 49,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_MINUS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "2f653360-cbae-4313-8bbd-93340cd93539",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_SLASH",
+      "InputType": "Switch",
+      "Input": 50,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_SLASH",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c6fcb86a-6a29-4f46-8691-e2bd77f69467",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_SPACE",
+      "InputType": "Switch",
+      "Input": 51,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_SPACE",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "fcc57e05-b991-4b1d-83a9-faca1a4b25c6",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_OVFLY",
+      "InputType": "Switch",
+      "Input": 52,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_OVFLY",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "4bcbf0e6-37b0-4994-aaa7-6cdd2b73a331",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_CLEAR",
+      "InputType": "Switch",
+      "Input": 53,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_CLEAR",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e33ff558-c362-4277-bdf7-6824a8173135",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_A",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_A",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "8f10f1f1-8f80-406a-97d0-662019d0a04f",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_B",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_B",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "5c801a18-1052-4596-a346-2d0264589495",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_C",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_C",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "0cbe9c5c-72ef-434c-944b-aeea6e0e526f",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_D",
+      "InputType": "Switch",
+      "Input": 13,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_D",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b3f051ce-16f4-4e1f-a944-77daf3adc4ab",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_E",
+      "InputType": "Switch",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_E",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "bdaaeee5-4628-4015-bfc5-15a827bb250d",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_F",
+      "InputType": "Switch",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_F",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6bcc6aa8-59a0-4ea0-93d8-3ee2acae2ebb",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_G",
+      "InputType": "Switch",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_G",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "2be927a4-eadf-4c77-8f57-cddfef1f1920",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_H",
+      "InputType": "Switch",
+      "Input": 17,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_H",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3dac5934-2550-43f6-824b-73aacea6c27e",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_I",
+      "InputType": "Switch",
+      "Input": 18,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_I",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "abc1bcf1-e7fc-4bf1-baee-18563ae46c9f",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_J",
+      "InputType": "Switch",
+      "Input": 19,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_J",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c034e7c7-d6db-4f87-a5e4-7e0d58095b81",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_K",
+      "InputType": "Switch",
+      "Input": 20,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_K",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "50625193-88eb-47d3-a06a-181a69a29c01",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_L",
+      "InputType": "Switch",
+      "Input": 21,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_L",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b830a1a9-3ba0-42ea-bf40-1049bcc38424",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_M",
+      "InputType": "Switch",
+      "Input": 22,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_M",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "83f7372d-168a-4628-b8e0-89cdf94906c0",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_N",
+      "InputType": "Switch",
+      "Input": 23,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_N",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "2c23c862-2a9f-4f80-b389-627b5bba6131",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_O",
+      "InputType": "Switch",
+      "Input": 24,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_O",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b09d1ba0-c72d-4737-9d23-423d8b805790",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_P",
+      "InputType": "Switch",
+      "Input": 25,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_P",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b52b6b0e-9c39-4691-8bc5-b50c628d0619",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_Q",
+      "InputType": "Switch",
+      "Input": 26,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_Q",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e0c0326f-c7c5-4a12-9ec9-aefcdd2df418",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_R",
+      "InputType": "Switch",
+      "Input": 27,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_R",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6b7be431-a1f1-496d-a53f-4c901d60de91",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_S",
+      "InputType": "Switch",
+      "Input": 28,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_S",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "8a4214e5-f2e1-4eb4-a19f-1987196043ba",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_T",
+      "InputType": "Switch",
+      "Input": 29,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_T",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "0806478c-73ff-40fe-a025-aff33c2780e8",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_U",
+      "InputType": "Switch",
+      "Input": 30,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_U",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "871f4567-0c92-406d-8ed5-b4d068d9f5bf",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_V",
+      "InputType": "Switch",
+      "Input": 31,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_V",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "1acfe411-3279-4597-b2b6-6e930256018a",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_W",
+      "InputType": "Switch",
+      "Input": 32,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_W",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "f2bca485-b9a3-4e54-8502-cc02233d3a9c",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_X",
+      "InputType": "Switch",
+      "Input": 33,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_X",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "99612285-b31a-4d30-b44f-d9840b288719",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_Y",
+      "InputType": "Switch",
+      "Input": 34,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_Y",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "5b6965ab-a6df-452b-b784-7fc88ca6280a",
+      "IsActive": true,
+      "Description": "L:S_CDU1_KEY_Z",
+      "InputType": "Switch",
+      "Input": 35,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_CDU1_KEY_Z",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b7368a4a-6edd-4627-906f-4253f81e6c02",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "949eff43-2377-4bc8-adce-7ebdaa0ce4a4",
+      "IsActive": true,
+      "Description": "FM1",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_CDU1_FM1"
+    },
+    {
+      "Id": "9181da90-dd3d-448c-82c4-09ddec1f6dbb",
+      "IsActive": true,
+      "Description": "L:I_CDU1_IND",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_CDU1_IND"
+    },
+    {
+      "Id": "77eade04-a52b-40c7-9827-d6d1da863db9",
+      "IsActive": true,
+      "Description": "L:I_CDU1_RDY",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_CDU1_RDY"
+    },
+    {
+      "Id": "bfeb94a5-5de3-4e06-8ea7-fe917fc50759",
+      "IsActive": true,
+      "Description": "L:I_CDU1_FM2",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_CDU1_FM2"
+    },
+    {
+      "Id": "5feddae3-71b5-4d34-bd61-4e65582d8bd2",
+      "IsActive": true,
+      "Description": "L:I_CDU1_FAIL",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_CDU1_FAIL"
+    },
+    {
+      "Id": "0d53660e-c419-4ce1-b320-7ae31be7e1e7",
+      "IsActive": true,
+      "Description": "L:I_CDU1_FM",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_CDU1_FM"
+    },
+    {
+      "Id": "9fdf5ea4-bc6a-416d-8189-a61a1ac63a74",
+      "IsActive": true,
+      "Description": "L:I_CDU1_MCDU_MENU",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_CDU1_MCDU_MENU"
+    },
+    {
+      "Id": "9afc4b41-800d-4192-b795-bb13c32ec671",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "e493ffbd-f152-4f86-b5e7-e7917ef0293b",
+      "IsActive": true,
+      "OutputType": "Analog",
+      "Outputs": [
+        6,
+        7,
+        8
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "255",
+          "FalseValue": "255"
+        }
+      ]
+    },
+    {
+      "Id": "00e2d304-ca9f-40d2-8a81-a0099cce4bb2",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

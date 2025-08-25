@@ -1,0 +1,699 @@
+{
+  "DeviceName": "Airbus EFIS CPT",
+  "InputCreators": [
+    {
+      "Id": "07aad58a-3628-4269-9cf7-3b0b4bef85c2",
+      "IsActive": true,
+      "Description": "EFIS FD",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_FD",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "cfea7677-a660-473e-876a-02a8bbd9cc09",
+      "IsActive": true,
+      "Description": "EFIS LS",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_LS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "d7450491-951f-4ea5-ba30-c312ad476082",
+      "IsActive": true,
+      "Description": "EFIS CSTR",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_CSTR",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "25143ed2-7a4d-4eff-8c7e-3078ab81e251",
+      "IsActive": true,
+      "Description": "EFIS WPT",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_WPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "7695958f-3ea6-4a08-a5a3-976c3fff9ff4",
+      "IsActive": true,
+      "Description": "EFIS VOR.D",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_VORD",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "88a8d1d4-a615-484e-a44b-aa7126c8c7bc",
+      "IsActive": true,
+      "Description": "EFIS NDB",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_NDB",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "eb92e3f1-be51-4683-90cb-5ea651b1209c",
+      "IsActive": true,
+      "Description": "EFIS ARPT",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ARPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "54bdda50-e76c-4ee4-9608-119336bf68fe",
+      "IsActive": true,
+      "Description": "EFIS  BARO STD Pull",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_BARO_STD",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "79f50814-9139-4216-92e1-934ff896c2ab",
+      "IsActive": true,
+      "Description": "EFIS  BARO STD Push",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_BARO_STD",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "dbc59772-63db-467f-b229-53d696d25837",
+      "IsActive": true,
+      "Description": "MIP CHRONO",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CHRONO_CAPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "4a51d5cb-2f1a-4751-85bb-ab65a7c76713",
+      "IsActive": true,
+      "Description": "MIP MASTER WARNING",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_MASTER_WARNING_CAPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "ad510d42-0333-434b-acfb-87c61f5b9ccf",
+      "IsActive": true,
+      "Description": "MIP MASTER CAUTION",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_MASTER_CAUTION_CAPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "fc181c5f-b874-4cbd-b0b9-ebe4c6988d2f",
+      "IsActive": true,
+      "Description": "EFIS BARO MODE hPa",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_BARO_MODE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6ea733fd-b9c1-4b11-b9f0-d93f5d414325",
+      "IsActive": true,
+      "Description": "EFIS BARO MODE in Hg",
+      "InputType": "Switch",
+      "Input": 13,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_BARO_MODE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "4718d793-f190-4b11-82e9-906d5ed78747",
+      "IsActive": true,
+      "Description": "EFIS  NAV1 ADF",
+      "InputType": "Switch",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_NAV1",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "011896da-6461-400c-8885-71c48aa4b273",
+      "IsActive": true,
+      "Description": "EFIS  NAV1 OFF",
+      "InputType": "Switch",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_NAV1",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "27874187-230a-47b3-95ea-703abd52ed06",
+      "IsActive": true,
+      "Description": "EFIS  NAV1 VOR",
+      "InputType": "Switch",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_NAV1",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "802a1e29-9c08-40a5-a825-56676b8627d9",
+      "IsActive": true,
+      "Description": "EFIS  NAV2 ADF",
+      "InputType": "Switch",
+      "Input": 17,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_NAV2",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3776398b-c15f-4928-be12-d39fc230237c",
+      "IsActive": true,
+      "Description": "EFIS  NAV2 OFF",
+      "InputType": "Switch",
+      "Input": 18,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_NAV2",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "a5ee254d-9b1a-413e-bc84-ed683f9dd90d",
+      "IsActive": true,
+      "Description": "EFIS  NAV2 VOR",
+      "InputType": "Switch",
+      "Input": 19,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_NAV2",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "830df11a-212e-4a28-bb1a-a6d8263f2110",
+      "IsActive": true,
+      "Description": "EFIS ND MODE ILS",
+      "InputType": "Switch",
+      "Input": 20,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_MODE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c9e1fdb6-8682-4847-8ffd-8608b29aba23",
+      "IsActive": true,
+      "Description": "EFIS ND MODE  VOR",
+      "InputType": "Switch",
+      "Input": 21,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_MODE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "34bb9c75-294b-471e-85e5-cea8ddc75805",
+      "IsActive": true,
+      "Description": "EFIS ND MODE  NAV",
+      "InputType": "Switch",
+      "Input": 22,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_MODE",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "62039496-fc1b-4fc6-a5df-700351582eea",
+      "IsActive": true,
+      "Description": "EFIS ND MODE ARC",
+      "InputType": "Switch",
+      "Input": 23,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_MODE",
+      "DataPress": 3,
+      "OnRelease": false
+    },
+    {
+      "Id": "dc533028-7894-452f-813a-06c5a2268a26",
+      "IsActive": true,
+      "Description": "EFIS ND MODE  PLAN",
+      "InputType": "Switch",
+      "Input": 24,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_MODE",
+      "DataPress": 4,
+      "OnRelease": false
+    },
+    {
+      "Id": "2fa8d45c-dc70-4bdb-a8a3-dafd039a7556",
+      "IsActive": true,
+      "Description": "EFIS ND ZOOM 10",
+      "InputType": "Switch",
+      "Input": 25,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_ZOOM",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "66084ab9-3ce8-4577-873d-64b215f0dcad",
+      "IsActive": true,
+      "Description": "EFIS ND ZOOM 20",
+      "InputType": "Switch",
+      "Input": 26,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_ZOOM",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "e2838a87-8040-41dd-b40f-9071de4d44b1",
+      "IsActive": true,
+      "Description": "EFIS ND ZOOM 40",
+      "InputType": "Switch",
+      "Input": 27,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_ZOOM",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "18770a83-664b-47ab-8f62-517826cd948f",
+      "IsActive": true,
+      "Description": "EFIS ND ZOOM 80",
+      "InputType": "Switch",
+      "Input": 28,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_ZOOM",
+      "DataPress": 3,
+      "OnRelease": false
+    },
+    {
+      "Id": "2654c703-2972-4e32-a7e8-6e0b1d0f2e62",
+      "IsActive": true,
+      "Description": "EFIS ND ZOOM 160",
+      "InputType": "Switch",
+      "Input": 29,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_ZOOM",
+      "DataPress": 4,
+      "OnRelease": false
+    },
+    {
+      "Id": "169d2964-af98-4a04-8f6e-cc9bbcecc277",
+      "IsActive": true,
+      "Description": "EFIS ND ZOOM 320",
+      "InputType": "Switch",
+      "Input": 30,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FCU_EFIS1_ND_ZOOM",
+      "DataPress": 5,
+      "OnRelease": false
+    },
+    {
+      "Id": "e82e69af-05bf-491f-9c6b-9e0400e957cf",
+      "IsActive": true,
+      "Description": "EFIS  BARO INC",
+      "InputType": "Switch",
+      "Input": 31,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_FCU_EFIS1_BARO) \u002B\u002B (\u003EL:E_FCU_EFIS1_BARO)",
+      "OnRelease": false
+    },
+    {
+      "Id": "0400c873-97e6-4602-85e7-6b119e885451",
+      "IsActive": true,
+      "Description": "EFIS  BARO DEC",
+      "InputType": "Switch",
+      "Input": 32,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_FCU_EFIS1_BARO) -- (\u003EL:E_FCU_EFIS1_BARO)",
+      "OnRelease": false
+    },
+    {
+      "Id": "d59cae33-ead0-4e31-97c8-a3bcc099fb60",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "97fea17e-07e3-4b6a-adb3-4d2c2d9e8dba",
+      "IsActive": true,
+      "Description": "EFIS BARO",
+      "OutputType": "Dataline",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:S_OH_IN_LT_ANN_LT",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "2",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "e59a389a-1366-4f37-8256-2e9f98fbbb34",
+      "IsActive": true,
+      "Description": "EFIS QNH",
+      "OutputType": "Dataline",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_QNH"
+    },
+    {
+      "Id": "0defff88-715f-4a5d-80d7-39604ae4cc5e",
+      "IsActive": true,
+      "Description": "MIP AUTOLAND",
+      "OutputType": "Dataline",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_AUTOLAND_CAPT"
+    },
+    {
+      "Id": "310cff69-236a-4d32-b8c2-0ee668da69a8",
+      "IsActive": true,
+      "Description": "MIP MASTER WARNING",
+      "OutputType": "Dataline",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_MASTER_WARNING_CAPT"
+    },
+    {
+      "Id": "beac7f55-99e2-4960-9196-89990438ac17",
+      "IsActive": true,
+      "Description": "MIP MASTER CAUTION",
+      "OutputType": "Dataline",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_MASTER_CAUTION_CAPT"
+    },
+    {
+      "Id": "cffd2231-6e98-4ccc-955d-fe2755b4b40b",
+      "IsActive": true,
+      "Description": "FC SIDESTICK PRIORITY ARROW",
+      "OutputType": "Dataline",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FC_SIDESTICK_PRIORITY_CAPT_ARROW"
+    },
+    {
+      "Id": "a386fe3d-4066-4944-96c3-818f74a1c92e",
+      "IsActive": true,
+      "Description": "FC SIDESTICK PRIORITY",
+      "OutputType": "Dataline",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FC_SIDESTICK_PRIORITY_CAPT"
+    },
+    {
+      "Id": "42c25037-641d-4007-aae4-919d9859b713",
+      "IsActive": true,
+      "Description": "EFIS FD",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_FD"
+    },
+    {
+      "Id": "e2081913-0cb1-4289-87e5-04132e454030",
+      "IsActive": true,
+      "Description": "EFIS  LS",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_LS"
+    },
+    {
+      "Id": "a7da70c9-fc38-4d76-96fb-fa097a072dbe",
+      "IsActive": true,
+      "Description": "EFIS CSTR",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_CSTR"
+    },
+    {
+      "Id": "3ce59d8b-e086-4df1-93e5-ba468b1f7ea9",
+      "IsActive": true,
+      "Description": "EFIS WPT",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_WPT"
+    },
+    {
+      "Id": "8b72a60e-9df5-4bc4-9d2e-4c3370874c64",
+      "IsActive": true,
+      "Description": "EFIS VOR.D",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_VORD"
+    },
+    {
+      "Id": "96d7adaa-0396-406a-9c2b-168da9ae4025",
+      "IsActive": true,
+      "Description": "EFIS NDB",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_NDB"
+    },
+    {
+      "Id": "c7d07d01-5a8a-4885-8a75-d192d8944fe7",
+      "IsActive": true,
+      "Description": "EFIS NDB",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_EFIS1_ARPT"
+    },
+    {
+      "Id": "3de38281-4f4c-4d38-8623-ffbc4e2991e6",
+      "IsActive": true,
+      "Description": "EFIS BARO in Hg (Precondition)",
+      "OutputType": "LED",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:B_FCU_EFIS1_BARO_INCH"
+    },
+    {
+      "Id": "b547a94a-cfc0-4e97-ada0-5e186146a837",
+      "IsActive": true,
+      "Description": "EFIS BARO hPa",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        15
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FCU_EFIS1_BARO_HPA",
+      "IsPadded": true,
+      "PaddingCharacter": "0",
+      "DigitCount": 4,
+      "DigitCheckedSum": 15,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3de38281-4f4c-4d38-8623-ffbc4e2991e6",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1c8a4bec-c89e-4b96-8d05-5345d005465e",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "aab165e1-c24f-4426-801d-11135f70b817",
+      "IsActive": true,
+      "Description": "EFIS BARO in Hg",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        15
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FCU_EFIS1_BARO_INCH",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,2)"
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 4,
+          "Direction": 1
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": "0",
+      "DigitCount": 4,
+      "DigitCheckedSum": 15,
+      "DecimalPointCheckedSum": 2,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "3de38281-4f4c-4d38-8623-ffbc4e2991e6",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1c8a4bec-c89e-4b96-8d05-5345d005465e",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "1c8a4bec-c89e-4b96-8d05-5345d005465e",
+      "IsActive": true,
+      "Description": "EFIS BARO STD (Precondition)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        15
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:B_FCU_EFIS1_BARO_STD",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "5td",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "b6bb2e8f-05eb-4930-8e11-0cb51ba7f626",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

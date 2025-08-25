@@ -1,0 +1,214 @@
+{
+  "DeviceName": "Airbus WR/CLP",
+  "InputCreators": [
+    {
+      "Id": "b5168219-fa1c-424e-987b-a0ffbdaa4c1d",
+      "IsActive": true,
+      "Description": "L:S_WR_SYS",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_SYS",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "585e8d65-fb94-4dda-957b-4f41648d0187",
+      "IsActive": true,
+      "Description": "L:S_WR_SYS",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_SYS",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "1a7ac6fe-d695-4092-8d75-2f923dc948c4",
+      "IsActive": true,
+      "Description": "L:S_WR_SYS",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_SYS",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "ed9af714-f179-427e-bc82-91e248ea6822",
+      "IsActive": true,
+      "Description": "L:S_WR_MODE",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_MODE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6e26da53-a4cd-4954-b93d-5a4e9598b1d0",
+      "IsActive": true,
+      "Description": "L:S_WR_MODE",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_MODE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "3c0376b7-4ffc-4325-8486-1a3573650537",
+      "IsActive": true,
+      "Description": "L:S_WR_MODE",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_MODE",
+      "DataPress": 3,
+      "OnRelease": false
+    },
+    {
+      "Id": "b58dbb19-4253-497a-96d8-8c219e54012b",
+      "IsActive": true,
+      "Description": "L:S_WR_PRED_WS",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_PRED_WS",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "281ad602-3769-4f7c-b394-58bfe644324e",
+      "IsActive": true,
+      "Description": "L:S_WR_PRED_WS",
+      "InputType": "Switch",
+      "Input": 13,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_WR_PRED_WS",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "96a602fc-10f9-4d8b-b007-acb8e686e793",
+      "IsActive": true,
+      "Description": "L:A_MIP_LIGHTING_FLOOD_MAIN",
+      "InputType": "Analog",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_MIP_LIGHTING_FLOOD_MAIN",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "cb0ae32e-6138-424a-86e5-d9cbb2c4c864",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "64a3de9e-11a9-4f65-9210-882b5c7ada6a",
+      "IsActive": true,
+      "Description": "L:S_WR_GAIN",
+      "InputType": "Analog",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_WR_GAIN",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": -5
+          },
+          {
+            "Key": 255,
+            "Value": 4
+          }
+        ]
+      }
+    },
+    {
+      "Id": "0dbe55f3-732f-45c1-9150-61c0174893d4",
+      "IsActive": true,
+      "Description": "L:A_WR_TILT",
+      "InputType": "Analog",
+      "Input": 17,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_WR_TILT",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": -15
+          },
+          {
+            "Key": 255,
+            "Value": 15
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "c687b7f9-4600-4d29-b081-09759d1dbee5",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

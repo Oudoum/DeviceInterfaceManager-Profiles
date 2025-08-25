@@ -1,0 +1,1070 @@
+{
+  "DeviceName": "Airbus AB/LGS/PTI/CLK",
+  "InputCreators": [
+    {
+      "Id": "cd3fb3be-e76a-44d3-ad92-e636179ba8f9",
+      "IsActive": true,
+      "Description": "L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_GPWS_TERRAIN_ON_ND_CAPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6b5342f5-3057-47cf-89fb-f9a9d79715fb",
+      "IsActive": true,
+      "Description": "L:S_MIP_GPWS_TERRAIN_ON_ND_FO",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_GPWS_TERRAIN_ON_ND_FO",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "bb403af3-7725-4662-b452-9c3c5d9b1452",
+      "IsActive": true,
+      "Description": "L:S_MIP_AUTOBRAKE_LO",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_AUTOBRAKE_LO",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "0d4b43f4-0b29-4e8f-9cb8-9e86c1396b42",
+      "IsActive": true,
+      "Description": "L:S_MIP_AUTOBRAKE_MED",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_AUTOBRAKE_MED",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "efd2baf5-664b-4b39-b45e-c72890262beb",
+      "IsActive": true,
+      "Description": "L:S_MIP_AUTOBRAKE_MAX",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_AUTOBRAKE_MAX",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "504a985b-e89d-418d-8d39-a61ed6b0dd4f",
+      "IsActive": true,
+      "Description": "L:S_MIP_BRAKE_FAN",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_MIP_BRAKE_FAN) ! (\u003EL:S_MIP_BRAKE_FAN)",
+      "OnRelease": false
+    },
+    {
+      "Id": "77928f9f-f66d-478b-ab97-360ebbb3c0d6",
+      "IsActive": true,
+      "Description": "L:S_FC_MIP_ANTI_SKID",
+      "InputType": "Switch",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_MIP_ANTI_SKID",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "a3698157-c2ba-47e0-8b96-18ffc7e0f70c",
+      "IsActive": true,
+      "Description": "L:S_FC_MIP_ANTI_SKID",
+      "InputType": "Switch",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_MIP_ANTI_SKID",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "162892dd-c83f-4461-a10c-db2886359d97",
+      "IsActive": true,
+      "Description": "L:S_MIP_ISFD_LS",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_ISFD_LS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "01082169-2c5c-4feb-bf75-992d7f61b4ab",
+      "IsActive": true,
+      "Description": "L:S_MIP_ISFD_BUGS",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_ISFD_BUGS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "0787b3ab-36ce-4d6c-91c7-9a46aaa388a3",
+      "IsActive": true,
+      "Description": "L:S_MIP_ISFD_PLUS",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_ISFD_PLUS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "01f3e388-f4b9-4217-b24f-93077b60e0ac",
+      "IsActive": true,
+      "Description": "L:S_MIP_ISFD_MINUS",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_ISFD_MINUS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b70f2215-7c51-484b-b0bd-ca0536af0c1a",
+      "IsActive": true,
+      "Description": "L:S_MIP_ISFD_RST",
+      "InputType": "Switch",
+      "Input": 13,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_ISFD_RST",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c028e370-2347-49f4-9bb7-bad3d0bbc182",
+      "IsActive": true,
+      "Description": "L:S_MIP_ISFD_BARO_BUTTON",
+      "InputType": "Switch",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_ISFD_BARO_BUTTON",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c1e881ba-ca19-42f4-85dd-96f02d9a495e",
+      "IsActive": true,
+      "Description": "(L:S_MIP_ISFD_BARO_BUTTON) \u002B\u002B (\u003EL:S_MIP_ISFD_BARO_BUTTON)",
+      "InputType": "Switch",
+      "Input": 29,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_MIP_ISFD_BARO) \u002B\u002B (\u003EL:E_MIP_ISFD_BARO)",
+      "OnRelease": false
+    },
+    {
+      "Id": "b8294366-1fc5-486c-8d43-b601b5c4e688",
+      "IsActive": true,
+      "Description": "L:S_MIP_ISFD_BARO_BUTTON -- L:S_MIP_ISFD_BARO_BUTTON)",
+      "InputType": "Switch",
+      "Input": 30,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_MIP_ISFD_BARO) -- (\u003EL:E_MIP_ISFD_BARO)",
+      "OnRelease": false
+    },
+    {
+      "Id": "32bbc0cf-c753-4f48-a392-b290bc3202cb",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_RST",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_RST",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "68081596-733b-4357-810c-210b1de13737",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_CHR",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_CHR",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "73befd8c-e0bd-4e75-9dad-bcab7d1c5530",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_SET",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_SET",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3cc65c25-968a-425c-a99d-4160fcbad73b",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_UTC",
+      "InputType": "Switch",
+      "Input": 21,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_UTC",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3f4deff5-d488-438f-a36e-f66d29a457ac",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_UTC",
+      "InputType": "Switch",
+      "Input": 22,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_UTC",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "48decd95-89fa-4c0c-8469-a74bf12313dc",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_UTC",
+      "InputType": "Switch",
+      "Input": 23,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_UTC",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "77ff6807-f2d6-43be-8792-d897fff60d50",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_ET",
+      "InputType": "Switch",
+      "Input": 24,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_ET",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "ab15d7e2-fc6e-4cbb-879e-d9d7559004c4",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_ET",
+      "InputType": "Switch",
+      "Input": 25,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_ET",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "3ae60ae9-ddc6-4b71-afd1-58e85b2318f2",
+      "IsActive": true,
+      "Description": "L:S_MIP_CLOCK_ET",
+      "InputType": "Switch",
+      "Input": 26,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_CLOCK_ET",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "3e569cba-6feb-4e71-af58-a9712a001d43",
+      "IsActive": true,
+      "Description": "L:E_MIP_CLOCK_SET -- L:E_MIP_CLOCK_SET",
+      "InputType": "Switch",
+      "Input": 28,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_MIP_CLOCK_SET) -- (\u003EL:E_MIP_CLOCK_SET)",
+      "OnRelease": false
+    },
+    {
+      "Id": "1213f71f-8e38-41a3-9d63-9d62ad475c91",
+      "IsActive": true,
+      "Description": "L:E_MIP_CLOCK_SET \u002B\u002B L:E_MIP_CLOCK_SET",
+      "InputType": "Switch",
+      "Input": 27,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_MIP_CLOCK_SET) \u002B\u002B (\u003EL:E_MIP_CLOCK_SET)",
+      "OnRelease": false
+    },
+    {
+      "Id": "641c409d-220f-4467-a804-71d9655f63b4",
+      "IsActive": true,
+      "Description": "GEAR UP",
+      "InputType": "Switch",
+      "Input": 17,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_GEAR",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c773e004-340d-4be7-ac90-52af4d9801d5",
+      "IsActive": true,
+      "Description": "GEAR DOWN",
+      "InputType": "Switch",
+      "Input": 18,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_GEAR",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "08f40af2-e98a-4b30-b062-0854329977b1",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "1f319cf6-b0bd-4cc7-bc70-63e7242047c5",
+      "IsActive": true,
+      "Description": "L:A_MIP_LIGHTING_FLOOD_MAIN",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_MIP_LIGHTING_FLOOD_MAIN",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "bac9641a-eb76-4053-95ea-a645a9d16b2f",
+      "IsActive": true,
+      "Description": "L:I_MIP_GPWS_TERRAIN_ON_ND_CAPT",
+      "OutputType": "LED",
+      "Outputs": [
+        19
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GPWS_TERRAIN_ON_ND_CAPT_L"
+    },
+    {
+      "Id": "4e235372-381e-4104-954c-cbcad2bbf8ed",
+      "IsActive": true,
+      "Description": "L:I_MIP_GPWS_TERRAIN_ON_ND_FO",
+      "OutputType": "LED",
+      "Outputs": [
+        17
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GPWS_TERRAIN_ON_ND_FO_L"
+    },
+    {
+      "Id": "e96dddb5-4676-46b4-847c-005cdd2bb4e3",
+      "IsActive": true,
+      "Description": "L:I_MIP_GEAR_1_U",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GEAR_1_U"
+    },
+    {
+      "Id": "a1257075-8779-4ab9-9c92-1602cca3c205",
+      "IsActive": true,
+      "Description": "L:I_MIP_GEAR_2_U",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GEAR_2_U"
+    },
+    {
+      "Id": "c5faf965-391c-4169-804d-67e98f5d9065",
+      "IsActive": true,
+      "Description": "L:I_MIP_GEAR_3_U",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GEAR_3_U"
+    },
+    {
+      "Id": "6a4e1418-024f-4c07-9393-3ebf86859e8e",
+      "IsActive": true,
+      "Description": "L:I_MIP_GEAR_1_L",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GEAR_1_L"
+    },
+    {
+      "Id": "44ee1bf9-d056-489e-92a9-c314aad48f8f",
+      "IsActive": true,
+      "Description": "L:I_MIP_GEAR_2_L",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GEAR_2_L"
+    },
+    {
+      "Id": "0d62997c-ccb0-4374-9ae5-6ffaa354819b",
+      "IsActive": true,
+      "Description": "L:I_MIP_GEAR_3_L",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GEAR_3_L"
+    },
+    {
+      "Id": "54e4c7cd-0e0a-483c-92df-f5eedf26794b",
+      "IsActive": true,
+      "Description": "L:I_MIP_BRAKE_FAN_U",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_BRAKE_FAN_U"
+    },
+    {
+      "Id": "994d9ea6-07f3-4c27-91f2-1419f7a7cbca",
+      "IsActive": true,
+      "Description": "L:I_MIP_BRAKE_FAN_L",
+      "OutputType": "LED",
+      "Outputs": [
+        7
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_BRAKE_FAN_L"
+    },
+    {
+      "Id": "0350085f-dc59-4e9a-95ea-61d0e2cfd9ce",
+      "IsActive": true,
+      "Description": "L:I_MIP_AUTOBRAKE_LO_U",
+      "OutputType": "LED",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_AUTOBRAKE_LO_U"
+    },
+    {
+      "Id": "22854fa6-d712-4ccf-9166-411575551e9d",
+      "IsActive": true,
+      "Description": "L:I_MIP_AUTOBRAKE_LO_L",
+      "OutputType": "LED",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_AUTOBRAKE_LO_L"
+    },
+    {
+      "Id": "6d2df18a-6d4a-49f2-9803-c7c7d86eb13e",
+      "IsActive": true,
+      "Description": "L:I_MIP_AUTOBRAKE_MED_U",
+      "OutputType": "LED",
+      "Outputs": [
+        10
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_AUTOBRAKE_MED_U"
+    },
+    {
+      "Id": "5cfbd050-b520-464d-9310-13acaf39e76f",
+      "IsActive": true,
+      "Description": "L:I_MIP_AUTOBRAKE_MED_L",
+      "OutputType": "LED",
+      "Outputs": [
+        11
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_AUTOBRAKE_MED_L"
+    },
+    {
+      "Id": "b7a1650a-a89a-4252-a5c6-15c61a58deb2",
+      "IsActive": true,
+      "Description": "L:I_MIP_AUTOBRAKE_MAX_U",
+      "OutputType": "LED",
+      "Outputs": [
+        12
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_AUTOBRAKE_MAX_U"
+    },
+    {
+      "Id": "e670dfe7-4505-4dff-87b5-44701ebf965c",
+      "IsActive": true,
+      "Description": "L:I_MIP_AUTOBRAKE_MAX_L",
+      "OutputType": "LED",
+      "Outputs": [
+        13
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_AUTOBRAKE_MAX_L"
+    },
+    {
+      "Id": "3330b83d-161f-4b0b-a189-e7ac2c489dca",
+      "IsActive": true,
+      "Description": "L:I_MIP_GEAR_RED",
+      "OutputType": "LED",
+      "Outputs": [
+        14
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GEAR_RED"
+    },
+    {
+      "Id": "04133281-ee92-4000-82a9-d5e0fb875ffe",
+      "IsActive": true,
+      "Description": "N_HYD_PRESSURE_BRAKE_ACCU",
+      "OutputType": "Analog",
+      "Outputs": [
+        14
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_HYD_PRESSURE_BRAKE_ACCU",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 4,
+              "Value": 255
+            }
+          ]
+        },
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,0)"
+        }
+      ]
+    },
+    {
+      "Id": "b0661755-0bab-4122-ad30-633b79a3f5d2",
+      "IsActive": true,
+      "Description": "L:N_HYD_PRESSURE_BRAKE_LEFT",
+      "OutputType": "Analog",
+      "Outputs": [
+        15
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_HYD_PRESSURE_BRAKE_LEFT",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 4,
+              "Value": 255
+            }
+          ]
+        },
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,0)"
+        }
+      ]
+    },
+    {
+      "Id": "342a30f8-13b9-409e-bacc-c6c9c242a8f7",
+      "IsActive": true,
+      "Description": "L:N_HYD_PRESSURE_BRAKE_RIGHT",
+      "OutputType": "Analog",
+      "Outputs": [
+        16
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_HYD_PRESSURE_BRAKE_RIGHT",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 4,
+              "Value": 255
+            }
+          ]
+        },
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,0)"
+        }
+      ]
+    },
+    {
+      "Id": "88622a2a-ee3c-4b74-a569-81b9d7d2f113",
+      "IsActive": true,
+      "Description": "Helper_L:N_MIP_CLOCK_CHRONO",
+      "OutputType": "7 Segment",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_CHRONO",
+      "IsPadded": false
+    },
+    {
+      "Id": "b3d0d22e-71aa-4e6b-8bf9-00e533f518fb",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_CHRONO",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        23
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_CHRONO",
+      "Modifiers": [
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 4,
+          "Direction": 0
+        },
+        {
+          "$type": "Inserting",
+          "IsActive": true,
+          "Character": ":",
+          "Position": 2
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "88622a2a-ee3c-4b74-a569-81b9d7d2f113",
+          "Operator": "\u003E",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "366625b9-a8f0-47ee-b0e8-ff7eda02ed4e",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_CHRONO(CLEAR)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        23
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_CHRONO",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "-1",
+          "TrueValue": "     ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "88622a2a-ee3c-4b74-a569-81b9d7d2f113",
+          "Operator": "=",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "062ad095-5152-424f-89e5-dd6e98e62edf",
+      "IsActive": true,
+      "Description": "Helper_L:N_MIP_CLOCK_MODE",
+      "OutputType": "7 Segment",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_MODE",
+      "IsPadded": false
+    },
+    {
+      "Id": "c68e4a82-8194-46f1-b399-3ce6d83f376f",
+      "IsActive": true,
+      "Description": "Helper_L:N_MIP_CLOCK_UTC",
+      "OutputType": "7 Segment",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_UTC",
+      "IsPadded": false
+    },
+    {
+      "Id": "61e5356c-6e63-44c5-8f58-a225f8e29afe",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_UTC(DATE/TIME)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        24
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_UTC",
+      "Modifiers": [
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 6,
+          "Direction": 0
+        },
+        {
+          "$type": "Inserting",
+          "IsActive": true,
+          "Character": ":",
+          "Position": 2
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c68e4a82-8194-46f1-b399-3ce6d83f376f",
+          "Operator": "\u003E",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "062ad095-5152-424f-89e5-dd6e98e62edf",
+          "Operator": "\u2264",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "9104e0d1-ad77-4bd3-9dd6-5d77d08a78c6",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_UTC(SET TIME)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        24
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_UTC",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "$/100"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": "0",
+      "DigitCount": 5,
+      "DigitCheckedSum": 31,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c68e4a82-8194-46f1-b399-3ce6d83f376f",
+          "Operator": "\u003E",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "062ad095-5152-424f-89e5-dd6e98e62edf",
+          "Operator": "\u2265",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "062ad095-5152-424f-89e5-dd6e98e62edf",
+          "Operator": "\u2264",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "eaaa82f6-061c-443b-a14a-1cb6de24de11",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_UTC(SET DATE)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        24
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_UTC",
+      "IsPadded": true,
+      "PaddingCharacter": "0",
+      "DigitCount": 7,
+      "DigitCheckedSum": 127,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c68e4a82-8194-46f1-b399-3ce6d83f376f",
+          "Operator": "\u003E",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "062ad095-5152-424f-89e5-dd6e98e62edf",
+          "Operator": "\u2265",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "062ad095-5152-424f-89e5-dd6e98e62edf",
+          "Operator": "\u2264",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "e6b54004-ab47-484e-9f0d-91d5518e8a61",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_UTC(CLEAR)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        24
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_UTC",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "-1",
+          "TrueValue": "       ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "c68e4a82-8194-46f1-b399-3ce6d83f376f",
+          "Operator": "=",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "93df35f6-ab68-4490-9f45-22392cf897a4",
+      "IsActive": true,
+      "Description": "Helper_L:N_MIP_CLOCK_ELPASED",
+      "OutputType": "7 Segment",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_ELAPSED",
+      "IsPadded": false
+    },
+    {
+      "Id": "e9dad1c7-fc5c-48e2-9570-c335519aa8c3",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_ELPASED",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        25
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_ELAPSED",
+      "Modifiers": [
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 4,
+          "Direction": 0
+        },
+        {
+          "$type": "Inserting",
+          "IsActive": true,
+          "Character": ":",
+          "Position": 2
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "93df35f6-ab68-4490-9f45-22392cf897a4",
+          "Operator": "\u003E",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f2ca3870-3b3b-4d5d-8307-191e04db397c",
+      "IsActive": true,
+      "Description": "L:N_MIP_CLOCK_ELPASED(CLEAR)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        25
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_MIP_CLOCK_ELAPSED",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "-1",
+          "TrueValue": "     ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "93df35f6-ab68-4490-9f45-22392cf897a4",
+          "Operator": "=",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "51e36bd4-ee2c-4ee8-84ac-dbbd2a8fddb7",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "2e879648-ab9b-471f-9b7f-ac5bd55c2354",
+      "IsActive": true,
+      "OutputType": "Analog",
+      "Outputs": [
+        22
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "b9b2462a-89e2-4881-b104-169ff3422296",
+      "IsActive": true,
+      "Description": "L:A_MIP_LIGHTING_FLOOD_MAIN",
+      "OutputType": "Analog",
+      "Outputs": [
+        11
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_MIP_LIGHTING_FLOOD_MAIN",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

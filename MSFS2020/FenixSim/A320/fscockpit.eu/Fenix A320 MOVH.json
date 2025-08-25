@@ -1,0 +1,749 @@
+{
+  "ProfileName": "Fenix MOVH",
+  "DeviceName": "Airbus MOH",
+  "InputCreators": [
+    {
+      "Id": "ffb7e7ee-cf93-4b51-93e8-35397725aced",
+      "IsActive": true,
+      "Description": "(L:S_OH_ELEC_APU_MASTER) ! (\u003EL:S_OH_ELEC_APU_MASTER)",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_OH_ELEC_APU_MASTER) ! (\u003EL:S_OH_ELEC_APU_MASTER)",
+      "OnRelease": false
+    },
+    {
+      "Id": "234e3f73-ba48-44ce-b6be-3c5546b10119",
+      "IsActive": true,
+      "Description": "L:S_OH_ELEC_APU_START",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_ELEC_APU_START",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "4ff88432-356d-475d-8312-560445e4bef0",
+      "IsActive": true,
+      "Description": "L:S_OH_IN_LT_ANN_LT",
+      "InputType": "Switch",
+      "Input": 39,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_IN_LT_ANN_LT",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "1214078c-ec80-4c41-869b-ecc9f9b74c7d",
+      "IsActive": true,
+      "Description": "L:S_OH_IN_LT_ANN_LT",
+      "InputType": "Switch",
+      "Input": 40,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_IN_LT_ANN_LT",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "ad37c42c-db03-4183-87bd-8005c5dd3e67",
+      "IsActive": true,
+      "Description": "L:S_OH_IN_LT_ANN_LT",
+      "InputType": "Switch",
+      "Input": 41,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_IN_LT_ANN_LT",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "08521752-f477-48f1-90b6-f90986f67aa5",
+      "IsActive": true,
+      "Description": "L:A_OH_LIGHTING_OVD",
+      "InputType": "Analog",
+      "Input": 52,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_OH_LIGHTING_OVD",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "IsVisible": false,
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "IsVisible": false,
+            "Key": 255,
+            "Value": 1
+          }
+        ],
+        "AddItemCommand": {},
+        "RemoveItemCommand": {}
+      }
+    },
+    {
+      "Id": "ae251cc5-69ee-4f33-b28f-7d73e27c0c92",
+      "IsActive": true,
+      "Description": "(L:FNX32X_ICING_PROBE_HEAT_BUTTON) ! (\u003EL:FNX32X_ICING_PROBE_HEAT_BUTTON)",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_OH_PROBE_HEAT) ! (\u003EL:S_OH_PROBE_HEAT)",
+      "OnRelease": false
+    },
+    {
+      "Id": "82190083-d205-4663-9d6e-474070aa0e7d",
+      "IsActive": true,
+      "Description": "(L:S_OH_PNEUMATIC_ENG2_ANTI_ICE) ! (\u003EL:S_OH_PNEUMATIC_ENG2_ANTI_ICE)",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_OH_PNEUMATIC_ENG2_ANTI_ICE) ! (\u003EL:S_OH_PNEUMATIC_ENG2_ANTI_ICE)",
+      "OnRelease": false
+    },
+    {
+      "Id": "b67a00fe-2e50-4fd5-8d3b-ecde9f2bc9db",
+      "IsActive": true,
+      "Description": "(L:S_OH_PNEUMATIC_ENG1_ANTI_ICE) ! (\u003EL:S_OH_PNEUMATIC_ENG1_ANTI_ICE)",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_OH_PNEUMATIC_ENG1_ANTI_ICE) ! (\u003EL:S_OH_PNEUMATIC_ENG1_ANTI_ICE)",
+      "OnRelease": false
+    },
+    {
+      "Id": "5b31d061-f130-4edc-93fc-79bded0f2df2",
+      "IsActive": true,
+      "Description": "(L:S_OH_PNEUMATIC_WING_ANTI_ICE) ! (\u003EL:S_OH_PNEUMATIC_WING_ANTI_ICE)",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_OH_PNEUMATIC_WING_ANTI_ICE) ! (\u003EL:S_OH_PNEUMATIC_WING_ANTI_ICE)",
+      "OnRelease": false
+    },
+    {
+      "Id": "a7cd597e-06ba-49a6-94e1-adb52d7f662f",
+      "IsActive": true,
+      "Description": "(L:S_OH_PNEUMATIC_PRESS_MODE) ! (\u003EL:S_OH_PNEUMATIC_PRESS_MODE)",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_OH_PNEUMATIC_PRESS_MODE) ! (\u003EL:S_OH_PNEUMATIC_PRESS_MODE)",
+      "OnRelease": false
+    },
+    {
+      "Id": "6490a1ef-52a2-4a5b-a208-dbb8f0caf411",
+      "IsActive": true,
+      "Description": "(L:S_OH_PNEUMATIC_DITCHING) ! (\u003EL:S_OH_PNEUMATIC_DITCHING)",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:S_OH_PNEUMATIC_DITCHING) ! (\u003EL:S_OH_PNEUMATIC_DITCHING)",
+      "OnRelease": false
+    },
+    {
+      "Id": "f9d9f241-d7d1-4b72-87e9-cfa42dfe1f59",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_BEACON",
+      "InputType": "Switch",
+      "Input": 17,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_BEACON",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "ed8f835c-221c-40cf-94b9-231baa922177",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_BEACON",
+      "InputType": "Switch",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_BEACON",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "9e7367d1-8442-46fc-a401-fb24a80cf9e3",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_WING",
+      "InputType": "Switch",
+      "Input": 18,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_WING",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "ce71ec55-1472-434e-9906-d042c352b7ed",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_WING",
+      "InputType": "Switch",
+      "Input": 19,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_WING",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "ec0c748f-74d6-44e6-82bc-b790bd20c130",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_RWY_TURNOFF",
+      "InputType": "Switch",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_RWY_TURNOFF",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "f339b8e3-c382-4a0b-88ff-f7c9b047bc41",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_RWY_TURNOFF",
+      "InputType": "Switch",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_RWY_TURNOFF",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "0b8a9708-0e88-492c-929d-3312bad73950",
+      "IsActive": true,
+      "Description": "L:S_OH_INT_LT_ICE",
+      "InputType": "Switch",
+      "Input": 34,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_IN_LT_ICE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "e01f7268-9d81-48b0-b261-ae2e97e5d05d",
+      "IsActive": true,
+      "Description": "L:S_OH_INT_LT_ICE",
+      "InputType": "Switch",
+      "Input": 35,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_IN_LT_ICE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "67bbf3d2-bcb8-4bda-b292-8d7f07e139b4",
+      "IsActive": true,
+      "Description": "L:S_OH_IN_LT_EMER",
+      "InputType": "Switch",
+      "Input": 50,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_INT_LT_EMER",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6b0ced4c-8275-45e7-987b-8624aafc4546",
+      "IsActive": true,
+      "Description": "L:S_OH_IN_LT_EMER",
+      "InputType": "Switch",
+      "Input": 49,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_INT_LT_EMER",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "80b80150-20e7-4fea-ba3b-ca12969933da",
+      "IsActive": true,
+      "Description": "L:S_OH_IN_LT_EMER",
+      "InputType": "Switch",
+      "Input": 48,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_INT_LT_EMER",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "57a460d8-96c7-46ee-a0fe-27226b8b1181",
+      "IsActive": true,
+      "Description": "L:S_OH_PNEUMATIC_PRESS_MAN",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_PNEUMATIC_PRESS_MAN",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "af88b531-b86e-4b51-9a10-21e1b8a175b7",
+      "IsActive": true,
+      "Description": "L:S_OH_PNEUMATIC_PRESS_MAN",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_PNEUMATIC_PRESS_MAN",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "fd6c2c41-80e8-487c-89c8-0dc381e5eff5",
+      "IsActive": true,
+      "Description": "L:S_OH_INT_LT_DOME",
+      "InputType": "Switch",
+      "Input": 36,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_INT_LT_DOME",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "7ec3f370-b0a0-44c4-bc84-ca6a870b39f8",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_NOSE",
+      "InputType": "Switch",
+      "Input": 29,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_NOSE",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "4c051724-5d2f-4827-a52f-85d21e2097f3",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_NOSE",
+      "InputType": "Switch",
+      "Input": 30,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_NOSE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "89c324fb-5e59-433f-b6eb-4979a755deba",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_NOSE",
+      "InputType": "Switch",
+      "Input": 31,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_NOSE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "f3b7e76e-1855-438a-994e-d38b6b44efed",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_LANDING_R",
+      "InputType": "Switch",
+      "Input": 25,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_LANDING_R",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "8cd607fb-c514-45de-8b0a-ee1d6d738978",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_LANDING_R",
+      "InputType": "Switch",
+      "Input": 24,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_LANDING_R",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "7c80d340-ca70-4831-90ae-73dd89830227",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_LANDING_R",
+      "InputType": "Switch",
+      "Input": 23,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_LANDING_R",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "eec2241f-d2c4-438f-b0b5-98107af3789d",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_LANDING_L",
+      "InputType": "Switch",
+      "Input": 20,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_LANDING_L",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "f01f62ac-9484-4867-9a76-477bee321afe",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_LANDING_L",
+      "InputType": "Switch",
+      "Input": 21,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_LANDING_L",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "a80f6882-4e08-4ed7-b4ff-62d16681069a",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_LANDING_L",
+      "InputType": "Switch",
+      "Input": 22,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_LANDING_L",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "7cd14fd0-a1f6-4f65-a330-3ec3281c7e9e",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_STROBE",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_STROBE",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "61531ae8-bc70-486c-959e-8c91905327bf",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_STROBE",
+      "InputType": "Switch",
+      "Input": 13,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_STROBE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c75acecc-8459-42fa-ad0f-6995f743d4d8",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_STROBE",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_STROBE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "df8d573f-cd95-46a8-af64-4df9e08325cd",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_NAV_LOGO",
+      "InputType": "Switch",
+      "Input": 28,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_NAV_LOGO",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "410916b8-eff5-4b37-8ad5-04ead3a4cfcc",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_NAV_LOGO",
+      "InputType": "Switch",
+      "Input": 27,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_NAV_LOGO",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "7efc7d15-46a1-424f-b48f-f4ee84b0d251",
+      "IsActive": true,
+      "Description": "L:S_OH_EXT_LT_NAV_LOGO",
+      "InputType": "Switch",
+      "Input": 26,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_EXT_LT_NAV_LOGO",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "1c8a0e53-c134-4017-ad6b-d6978f0ba7f9",
+      "IsActive": true,
+      "Description": "L:S_OH_SIGNS",
+      "InputType": "Switch",
+      "Input": 42,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_SIGNS",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "df87d61a-c4aa-4968-b327-721010fb7cee",
+      "IsActive": true,
+      "Description": "L:S_OH_SIGNS",
+      "InputType": "Switch",
+      "Input": 43,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_SIGNS",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "9ec73837-fd56-4fc7-8a80-6c00eba0bab8",
+      "IsActive": true,
+      "Description": "L:S_OH_SIGNS",
+      "InputType": "Switch",
+      "Input": 44,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_SIGNS",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "2db5c2d0-b9b1-44fa-91fc-79529903b979",
+      "IsActive": true,
+      "Description": "L:S_OH_SIGNS_SMOKING",
+      "InputType": "Switch",
+      "Input": 45,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_SIGNS_SMOKING",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "1089b125-67a4-495b-82c4-c116d155677c",
+      "IsActive": true,
+      "Description": "L:S_OH_SIGNS_SMOKING",
+      "InputType": "Switch",
+      "Input": 46,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_SIGNS_SMOKING",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "dd973320-9d3c-4270-9596-85e84de542e6",
+      "IsActive": true,
+      "Description": "L:S_OH_SIGNS_SMOKING",
+      "InputType": "Switch",
+      "Input": 47,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_SIGNS_SMOKING",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e4641b29-360d-4563-b311-386618ee9e56",
+      "IsActive": true,
+      "Description": "L:A_OH_PNEUMATIC_LDG_ELEV",
+      "InputType": "Analog",
+      "Input": 51,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_OH_PNEUMATIC_LDG_ELEV",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "IsVisible": false,
+            "Key": 0,
+            "Value": -3
+          },
+          {
+            "IsVisible": false,
+            "Key": 255,
+            "Value": 14
+          }
+        ],
+        "AddItemCommand": {},
+        "RemoveItemCommand": {}
+      }
+    },
+    {
+      "Id": "fff76289-50be-4eb3-bcde-bcb14d7b9405",
+      "IsActive": true,
+      "Description": "L:S_OH_INT_LT_DOME",
+      "InputType": "Switch",
+      "Input": 37,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_INT_LT_DOME",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "96979e15-8d40-49ff-83ac-0bdabbed1a4a",
+      "IsActive": true,
+      "Description": "L:S_OH_INT_LT_DOME",
+      "InputType": "Switch",
+      "Input": 38,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_OH_INT_LT_DOME",
+      "DataPress": 0,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "eb87c476-923d-4036-ad2a-961fbd7e10fc",
+      "IsActive": true,
+      "Description": "L:I_OH_ELEC_APU_MASTER_L",
+      "OutputType": "LED",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_ELEC_APU_MASTER_L"
+    },
+    {
+      "Id": "ae3879a7-49a8-4a10-b854-6ba18b1c5793",
+      "IsActive": true,
+      "Description": "L:I_OH_ELEC_APU_MASTER_U",
+      "OutputType": "LED",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_ELEC_APU_MASTER_U"
+    },
+    {
+      "Id": "7b48aeac-6cb7-4e9a-a07c-552611e44f36",
+      "IsActive": true,
+      "Description": "L:I_OH_ELEC_APU_START_U",
+      "OutputType": "LED",
+      "Outputs": [
+        11
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_ELEC_APU_START_U"
+    },
+    {
+      "Id": "cad4eeae-acd2-46e7-a576-83888b84a46d",
+      "IsActive": true,
+      "Description": "L:I_OH_ELEC_APU_START_U",
+      "OutputType": "LED",
+      "Outputs": [
+        10
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_ELEC_APU_START_L"
+    },
+    {
+      "Id": "f8852c84-e57c-469f-9cab-8e64a9d8fb97",
+      "IsActive": true,
+      "Description": "L:I_OH_PROBE_HEAT",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PROBE_HEAT_L"
+    },
+    {
+      "Id": "bb2c1420-357f-46b8-81df-476a9421bd4e",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_ENG2_ANTI_ICE_L",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_ENG2_ANTI_ICE_L"
+    },
+    {
+      "Id": "ad8862d4-d154-4493-b75b-6bbc78fe565c",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_ENG2_ANTI_ICE_U",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_ENG2_ANTI_ICE_U"
+    },
+    {
+      "Id": "90598abb-c257-49e1-931b-e8531694ceae",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_ENG1_ANTI_ICE_L",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_ENG1_ANTI_ICE_L"
+    },
+    {
+      "Id": "5275c670-95f1-4bb6-ab04-d8594168e542",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_ENG1_ANTI_ICE_U",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_ENG1_ANTI_ICE_U"
+    },
+    {
+      "Id": "505aa00f-fddc-4e6c-9699-2f76c5e33ab2",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_WING_ANTI_ICE_U",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_WING_ANTI_ICE_U"
+    },
+    {
+      "Id": "7d4a4afe-a541-4ea5-8476-68344645ea95",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_WING_ANTI_ICE_L",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_WING_ANTI_ICE_L"
+    },
+    {
+      "Id": "f67a1c61-78dd-42a7-8dcc-6ad51770bc38",
+      "IsActive": true,
+      "Description": "L:I__OH_PNEUMATIC_PRESS_MODE_L",
+      "OutputType": "LED",
+      "Outputs": [
+        12
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_PRESS_MODE_L"
+    },
+    {
+      "Id": "400a7ba9-4f7d-41d4-89ee-b5469c9581a6",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_PRESS_MODE_U",
+      "OutputType": "LED",
+      "Outputs": [
+        13
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_PRESS_MODE_U"
+    },
+    {
+      "Id": "4d2750b7-9714-4e7f-8a15-93e9199156e4",
+      "IsActive": true,
+      "Description": "L:I_OH_PNEUMATIC_DITCHING_L",
+      "OutputType": "LED",
+      "Outputs": [
+        14
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_PNEUMATIC_DITCHING_L"
+    },
+    {
+      "Id": "ff6103e7-770e-46f2-8586-f9a679852b7b",
+      "IsActive": true,
+      "Description": "L:I_OH_INT_LT_EMER_OFF",
+      "OutputType": "LED",
+      "Outputs": [
+        16
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_OH_INT_LT_EMER_OFF"
+    }
+  ]
+}

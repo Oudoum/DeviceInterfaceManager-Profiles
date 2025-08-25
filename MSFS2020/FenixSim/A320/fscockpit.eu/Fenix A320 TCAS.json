@@ -1,0 +1,676 @@
+{
+  "DeviceName": "Airbus TCAS/LPFO",
+  "InputCreators": [
+    {
+      "Id": "b825f410-ebaf-4152-9d53-8c1f46545bc3",
+      "IsActive": true,
+      "Description": "L:S_PED_AIC1",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_1",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "a9ecd3a5-2c44-41d8-ac07-3cbd27dcc6e7",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_2",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_2",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3db1301e-9141-4a26-983b-66db33cd87cf",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_3",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_3",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "8ec1cb9d-8502-4371-b03d-252d50207e50",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_4",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_4",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "846513d7-17ac-4cc1-8a78-746b75973d6c",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_5",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_5",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e9c72afe-a8fc-4ea5-b134-08d6f5fb2bd0",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_6",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_6",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b680e208-8419-4b86-ba84-f11430ecba32",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_7",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_7",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c4cc7da2-1c6d-4617-a496-38160e64fc2f",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_0",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_0",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "5a16c8fd-3559-4071-bae8-071aca35bc42",
+      "IsActive": true,
+      "Description": "L:S_PED_ATC_CLR",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_ATC_CLR",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "15e2f357-4633-40e0-a680-e9b7d1b4c4e6",
+      "IsActive": true,
+      "Description": "L:S_PED_AIDS_PRINT",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_AIDS_PRINT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e44ddeb9-ec4a-490c-8dde-c36c66c4c016",
+      "IsActive": true,
+      "Description": "L:S_PED_DFDR_EVENT",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_DFDR_EVENT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "cfc8e80c-caef-443e-b7a0-401b892b639b",
+      "IsActive": true,
+      "Description": "L:S_XPDR_IDENT",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_IDENT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "6772b9d8-211f-4286-9301-fcc63c13457f",
+      "IsActive": true,
+      "Description": "L:S_XPDR_OPERATION",
+      "InputType": "Switch",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_OPERATION",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3dd26e20-a280-4b61-aa43-3dcc64bff951",
+      "IsActive": true,
+      "Description": "L:S_XPDR_OPERATION",
+      "InputType": "Switch",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_OPERATION",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "b3af7660-0a5d-4f71-947d-9e4ab7a980d8",
+      "IsActive": true,
+      "Description": "L:S_XPDR_OPERATION",
+      "InputType": "Switch",
+      "Input": 17,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_OPERATION",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "33f2f24d-92df-455d-a753-cf55df96ea05",
+      "IsActive": true,
+      "Description": "L:S_XPDR_ATC",
+      "InputType": "Switch",
+      "Input": 18,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_ATC",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "679930e5-dce4-4599-961b-f360fa5ed9a1",
+      "IsActive": true,
+      "Description": "L:S_XPDR_ATC",
+      "InputType": "Switch",
+      "Input": 19,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_ATC",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "c1bd293c-edfe-4302-9c82-835cb0ef63c5",
+      "IsActive": true,
+      "Description": "L:S_XPDR_MODE",
+      "InputType": "Switch",
+      "Input": 26,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_MODE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "4b948b5f-a41e-48f9-a1da-18370bf4f174",
+      "IsActive": true,
+      "Description": "L:S_XPDR_MODE",
+      "InputType": "Switch",
+      "Input": 27,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_MODE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "184a8ce7-2ccb-479c-a3a5-4fc8b1855d39",
+      "IsActive": true,
+      "Description": "L:S_XPDR_MODE",
+      "InputType": "Switch",
+      "Input": 28,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_MODE",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "67dd4dc7-af00-4dce-999d-63ec1bae1ef6",
+      "IsActive": true,
+      "Description": "L:S_TCAS_RANGE",
+      "InputType": "Switch",
+      "Input": 22,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_TCAS_RANGE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "62e15263-f66d-4839-b924-4b360b681fc9",
+      "IsActive": true,
+      "Description": "L:S_TCAS_RANGE",
+      "InputType": "Switch",
+      "Input": 23,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_TCAS_RANGE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "3efb3dc9-fb9f-40b7-a841-ab53e91fc11c",
+      "IsActive": true,
+      "Description": "L:S_TCAS_RANGE",
+      "InputType": "Switch",
+      "Input": 24,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_TCAS_RANGE",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "f376260b-030f-4788-9504-eb3a963a0b83",
+      "IsActive": true,
+      "Description": "L:S_TCAS_RANGE",
+      "InputType": "Switch",
+      "Input": 25,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_TCAS_RANGE",
+      "DataPress": 3,
+      "OnRelease": false
+    },
+    {
+      "Id": "fc3788ed-e9a8-4f8c-96c3-2de6c13ebaf8",
+      "IsActive": true,
+      "Description": "L:S_XPDR_ALTREPORTING",
+      "InputType": "Switch",
+      "Input": 20,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_ALTREPORTING",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "13057242-ceaa-44c0-a0d3-ece642c84cb9",
+      "IsActive": true,
+      "Description": "L:S_XPDR_ALTREPORTING",
+      "InputType": "Switch",
+      "Input": 21,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_XPDR_ALTREPORTING",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "10aa06bd-6408-4475-a68c-6405eddf681d",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "a2027c69-ccd8-4243-952d-a2ade0ad6b64",
+      "IsActive": true,
+      "Description": "L:IXPDR_FAIL",
+      "OutputType": "LED",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_XPDR_FAIL"
+    },
+    {
+      "Id": "ad8cfd8e-ec03-43d8-ab62-0380ff04e018",
+      "IsActive": true,
+      "Description": "L:IXPDR_FAIL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5,
+        6,
+        7
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "255",
+          "FalseValue": "255"
+        }
+      ]
+    },
+    {
+      "Id": "fa63f66c-30ca-494d-8d2f-206e099e5d93",
+      "IsActive": true,
+      "Description": "FREQ XPDR (EMPTY)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FREQ_STANDBY_XPDR_SELECTED",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "-1",
+          "TrueValue": "    ",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ab13b0af-051a-4eed-9ee4-ad788af8a187",
+          "Operator": "\u2260",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "7b580d29-82f3-4dad-8d98-c08b2cc25296",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "040f44cf-9eef-4e57-97eb-11494aaa9e57",
+      "IsActive": true,
+      "Description": "FREQ XPDR (ONE DIGIT)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FREQ_STANDBY_XPDR_SELECTED",
+      "Modifiers": [
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 1,
+          "Direction": 0
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": " ",
+          "Length": 4,
+          "Direction": 1
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ab13b0af-051a-4eed-9ee4-ad788af8a187",
+          "Operator": "\u2260",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "7b580d29-82f3-4dad-8d98-c08b2cc25296",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "9b2591d2-cdba-45a2-ac1e-f0b3708e58e0",
+      "IsActive": true,
+      "Description": "FREQ XPDR (TWO DIGITS)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FREQ_STANDBY_XPDR_SELECTED",
+      "Modifiers": [
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 2,
+          "Direction": 0
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": " ",
+          "Length": 4,
+          "Direction": 1
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ab13b0af-051a-4eed-9ee4-ad788af8a187",
+          "Operator": "\u2260",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "7b580d29-82f3-4dad-8d98-c08b2cc25296",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "096c285e-3e74-4c60-896f-02fc95735da1",
+      "IsActive": true,
+      "Description": "FREQ XPDR (THREE DIGITS)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FREQ_STANDBY_XPDR_SELECTED",
+      "Modifiers": [
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 3,
+          "Direction": 0
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": " ",
+          "Length": 4,
+          "Direction": 1
+        }
+      ],
+      "IsPadded": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ab13b0af-051a-4eed-9ee4-ad788af8a187",
+          "Operator": "\u2260",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "7b580d29-82f3-4dad-8d98-c08b2cc25296",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "64577dff-eac3-45fb-9fa5-b2a8e92b6ac6",
+      "IsActive": true,
+      "Description": "FREQ XPDR (FOUR DIGITS)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FREQ_STANDBY_XPDR_SELECTED",
+      "IsPadded": true,
+      "PaddingCharacter": "0",
+      "DigitCount": 4,
+      "DigitCheckedSum": 15,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ab13b0af-051a-4eed-9ee4-ad788af8a187",
+          "Operator": "\u2260",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "7b580d29-82f3-4dad-8d98-c08b2cc25296",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "040f44cf-9eef-4e57-97eb-11494aaa9e57",
+          "Operator": "\u2260",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "4d004958-c3f4-4f3d-8a72-93e38d6d7ce1",
+      "IsActive": true,
+      "Description": "FREQ XPDR (NO STANDBY)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FREQ_XPDR_SELECTED",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "-1",
+          "TrueValue": "",
+          "FalseValue": "    "
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": "0",
+      "DigitCount": 4,
+      "DigitCheckedSum": 15,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ab13b0af-051a-4eed-9ee4-ad788af8a187",
+          "Operator": "\u2260",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "64577dff-eac3-45fb-9fa5-b2a8e92b6ac6",
+          "Operator": "=",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "7b580d29-82f3-4dad-8d98-c08b2cc25296",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "ab13b0af-051a-4eed-9ee4-ad788af8a187",
+      "IsActive": true,
+      "Description": "FREQ XPDR (ANN LT TEST)",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:S_OH_IN_LT_ANN_LT",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "2",
+          "TrueValue": "8888",
+          "FalseValue": ""
+        }
+      ],
+      "IsPadded": false
+    },
+    {
+      "Id": "7b580d29-82f3-4dad-8d98-c08b2cc25296",
+      "IsActive": true,
+      "Description": "FREQ XPDR (CHAR HELPER)",
+      "OutputType": "LED",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_XPDR_CHAR_DISPLAYED"
+    },
+    {
+      "Id": "33dc916a-cfe6-47bf-a608-f49a715a6f9d",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

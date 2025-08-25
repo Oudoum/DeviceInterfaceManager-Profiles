@@ -1,0 +1,624 @@
+{
+  "DeviceName": "Airbus RMP",
+  "InputCreators": [
+    {
+      "Id": "527b8185-e660-4278-b34b-1411474c5cfe",
+      "IsActive": true,
+      "Description": "L:S_PED_RMP2_XFER",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_XFER",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "ce2e69e2-dfcd-49e1-85bf-23653235a51f",
+      "IsActive": true,
+      "Description": "L:S_PED_RMP2_VHF1",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_VHF1",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "33ba4df0-6008-4618-bc53-d5d6eece32fc",
+      "IsActive": true,
+      "Description": "L:S_PED_RMP2_VHF2",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_VHF2",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3b455b26-a850-41a5-9b63-9a69d6c2a547",
+      "IsActive": true,
+      "Description": "L:S_PED_RMP2_NAV",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_NAV",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "67681055-0a30-44cd-8080-f35a3c8d88a9",
+      "IsActive": true,
+      "Description": "L:S_PED_RMP2_VOR",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_VOR",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "7c7b2806-8d61-4ab8-9871-5ce2d444aa52",
+      "IsActive": true,
+      "Description": "L:S_PED_RMP2_ILS",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_ILS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c5606745-fdd4-461f-a12c-ca6bd2d998d6",
+      "IsActive": true,
+      "Description": "L:S_PED_RMP2_ADF",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_ADF",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "9ccbce4f-8e30-4620-a425-1e7245044b0b",
+      "IsActive": true,
+      "Description": "POWER ON",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_POWER",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "b8f613da-9eee-44f3-8f6b-43886faf0d4e",
+      "IsActive": true,
+      "Description": "POWER OFF",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_RMP2_POWER",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "073da859-f0aa-478e-9da2-67093fb86836",
+      "IsActive": true,
+      "Description": "(L:E_PED_RMP2_INNER) -- (\u003EL:E_PED_RMP2_INNER)",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_PED_RMP2_INNER) -- (\u003EL:E_PED_RMP2_INNER)",
+      "OnRelease": false
+    },
+    {
+      "Id": "fd09ebe8-93cc-4ae8-99b6-a13009422b79",
+      "IsActive": true,
+      "Description": "(L:E_PED_RMP2_INNER) \u002B\u002B (\u003EL:E_PED_RMP2_INNER)",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_PED_RMP2_INNER) \u002B\u002B (\u003EL:E_PED_RMP2_INNER)",
+      "OnRelease": false
+    },
+    {
+      "Id": "37d19f85-81d0-43ba-9f24-8689f56b2437",
+      "IsActive": true,
+      "Description": "L:E_PED_RMP2_OUTER",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_PED_RMP2_OUTER) -- (\u003EL:E_PED_RMP2_OUTER)",
+      "OnRelease": false
+    },
+    {
+      "Id": "dcf4abe2-934f-40fb-9136-4e96c471ba8e",
+      "IsActive": true,
+      "Description": "(L:E_PED_RMP2_OUTER) \u002B\u002B (\u003EL:E_PED_RMP2_OUTER)",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "RPN/H-Events",
+      "Event": "(L:E_PED_RMP2_OUTER) \u002B\u002B (\u003EL:E_PED_RMP2_OUTER)",
+      "OnRelease": false
+    },
+    {
+      "Id": "3776ce1f-e53d-4768-a32e-20b31ba5dec1",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "121ddaf8-df9a-4715-b099-9f698694fb1a",
+      "IsActive": true,
+      "Description": "VHF1",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_RMP2_VHF1"
+    },
+    {
+      "Id": "f0aa75be-6dde-43d9-90be-1982d07c794d",
+      "IsActive": true,
+      "Description": "VHF2",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_RMP2_VHF2"
+    },
+    {
+      "Id": "57f852aa-5a9c-41d0-b785-141271d3c454",
+      "IsActive": true,
+      "Description": "L:I_PED_RMP2_VHF3",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_RMP2_VHF3"
+    },
+    {
+      "Id": "0c09013a-0d30-4479-9b7a-db3ab2e45492",
+      "IsActive": true,
+      "Description": "L:I_PED_RMP2_NAV",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_RMP2_NAV"
+    },
+    {
+      "Id": "2746b627-8ff3-49b7-a4c7-f0b23ea85c94",
+      "IsActive": true,
+      "Description": "L:I_PED_RMP2_VOR",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_RMP2_VOR"
+    },
+    {
+      "Id": "8bcbc91a-d4de-4ed6-b054-10aebb1afbe1",
+      "IsActive": true,
+      "Description": "L:I_PED_RMP2_ILS",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_RMP2_ILS"
+    },
+    {
+      "Id": "661d8831-c9ad-4765-976c-2aa516df739b",
+      "IsActive": true,
+      "Description": "L:I_PED_RMP2_ADF",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_RMP2_ADF"
+    },
+    {
+      "Id": "7356c8a0-b8f2-4d14-a743-5eee5e8ec0e2",
+      "IsActive": true,
+      "Description": "ACTIVE (HELPER)",
+      "OutputType": "7 Segment",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_ACTIVE",
+      "IsPadded": false
+    },
+    {
+      "Id": "a788726e-215b-4ef5-b51d-d2b4682ad6aa",
+      "IsActive": true,
+      "Description": "ACTIVE",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_ACTIVE",
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7356c8a0-b8f2-4d14-a743-5eee5e8ec0e2",
+          "Operator": "\u2260",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "661d8831-c9ad-4765-976c-2aa516df739b",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "32c3f70b-7693-46d8-ab4a-a82929160e7c",
+      "IsActive": true,
+      "Description": "ACTIVE ADF",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_ACTIVE",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "$/10"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 16,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7356c8a0-b8f2-4d14-a743-5eee5e8ec0e2",
+          "Operator": "\u2260",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "661d8831-c9ad-4765-976c-2aa516df739b",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b6a059e8-86f8-43d7-b49c-a1989de5e51c",
+      "IsActive": true,
+      "Description": "ACTIVE CLEAR",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_ACTIVE",
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "7356c8a0-b8f2-4d14-a743-5eee5e8ec0e2",
+          "Operator": "=",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "49a392bb-f90d-447b-b803-4064a3f235d2",
+      "IsActive": true,
+      "Description": "STDBY (HELPER)",
+      "OutputType": "7 Segment",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_STDBY",
+      "IsPadded": false
+    },
+    {
+      "Id": "7335800a-dcdb-4238-b7b6-cc3cfa8288f8",
+      "IsActive": true,
+      "Description": "STDBY",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_STDBY",
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "49a392bb-f90d-447b-b803-4064a3f235d2",
+          "Operator": "\u2260",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "661d8831-c9ad-4765-976c-2aa516df739b",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "af726547-2141-4a84-9448-88b3e09854d6",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "efdb8435-4763-4882-ad23-01d70d69a768",
+      "IsActive": true,
+      "Description": "STDBY ADF",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_STDBY",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "$/10"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 16,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "49a392bb-f90d-447b-b803-4064a3f235d2",
+          "Operator": "\u2260",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "661d8831-c9ad-4765-976c-2aa516df739b",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "a2881004-4ea5-4c31-89fc-f3ba78b441a6",
+      "IsActive": true,
+      "Description": "STDBY VOR/LS",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_STDBY",
+      "Modifiers": [
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 3,
+          "Direction": 0
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "-",
+          "Length": 4,
+          "Direction": 0
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "C",
+          "Length": 5,
+          "Direction": 0
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "49a392bb-f90d-447b-b803-4064a3f235d2",
+          "Operator": "\u2260",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "af726547-2141-4a84-9448-88b3e09854d6",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "e09c687f-a223-445a-88da-fe5681cb39e4",
+      "IsActive": true,
+      "Description": "STDBY CLEAR",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_PED_RMP2_STDBY",
+      "IsPadded": false,
+      "DigitCount": 6,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "49a392bb-f90d-447b-b803-4064a3f235d2",
+          "Operator": "=",
+          "ComparisonValue": "-1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "af726547-2141-4a84-9448-88b3e09854d6",
+      "IsActive": true,
+      "Description": "COURSE DISPLAYED (HELPER)",
+      "OutputType": "LED",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:B_PED_RMP2_COURSE_DISPLAYED"
+    },
+    {
+      "Id": "d138289b-d249-4435-bb36-3c39df2ca373",
+      "IsActive": true,
+      "Description": "BACKLIGHT BRIGHTNESS",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 100,
+              "Value": 1024
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "5f9b50d8-ccd9-47f5-9ecf-90abb97055fb",
+      "IsActive": true,
+      "Description": "DISPLAY BRIGHTNESS",
+      "OutputType": "Analog",
+      "Outputs": [
+        6
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "150",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "7dcb61f9-10bd-4218-873c-22613dd45254",
+      "IsActive": true,
+      "Description": "KEY INDICATORS BRIGHTNESS",
+      "OutputType": "Analog",
+      "Outputs": [
+        7
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "50",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "4f85f9d2-9137-42b9-9248-5eb9d0e7d49d",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

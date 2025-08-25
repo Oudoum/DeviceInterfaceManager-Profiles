@@ -1,0 +1,430 @@
+{
+  "DeviceName": "Airbus Throttle/ESP",
+  "InputCreators": [
+    {
+      "Id": "97bf2ac1-491e-4b29-b820-69fedb704190",
+      "IsActive": true,
+      "Description": "L:S_FC_THR_INST_DISCONNECT1",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_THR_INST_DISCONNECT1",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e4b08804-adb3-4e97-9a2f-13e1bd20f993",
+      "IsActive": true,
+      "Description": "L:S_FC_THR_INST_DISCONNECT2",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_THR_INST_DISCONNECT2",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "7ad78ee0-4044-49d9-ad9c-7f3e13084ab7",
+      "IsActive": true,
+      "Description": "Engine 1 ON",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ENG_MASTER_1",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "9b7e5684-afb8-4340-a9a2-321447c8f839",
+      "IsActive": true,
+      "Description": "Engine 2 ON",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ENG_MASTER_2",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "44786667-9810-41fc-93be-eb3dfa22873a",
+      "IsActive": true,
+      "Description": "Engine Mode Crank",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ENG_MODE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3a9ffc76-cf20-4af1-bcc8-50841570c51e",
+      "IsActive": true,
+      "Description": "Engine Mode Normal",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ENG_MODE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "d91426fc-882f-4089-8b4b-418d61637b78",
+      "IsActive": true,
+      "Description": "Engine Mode Ign/Start",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ENG_MODE",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "748a6238-4142-4051-bb97-2a3a2d476a5c",
+      "IsActive": true,
+      "Description": "Throttle Engine 1",
+      "InputType": "Analog",
+      "Input": 32,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_FC_THROTTLE_LEFT_INPUT",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": -46,
+            "Value": 0
+          },
+          {
+            "Key": -21,
+            "Value": 1
+          },
+          {
+            "Key": 0,
+            "Value": 2
+          },
+          {
+            "Key": 65,
+            "Value": 3
+          },
+          {
+            "Key": 75,
+            "Value": 3
+          },
+          {
+            "Key": 100,
+            "Value": 4
+          },
+          {
+            "Key": 127,
+            "Value": 5
+          }
+        ]
+      }
+    },
+    {
+      "Id": "4aa5e5f2-6507-418d-8452-1c462a3007bf",
+      "IsActive": true,
+      "Description": "Throttle Engine 2",
+      "InputType": "Analog",
+      "Input": 33,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_FC_THROTTLE_RIGHT_INPUT",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": -58,
+            "Value": 0
+          },
+          {
+            "Key": -21,
+            "Value": 1
+          },
+          {
+            "Key": 0,
+            "Value": 2
+          },
+          {
+            "Key": 65,
+            "Value": 3
+          },
+          {
+            "Key": 75,
+            "Value": 3
+          },
+          {
+            "Key": 100,
+            "Value": 4
+          },
+          {
+            "Key": 120,
+            "Value": 5
+          }
+        ]
+      }
+    },
+    {
+      "Id": "e8d2d9f1-1cca-43e6-920e-b6d6450d0fba",
+      "IsActive": true,
+      "Description": "L:A_FC_ELEVATOR_TRIM",
+      "InputType": "Analog",
+      "Input": 34,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_FC_ELEVATOR_TRIM",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": -35,
+            "Value": -4000
+          },
+          {
+            "Key": 120,
+            "Value": 13500
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "0fbcdc83-c6df-4b89-a804-1e9a0683f1f6",
+      "IsActive": true,
+      "Description": "L:I_ENG_FAULT_1",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ENG_FAULT_1"
+    },
+    {
+      "Id": "861ef497-1155-453f-a45c-f91236e90ba9",
+      "IsActive": true,
+      "Description": "L:I_ENG_FAULT_2",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ENG_FAULT_2"
+    },
+    {
+      "Id": "ce37f871-0294-40df-b608-4a090aeea294",
+      "IsActive": true,
+      "Description": "L:I_ENG_FIRE_1",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ENG_FIRE_1"
+    },
+    {
+      "Id": "66fbc0bc-16c9-425e-a349-9b00514ba578",
+      "IsActive": true,
+      "Description": "L:I_ENG_FIRE_2",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ENG_FIRE_2"
+    },
+    {
+      "Id": "a301a8ed-8d69-4b92-95d1-d47b842dcfba",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "6009e2fa-f685-4402-ae77-e20874285564",
+      "IsActive": true,
+      "Description": "Fire Indicators Brightness",
+      "OutputType": "Analog",
+      "Outputs": [
+        6
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "bd24db63-6dc4-4179-b696-7d857f93384e",
+      "IsActive": true,
+      "Description": "Fault Indicators Brightness",
+      "OutputType": "Analog",
+      "Outputs": [
+        7
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "fd62629c-e46a-4806-9271-ef19b3e5e8b9",
+      "IsActive": true,
+      "Description": "L:A_FC_ELEVATOR_TRIM Pos",
+      "OutputType": "Analog",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_FC_ELEVATOR_TRIM",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 11000,
+              "Value": 99
+            }
+          ]
+        },
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,0)"
+        }
+      ],
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "501f867b-0860-4fae-a818-a1f13eec5842",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f8e6e855-a6a0-4aa5-b431-828c83ebb62a",
+      "IsActive": false,
+      "Description": "L:A_FC_ELEVATOR_TRIM Neg",
+      "OutputType": "Analog",
+      "Outputs": [
+        8
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_FC_ELEVATOR_TRIM",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": -4000,
+              "Value": 220
+            },
+            {
+              "Key": 0,
+              "Value": 256
+            }
+          ]
+        },
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Round($,0)"
+        }
+      ],
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "501f867b-0860-4fae-a818-a1f13eec5842",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "d34e1cb3-8468-4a23-aaa0-51b1800637ab",
+      "IsActive": true,
+      "Description": "Trim Speed",
+      "OutputType": "Analog",
+      "Outputs": [
+        9
+      ],
+      "DataType": "DIMVar",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "230",
+          "FalseValue": ""
+        }
+      ]
+    },
+    {
+      "Id": "501f867b-0860-4fae-a818-a1f13eec5842",
+      "IsActive": true,
+      "Description": "L:B_FC_ELEVATOR_TRIM_MOTOR_POWER",
+      "OutputType": "Dataline",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:B_FC_ELEVATOR_TRIM_MOTOR_POWER"
+    }
+  ]
+}

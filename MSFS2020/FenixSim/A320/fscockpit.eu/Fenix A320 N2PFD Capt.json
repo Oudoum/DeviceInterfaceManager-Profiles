@@ -1,0 +1,221 @@
+{
+  "DeviceName": "Airbus N2PFD CPT",
+  "InputCreators": [
+    {
+      "Id": "f7a772ad-5602-43ad-bfe0-62d5678e64f7",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_PFDND_XFER_CAPT",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_PFDND_XFER_CAPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "0a3d29ec-428a-474e-b361-520bd324fb52",
+      "IsActive": true,
+      "Description": "L:A_DISPLAY_BRIGHTNESS_CO",
+      "InputType": "Analog",
+      "Input": 13,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_DISPLAY_BRIGHTNESS_CO",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 256,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "a69d6601-c6d0-41d4-af16-616ef1f2dfec",
+      "IsActive": true,
+      "Description": "L:A_DISPLAY_BRIGHTNESS_CI",
+      "InputType": "Analog",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_DISPLAY_BRIGHTNESS_CI",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 256,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "37f70e66-7c82-491a-90e5-fe727628b1a6",
+      "IsActive": true,
+      "Description": "L:A_DISPLAY_BRIGHTNESS_CI_OUTER",
+      "InputType": "Analog",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_DISPLAY_BRIGHTNESS_CI_OUTER",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 256,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "9da35647-a4ce-4e7c-ab3c-0004c92b8afe",
+      "IsActive": true,
+      "Description": "L:S_MIP_GPWS_VISUAL_ALERT_CAPT",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_GPWS_VISUAL_ALERT_CAPT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "cafefe64-feb2-4be0-ae7c-cd071637b696",
+      "IsActive": true,
+      "Description": "L:A_MIP_LOUDSPEAKER_CAPT",
+      "InputType": "Analog",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_MIP_LOUDSPEAKER_CAPT",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 256,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "d754b1ba-d90f-469a-b9da-ebaa196762cf",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "6fd20a22-13a1-492e-9e44-45ae4ab5eca2",
+      "IsActive": true,
+      "Description": "EGPWS",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GPWS_VISUAL_ALERT_CAPT_U"
+    },
+    {
+      "Id": "fcc30d0b-298c-4e7a-8ed8-19de166430c1",
+      "IsActive": true,
+      "Description": "L:I_MIP_GPWS_VISUAL_ALERT_CAPT_L",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_MIP_GPWS_VISUAL_ALERT_CAPT_L"
+    },
+    {
+      "Id": "6615c281-0812-4d91-9fc9-c12432f992a7",
+      "IsActive": true,
+      "Description": "L:A_DISPLAY_BRIGHTNESS_CO",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_DISPLAY_BRIGHTNESS_CO",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "bdb5592f-6e5f-4ac3-a413-ccfd5a85763d",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

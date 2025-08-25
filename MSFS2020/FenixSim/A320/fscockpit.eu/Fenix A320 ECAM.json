@@ -1,0 +1,604 @@
+{
+  "DeviceName": "Airbus ECAM/SW",
+  "InputCreators": [
+    {
+      "Id": "aecf263f-d76d-444d-b2fd-101251847fd2",
+      "IsActive": true,
+      "Description": "L:S_ECAM_TO",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_TO",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b1dd295b-d80f-45d5-8065-a562e7caad0c",
+      "IsActive": true,
+      "Description": "L:S_ECAM_ENGINE",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_ENGINE",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c73750f6-4cfe-4ffe-8898-bf396681a420",
+      "IsActive": true,
+      "Description": "L:S_ECAM_BLEED",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_BLEED",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "953dc7ae-fdc0-440d-82ee-99aeaf9fde34",
+      "IsActive": true,
+      "Description": "L:S_ECAM_PRESS",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_CAB_PRESS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "3d9ccaa7-0cf9-4643-a847-2dccc0c3e882",
+      "IsActive": true,
+      "Description": "L:S_ECAM_ELEC",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_ELEC",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "bf29908e-6908-4c96-bf26-65d182150c7d",
+      "IsActive": true,
+      "Description": "L:S_ECAM_HYD",
+      "InputType": "Switch",
+      "Input": 13,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_HYD",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "66e20edc-7850-41ee-912f-550f7ea46149",
+      "IsActive": true,
+      "Description": "L:S_ECAM_FUEL",
+      "InputType": "Switch",
+      "Input": 15,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_FUEL",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b7add1d9-2da0-4070-b489-546846baa678",
+      "IsActive": true,
+      "Description": "L:S_ECAM_APU",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_APU",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "4fc7fd24-2565-4f78-9ea9-e5e7d451aca9",
+      "IsActive": true,
+      "Description": "L:S_ECAM_COND",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_COND",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "92d1fc80-10df-4c79-bfbe-84eb9c2c21f4",
+      "IsActive": true,
+      "Description": "L:S_ECAM_DOOR",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_DOOR",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "fa6aa385-cab1-4f71-bf8f-c53099312fef",
+      "IsActive": true,
+      "Description": "L:S_ECAM_WHEEL",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_WHEEL",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "0b02e232-af39-483c-8f77-cae888a99507",
+      "IsActive": true,
+      "Description": "L:S_ECAM_FCTL",
+      "InputType": "Switch",
+      "Input": 14,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_FCTL",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b8407327-d582-4006-84b3-c62c0c8202d5",
+      "IsActive": true,
+      "Description": "L:S_ECAM_ALL",
+      "InputType": "Switch",
+      "Input": 16,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_ALL",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "b783954a-b265-4d4f-b0d6-9edbbaf0870a",
+      "IsActive": true,
+      "Description": "L:S_ECAM_CLR_LEFT",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_CLR_LEFT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c928dbcf-b68f-43b0-a06d-b39f86bc7459",
+      "IsActive": true,
+      "Description": "L:S_ECAM_CLR_RIGHT",
+      "InputType": "Switch",
+      "Input": 17,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_CLR_RIGHT",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "1c4d0d02-cc7e-4c85-acf5-50ef0cbda096",
+      "IsActive": true,
+      "Description": "L:S_ECAM_STATUS",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_STATUS",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "d41e8926-2dc5-4efb-a22d-d3dd34a6dd62",
+      "IsActive": true,
+      "Description": "L:S_ECAM_RCL",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_RCL",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "fb6fb81c-441d-4c77-ba31-28622d46ef15",
+      "IsActive": true,
+      "Description": "L:S_ECAM_EMER_CANCEL",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_ECAM_EMER_CANCEL",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "2adbbb34-fb35-4208-9a98-bfd17a8c1155",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_ATT_HDG",
+      "InputType": "Switch",
+      "Input": 22,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_ATT_HDG",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "228f2e9b-ea2a-497e-a306-5155371ffd38",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_ATT_HDG",
+      "InputType": "Switch",
+      "Input": 23,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_ATT_HDG",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "727971e6-df0c-4d57-bc75-9b430b8d0655",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_ATT_HDG",
+      "InputType": "Switch",
+      "Input": 24,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_ATT_HDG",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "785bbac5-ad85-4718-a686-73a5be502b55",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_AIR_DATA",
+      "InputType": "Switch",
+      "Input": 25,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_AIR_DATA",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "004cafd6-c0df-4d4b-ad1b-5805edc6bc37",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_AIR_DATA",
+      "InputType": "Switch",
+      "Input": 26,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_AIR_DATA",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "b71cea79-43a2-4e3d-a65e-89b4da84631b",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_AIR_DATA",
+      "InputType": "Switch",
+      "Input": 27,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_AIR_DATA",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "7d0f482c-c5e8-423a-a033-b3e7040996fc",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_EIS_DMC",
+      "InputType": "Switch",
+      "Input": 28,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_EIS_DMC",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "bef257da-4c8c-4b40-98a9-8fcec8821b50",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_EIS_DMC",
+      "InputType": "Switch",
+      "Input": 29,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_EIS_DMC",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "98070aa1-7896-44c4-b31a-f93b4af60742",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_EIS_DMC",
+      "InputType": "Switch",
+      "Input": 30,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_EIS_DMC",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "da453ca4-ead9-418f-97f8-62c1496b0bf3",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_ECAM_ND_XFR",
+      "InputType": "Switch",
+      "Input": 31,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_ECAM_ND_XFR",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "c65fe5e3-7542-4d9a-8032-14458903f27f",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_ECAM_ND_XFR",
+      "InputType": "Switch",
+      "Input": 32,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_ECAM_ND_XFR",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "5246cda0-3a2d-4abb-9a5d-72f1219d1c9b",
+      "IsActive": true,
+      "Description": "L:S_DISPLAY_ECAM_ND_XFR",
+      "InputType": "Switch",
+      "Input": 33,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_DISPLAY_ECAM_ND_XFR",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "5d9fd33a-1e39-4b47-a306-b1bd332969c5",
+      "IsActive": true,
+      "Description": "L:A_DISPLAY_BRIGHTNESS_ECAM_U",
+      "InputType": "Analog",
+      "Input": 34,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_DISPLAY_BRIGHTNESS_ECAM_U",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "ea56742e-020e-4697-8680-fc7a3be2b1ca",
+      "IsActive": true,
+      "Description": "L:A_DISPLAY_BRIGHTNESS_ECAM_L",
+      "InputType": "Analog",
+      "Input": 35,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_DISPLAY_BRIGHTNESS_ECAM_L",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    },
+    {
+      "Id": "8b429d61-8043-40f2-aa52-a4537415cedf",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "a05cfa7b-3c11-4050-a58e-3e6fb4e3e3ee",
+      "IsActive": true,
+      "Description": "I_ECAM_STATUS",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_STATUS"
+    },
+    {
+      "Id": "d3b4d2b2-2802-4a5f-8bd6-8a37fd1cab0b",
+      "IsActive": true,
+      "Description": "I_ECAM_ELEC",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_ELEC"
+    },
+    {
+      "Id": "9063fb09-8e4c-4ef1-9f6c-20ead34b2bc4",
+      "IsActive": true,
+      "Description": "I_ECAM_WHEEL",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_WHEEL"
+    },
+    {
+      "Id": "56925d6c-a2eb-4f1e-bee7-f9e88682b493",
+      "IsActive": true,
+      "Description": "I_ECAM_HYD",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_HYD"
+    },
+    {
+      "Id": "14737e12-d881-4cb8-846a-6a55cde8d574",
+      "IsActive": true,
+      "Description": "I_ECAM_FCTL",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_FCTL"
+    },
+    {
+      "Id": "155efcaa-a02e-4a85-9584-ebc72d4b5b45",
+      "IsActive": true,
+      "Description": "I_ECAM_FUEL",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_FUEL"
+    },
+    {
+      "Id": "009b8909-f68c-4e04-b7c9-2a6648e4e507",
+      "IsActive": true,
+      "Description": "I_ECAM_CLR_RIGHT",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_CLR_RIGHT"
+    },
+    {
+      "Id": "897989f8-39a2-4e42-a772-c63045346361",
+      "IsActive": true,
+      "Description": "I_ECAM_ENG",
+      "OutputType": "LED",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_ENGINE"
+    },
+    {
+      "Id": "237465ed-19b6-4af5-ab38-178f2aabd0d1",
+      "IsActive": true,
+      "Description": "I_ECAM_APU",
+      "OutputType": "LED",
+      "Outputs": [
+        10
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_APU"
+    },
+    {
+      "Id": "a3d8b432-068b-4f0e-9c03-42c31ceccb7c",
+      "IsActive": true,
+      "Description": "I_ECAM_CLR_LEFT",
+      "OutputType": "LED",
+      "Outputs": [
+        11
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_CLR_LEFT"
+    },
+    {
+      "Id": "3cdd261d-d675-401e-9f44-2716e19cf94f",
+      "IsActive": true,
+      "Description": "I_ECAM_BLEED",
+      "OutputType": "LED",
+      "Outputs": [
+        12
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_BLEED"
+    },
+    {
+      "Id": "8aaf0fbf-6afe-434b-ab29-49950f81b5f5",
+      "IsActive": true,
+      "Description": "I_ECAM_COND",
+      "OutputType": "LED",
+      "Outputs": [
+        13
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_COND"
+    },
+    {
+      "Id": "3037725a-01bd-413d-bfa2-bb8c455d4aa3",
+      "IsActive": true,
+      "Description": "I_ECAM_PRESS",
+      "OutputType": "LED",
+      "Outputs": [
+        14
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_CAB_PRESS"
+    },
+    {
+      "Id": "6570773d-b482-4992-8a56-1802b182131e",
+      "IsActive": true,
+      "Description": "I_ECAM_DOOR",
+      "OutputType": "LED",
+      "Outputs": [
+        15
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_ECAM_DOOR"
+    },
+    {
+      "Id": "a860ba1a-c66d-48c8-a78e-269096fee40f",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

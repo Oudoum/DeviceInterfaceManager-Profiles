@@ -1,0 +1,389 @@
+{
+  "DeviceName": "Airbus TPBP",
+  "InputCreators": [
+    {
+      "Id": "391363a2-58a7-4339-9962-b674808aed36",
+      "IsActive": true,
+      "Description": "L:S_FC_RUDDER_TRIM_RESET",
+      "InputType": "Switch",
+      "Input": 0,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_RUDDER_TRIM_RESET",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "ee65c3dc-10c3-4c95-8a3e-f610c29fd567",
+      "IsActive": true,
+      "Description": "L:S_FC_RUDDER_TRIM",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_RUDDER_TRIM",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "32d43851-fc98-464f-8322-123628a79240",
+      "IsActive": true,
+      "Description": "L:S_FC_RUDDER_TRIM",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_RUDDER_TRIM",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "c716f832-ec56-41ee-9053-424adfd55445",
+      "IsActive": true,
+      "Description": "L:S_MIP_PARKING_BRAKE",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_PARKING_BRAKE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "64d035d7-1f45-4e35-9f7c-73d5aacadc30",
+      "IsActive": true,
+      "Description": "L:S_MIP_PARKING_BRAKE",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_MIP_PARKING_BRAKE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "87c31e85-9fcb-49bf-9670-91ae1fe51a17",
+      "IsActive": true,
+      "Description": "L:S_FC_FLAPS",
+      "InputType": "Analog",
+      "Input": 12,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_FC_FLAPS",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 4
+          }
+        ]
+      }
+    },
+    {
+      "Id": "cef5513b-3487-4922-a04b-5b5377471af4",
+      "IsActive": true,
+      "Description": "L:A_FC_SPEEDBRAKE",
+      "InputType": "Analog",
+      "Input": 11,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_FC_SPEEDBRAKE",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 1
+          },
+          {
+            "Key": 255,
+            "Value": 3
+          }
+        ]
+      }
+    },
+    {
+      "Id": "4e2759db-6ce7-4e1f-b866-3dba67c05cad",
+      "IsActive": true,
+      "Description": "L:A_FC_SPEEDBRAKE",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_FC_SPEEDBRAKE",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "079a2685-bfaf-48b5-ae80-b1144fbb9c79",
+      "IsActive": true,
+      "Description": "L:A_FC_SPEEDBRAKE",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_FC_SPEEDBRAKE",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "cd6dbc3d-c876-4a79-a495-051e8182ee2e",
+      "IsActive": true,
+      "Description": "L:S_PED_COCKPIT_DOOR",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_COCKPIT_DOOR",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "08f536be-813c-4196-9a40-19dc2f7fbb12",
+      "IsActive": true,
+      "Description": "L:S_PED_COCKPIT_DOOR",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_COCKPIT_DOOR",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "1218c065-ac84-46d9-83e1-4393ab728b0b",
+      "IsActive": true,
+      "Description": "L:S_PED_COCKPIT_DOOR",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_COCKPIT_DOOR",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "e351d50b-3d43-461b-a0b9-3dd180c30a68",
+      "IsActive": true,
+      "Description": "L:S_PED_COCKPIT_DOOR_VIDEO",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:S_PED_COCKPIT_DOOR_VIDEO",
+      "DataPress": 1,
+      "DataRelease": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "cd954f7c-0935-438b-8e58-c73c83980cc8",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "InputType": "Analog",
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:A_PED_LIGHTING_PEDESTAL",
+      "OnRelease": false,
+      "Interpolation": {
+        "IsActive": true,
+        "Values": [
+          {
+            "Key": 0,
+            "Value": 0
+          },
+          {
+            "Key": 255,
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "d042f7c4-81c7-4806-b73e-e5badcfaaa6b",
+      "IsActive": true,
+      "Description": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "OutputType": "LED",
+      "Outputs": [
+        0
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2264",
+          "Value": "0",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "7d5d552d-8741-44ad-81c7-edea26cdbf75",
+      "IsActive": true,
+      "Description": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u003E",
+          "Value": "0",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "183d1609-e577-4cdf-9652-329cf7c3fe50",
+      "IsActive": true,
+      "Description": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Abs($/10)"
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 3,
+          "Direction": 1
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 3,
+      "DigitCheckedSum": 7,
+      "DecimalPointCheckedSum": 2,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "d042f7c4-81c7-4806-b73e-e5badcfaaa6b",
+          "Operator": "\u2265",
+          "ComparisonValue": "100",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "d042f7c4-81c7-4806-b73e-e5badcfaaa6b",
+          "Operator": "\u2264",
+          "ComparisonValue": "-100",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "4171ff01-76c0-4457-b83a-88dd53810c64",
+      "IsActive": true,
+      "Description": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:N_FC_RUDDER_TRIM_DECIMAL",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "Abs($/10)"
+        },
+        {
+          "$type": "Padding",
+          "IsActive": true,
+          "Character": "0",
+          "Length": 2,
+          "Direction": 1
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "0",
+          "TrueValue": "",
+          "FalseValue": "00"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 3,
+      "DigitCheckedSum": 7,
+      "DecimalPointCheckedSum": 2,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "d042f7c4-81c7-4806-b73e-e5badcfaaa6b",
+          "Operator": "\u003C",
+          "ComparisonValue": "100",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "d042f7c4-81c7-4806-b73e-e5badcfaaa6b",
+          "Operator": "\u003E",
+          "ComparisonValue": "-100",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "19be940e-9bac-419e-a2bd-7fa05af65550",
+      "IsActive": true,
+      "Description": "L:FNX32X_PEDESTALMISC_COCKPIT_DOOR_OPEN_ANNUNCCIATOR",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_COCKPIT_DOOR_U"
+    },
+    {
+      "Id": "e2b11bc0-85ca-4898-9a47-6d02df2f465b",
+      "IsActive": true,
+      "Description": "L:I_PED_COCKPIT_DOOR_L",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_PED_COCKPIT_DOOR_L"
+    },
+    {
+      "Id": "77c261fe-aadd-4ad8-bfcf-b657c4d83a91",
+      "IsActive": true,
+      "Description": "L:A_PED_LIGHTING_PEDESTAL",
+      "OutputType": "Analog",
+      "Outputs": [
+        5
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:A_PED_LIGHTING_PEDESTAL",
+      "Modifiers": [
+        {
+          "$type": "Interpolation",
+          "IsActive": true,
+          "Values": [
+            {
+              "Key": 0,
+              "Value": 0
+            },
+            {
+              "Key": 1,
+              "Value": 255
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
