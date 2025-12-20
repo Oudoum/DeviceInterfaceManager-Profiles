@@ -1,0 +1,103 @@
+{
+  "DeviceName": "Airbus Sidestick CPT",
+  "InputCreators": [],
+  "OutputCreators": [
+    {
+      "Id": "99a16c25-4490-4eb9-9483-71776a28997b",
+      "IsActive": true,
+      "Description": "HELPER_AP1",
+      "OutputType": "Dataline",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_AP1"
+    },
+    {
+      "Id": "ad4ff723-bba1-403c-b7cf-c1603e6c7399",
+      "IsActive": true,
+      "Description": "HELPER_AP2",
+      "OutputType": "Dataline",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_AP2"
+    },
+    {
+      "Id": "6d8a209a-0daf-4c4a-9de6-4e683958c77a",
+      "IsActive": true,
+      "Description": "AP1_ON",
+      "OutputType": "Dataline",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_AP1",
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "99a16c25-4490-4eb9-9483-71776a28997b",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ad4ff723-bba1-403c-b7cf-c1603e6c7399",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "d2c862ac-974c-4477-a334-4e72e5d22a2d",
+      "IsActive": true,
+      "Description": "AP2_ON",
+      "OutputType": "Dataline",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_AP2",
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "99a16c25-4490-4eb9-9483-71776a28997b",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ad4ff723-bba1-403c-b7cf-c1603e6c7399",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "60eed532-f096-4d62-af09-5c9eaf819f8d",
+      "IsActive": true,
+      "Description": "AP_OFF",
+      "OutputType": "Dataline",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:I_FCU_AP1",
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "99a16c25-4490-4eb9-9483-71776a28997b",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "ad4ff723-bba1-403c-b7cf-c1603e6c7399",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    }
+  ]
+}
