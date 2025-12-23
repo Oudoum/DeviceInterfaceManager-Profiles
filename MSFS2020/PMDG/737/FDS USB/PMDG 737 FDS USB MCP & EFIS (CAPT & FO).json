@@ -615,7 +615,7 @@
     {
       "Id": "e8d7d817-248f-42d7-a255-fef1dad75c12",
       "IsActive": true,
-      "Description": "EFIS LEFT RANGE 640",
+      "Description": "EFIS LEFT RANGE TFC",
       "InputType": "Switch",
       "Input": 76,
       "EventType": "PMDG737",
