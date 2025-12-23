@@ -1,0 +1,860 @@
+{
+  "DeviceName": "IIT HIO 32 64",
+  "InputCreators": [
+    {
+      "Id": "756d3e55-f9f0-44e6-91fa-46444ac98803",
+      "IsActive": true,
+      "Description": "EVT_MPM_AUTOBRAKE_SELECTOR",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "PmdgEvent": 70092,
+      "OnRelease": false
+    },
+    {
+      "Id": "c092da89-8a7e-4772-9931-b7d84efb0743",
+      "IsActive": true,
+      "Description": "EVT_MPM_AUTOBRAKE_SELECTOR",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "PmdgEvent": 70092,
+      "OnRelease": false
+    },
+    {
+      "Id": "f1418575-9926-499f-a23f-49646cb2330e",
+      "IsActive": true,
+      "Description": "EVT_MPM_AUTOBRAKE_SELECTOR",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "PmdgEvent": 70092,
+      "OnRelease": false
+    },
+    {
+      "Id": "fd403d25-6dc4-4e47-9153-87b5130a5601",
+      "IsActive": true,
+      "Description": "EVT_MPM_AUTOBRAKE_SELECTOR",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "PMDG737",
+      "DataPress": 3,
+      "PmdgEvent": 70092,
+      "OnRelease": false
+    },
+    {
+      "Id": "0768f399-81da-41d1-b0db-0503d79bec1c",
+      "IsActive": true,
+      "Description": "EVT_MPM_AUTOBRAKE_SELECTOR",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "PMDG737",
+      "DataPress": 4,
+      "PmdgEvent": 70092,
+      "OnRelease": false
+    },
+    {
+      "Id": "7ce5c6a4-ef3c-4986-b3ed-4ae32da1f87d",
+      "IsActive": true,
+      "Description": "EVT_MPM_AUTOBRAKE_SELECTOR",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "PMDG737",
+      "DataPress": 5,
+      "PmdgEvent": 70092,
+      "OnRelease": false
+    },
+    {
+      "Id": "925c48bb-91c4-4877-b25a-1b7a743b1597",
+      "IsActive": true,
+      "Description": "GEAR_DOWN",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "K:Event",
+      "Event": "GEAR_DOWN",
+      "OnRelease": false
+    },
+    {
+      "Id": "a3cd6147-296f-47fd-b9c2-84d278d1ced5",
+      "IsActive": true,
+      "Description": "GEAR_UP",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "K:Event",
+      "Event": "GEAR_UP",
+      "OnRelease": false
+    },
+    {
+      "Id": "dc4e4da7-f86b-4fbe-92ed-c737653e338d",
+      "IsActive": true,
+      "Description": "EVT_GEAR_LEVER_OFF",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "PMDG737",
+      "PmdgEvent": 74183,
+      "PmdgMouseRelease": 536870912,
+      "OnRelease": false
+    },
+    {
+      "Id": "f86b81f1-f96d-48ff-9f2a-305bb98edca8",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_MAIN_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "PmdgEvent": 69967,
+      "OnRelease": false
+    },
+    {
+      "Id": "e17804ef-4c39-4a7b-bd7e-73671b1e6d79",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_MAIN_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "PmdgEvent": 69967,
+      "OnRelease": false
+    },
+    {
+      "Id": "89ef0c7e-f2f3-470e-b8b7-eae921ea5012",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_MAIN_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "PmdgEvent": 69967,
+      "OnRelease": false
+    },
+    {
+      "Id": "cf788893-beab-427b-bbf0-26807ab79faf",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_MAIN_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "PMDG737",
+      "DataPress": 3,
+      "PmdgEvent": 69967,
+      "OnRelease": false
+    },
+    {
+      "Id": "3ddeb595-f974-43c4-ad05-2033450d3bfe",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_MAIN_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 13,
+      "EventType": "PMDG737",
+      "DataPress": 4,
+      "PmdgEvent": 69967,
+      "OnRelease": false
+    },
+    {
+      "Id": "98b3d51c-c601-4d06-8a2d-b1e23841a6c7",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_LOWER_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 14,
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "PmdgEvent": 69968,
+      "OnRelease": false
+    },
+    {
+      "Id": "afcdf601-920c-488a-8011-3101956b4f39",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_LOWER_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 15,
+      "EventType": "PMDG737",
+      "DataPress": 1,
+      "PmdgEvent": 69968,
+      "OnRelease": false
+    },
+    {
+      "Id": "f16e9e84-5762-4371-910e-2dcc8a68686d",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_LOWER_DU_SELECTOR",
+      "InputType": "Switch",
+      "Input": 16,
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "PmdgEvent": 69968,
+      "OnRelease": false
+    },
+    {
+      "Id": "5ff5f7b0-03b1-49d4-8e71-3124b9bb63ad",
+      "IsActive": true,
+      "Description": "EVT_MPM_MFD_ENG_BUTTON",
+      "InputType": "Switch",
+      "Input": 17,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70095,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "f6c3ef2a-bed2-49cf-9a4d-2d0566470691",
+      "IsActive": true,
+      "Description": "EVT_MPM_MFD_SYS_BUTTON",
+      "InputType": "Switch",
+      "Input": 18,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70094,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "23e8d8bd-41bd-46b7-be11-5cfcf6c00406",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_MASTER_LIGHTS_SWITCH",
+      "InputType": "Switch",
+      "Input": 19,
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69978,
+      "OnRelease": false
+    },
+    {
+      "Id": "00297e74-e15d-427b-9502-bf2d4984b928",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_MASTER_LIGHTS_SWITCH",
+      "InputType": "Switch",
+      "Input": 20,
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 69978,
+      "OnRelease": false
+    },
+    {
+      "Id": "a9d2bc80-041f-456a-9e87-96f5932cd46c",
+      "IsActive": true,
+      "Description": "EVT_MPM_FUEL_FLOW_SWITCH",
+      "InputType": "Switch",
+      "Input": 23,
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 70100,
+      "OnRelease": false
+    },
+    {
+      "Id": "a5a74c8f-a644-4bbb-bae7-301ea67b8738",
+      "IsActive": true,
+      "Description": "EVT_MPM_FUEL_FLOW_SWITCH",
+      "InputType": "Switch",
+      "Input": 24,
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 70100,
+      "OnRelease": false
+    },
+    {
+      "Id": "1edbe431-310b-48da-876f-be6b5540942a",
+      "IsActive": true,
+      "Description": "EVT_MASTER_CAUTION_LIGHT_LEFT",
+      "InputType": "Switch",
+      "Input": 25,
+      "EventType": "PMDG737",
+      "PmdgEvent": 69980,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "63f27d05-44f2-42b8-96ea-0b1c18876db1",
+      "IsActive": true,
+      "Description": "EVT_FIRE_WARN_LIGHT_LEFT",
+      "InputType": "Switch",
+      "Input": 26,
+      "EventType": "PMDG737",
+      "PmdgEvent": 69979,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "e24981f9-ddd3-4f9c-944f-40ed125aaeb2",
+      "IsActive": true,
+      "Description": "EVT_SYSTEM_ANNUNCIATOR_PANEL_LEFT",
+      "InputType": "Switch",
+      "Input": 27,
+      "EventType": "PMDG737",
+      "PmdgEvent": 69981,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "0cd7dad7-bb7d-4a21-be79-3ec9a95e0e5c",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_DISENGAGE_TEST_SWITCH",
+      "InputType": "Switch",
+      "Input": 28,
+      "EventType": "PMDG737",
+      "DataPress": 0,
+      "DataRelease": 1,
+      "PmdgEvent": 69974,
+      "OnRelease": false
+    },
+    {
+      "Id": "a1901b1c-fc95-4cdc-8286-cf2246ed6288",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_DISENGAGE_TEST_SWITCH",
+      "InputType": "Switch",
+      "Input": 29,
+      "EventType": "PMDG737",
+      "DataPress": 2,
+      "DataRelease": 1,
+      "PmdgEvent": 69974,
+      "OnRelease": false
+    },
+    {
+      "Id": "d53b717c-6b2b-4630-a0ba-cbcb5e2e4539",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_FMC_RESET_SWITCH",
+      "InputType": "Switch",
+      "Input": 30,
+      "EventType": "PMDG737",
+      "PmdgEvent": 69973,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "1b78e925-ffc3-4585-a557-945ca8c0d91b",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_AT_RESET_SWITCH",
+      "InputType": "Switch",
+      "Input": 31,
+      "EventType": "PMDG737",
+      "PmdgEvent": 69972,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "9fe64908-9df6-49cb-aa54-c2dc2ebc2ef2",
+      "IsActive": true,
+      "Description": "EVT_DSP_CPT_AP_RESET_SWITCH",
+      "InputType": "Switch",
+      "Input": 32,
+      "EventType": "PMDG737",
+      "PmdgEvent": 69971,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "67c7f37a-001b-40de-a910-221de781a055",
+      "IsActive": true,
+      "Description": "MAIN_annunLE_FLAPS_TRANSIT",
+      "OutputType": "LED",
+      "Outputs": [
+        1
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunLE_FLAPS_TRANSIT"
+    },
+    {
+      "Id": "3c0e7b23-d24b-4acb-91db-60a27de67a28",
+      "IsActive": true,
+      "Description": "MAIN_annunLE_FLAPS_EXT",
+      "OutputType": "LED",
+      "Outputs": [
+        2
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunLE_FLAPS_EXT"
+    },
+    {
+      "Id": "764e4ee7-b47e-4eab-b000-4401da898620",
+      "IsActive": true,
+      "Description": "MAIN_annunGEAR_locked [1]",
+      "OutputType": "LED",
+      "Outputs": [
+        3
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunGEAR_locked",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "7357c050-f11c-4711-9bb2-3c57ae696a48",
+      "IsActive": true,
+      "Description": "MAIN_annunGEAR_locked [2]",
+      "OutputType": "LED",
+      "Outputs": [
+        4
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunGEAR_locked",
+      "PmdgDataArrayIndex": 2
+    },
+    {
+      "Id": "b611c888-e6c3-48cb-9f24-26d9424d81a6",
+      "IsActive": true,
+      "Description": "MAIN_annunGEAR_transit [1]",
+      "OutputType": "LED",
+      "Outputs": [
+        5
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunGEAR_transit",
+      "PmdgDataArrayIndex": 1
+    },
+    {
+      "Id": "91ba2001-ecd3-4eef-a1ee-c471495b97ec",
+      "IsActive": true,
+      "Description": "MAIN_annunGEAR_transit [2]",
+      "OutputType": "LED",
+      "Outputs": [
+        6
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunGEAR_transit",
+      "PmdgDataArrayIndex": 2
+    },
+    {
+      "Id": "7192e5ea-5e23-495c-af01-ef2174218394",
+      "IsActive": true,
+      "Description": "MAIN_annunGEAR_locked [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        7
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunGEAR_locked",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "c2926f51-4f8a-4db8-b2ac-14cdb45783c4",
+      "IsActive": true,
+      "Description": "MAIN_annunGEAR_transit [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        8
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunGEAR_transit",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "12b4704f-ee2c-47ab-9e0a-f78771be66a2",
+      "IsActive": true,
+      "Description": "MAIN_annunAUTO_BRAKE_DISARM",
+      "OutputType": "LED",
+      "Outputs": [
+        11
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunAUTO_BRAKE_DISARM"
+    },
+    {
+      "Id": "8667c12c-948d-4558-b7bf-b1ba9fb84caf",
+      "IsActive": true,
+      "Description": "MAIN_annunANTI_SKID_INOP",
+      "OutputType": "LED",
+      "Outputs": [
+        12
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunANTI_SKID_INOP"
+    },
+    {
+      "Id": "86244e04-3112-4287-9548-31447b274d74",
+      "IsActive": true,
+      "Description": "MAIN_annunAP [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        17
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunAP",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "0738e458-3404-462d-8efc-f9c565b6e2b0",
+      "IsActive": true,
+      "Description": "MAIN_annunAP_Amber [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        18
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunAP_Amber",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "fba0f33b-fdb0-48bb-b10b-a7ec127a4485",
+      "IsActive": true,
+      "Description": "MAIN_annunAT [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        19
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunAT",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "9a28fbfe-d659-44a5-bc85-24818e229985",
+      "IsActive": true,
+      "Description": "MAIN_annunAT_Amber [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        20
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunAT_Amber",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "41f070ac-5d47-46a4-a258-a4810827f287",
+      "IsActive": true,
+      "Description": "MAIN_annunFMC [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        21
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunFMC",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "463d8611-330d-4ee8-aa77-ceda983ba616",
+      "IsActive": true,
+      "Description": "WARN_annunFUEL",
+      "OutputType": "LED",
+      "Outputs": [
+        25
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFUEL"
+    },
+    {
+      "Id": "a9f8564d-c843-4764-bf48-205103ea8b40",
+      "IsActive": true,
+      "Description": "WARN_annunIRS",
+      "OutputType": "LED",
+      "Outputs": [
+        26
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunIRS"
+    },
+    {
+      "Id": "c062452e-86db-40a4-8ef9-95b6ce0a1953",
+      "IsActive": true,
+      "Description": "WARN_annunFLT_CONT",
+      "OutputType": "LED",
+      "Outputs": [
+        27
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFLT_CONT"
+    },
+    {
+      "Id": "f1ce7cbb-a382-4a85-b4d9-e0d30a0d03ff",
+      "IsActive": true,
+      "Description": "WARN_annunOVHT_DET",
+      "OutputType": "LED",
+      "Outputs": [
+        30
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunOVHT_DET"
+    },
+    {
+      "Id": "6844e395-f7ef-4e4a-bbcf-e1f2a200bfc2",
+      "IsActive": true,
+      "Description": "WARN_annunAPU",
+      "OutputType": "LED",
+      "Outputs": [
+        31
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunAPU"
+    },
+    {
+      "Id": "c4a16f77-5d9c-49e1-92b0-313355818d5f",
+      "IsActive": true,
+      "Description": "WARN_annunELEC",
+      "OutputType": "LED",
+      "Outputs": [
+        32
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunELEC"
+    },
+    {
+      "Id": "6383b9d2-482e-455d-ab85-3f220395e698",
+      "IsActive": true,
+      "Description": "WARN_annunFIRE_WARN [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        33,
+        34
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunFIRE_WARN",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "587dbf69-99c4-4cf0-90ca-cb1d51338875",
+      "IsActive": true,
+      "Description": "WARN_annunMASTER_CAUTION [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        35,
+        36
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "WARN_annunMASTER_CAUTION",
+      "PmdgDataArrayIndex": 0
+    },
+    {
+      "Id": "1fb5681b-391f-4533-a80f-8f0249b7a25f",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        41
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "40",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "18477624-8d1c-4c8c-b8cc-2eac42145508",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        42
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "30",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "976045c2-30d6-4e84-bf55-8191b08fd1a4",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        43
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "25",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "5969e7ee-f3fc-4b87-ac58-240e99241d52",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        44
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "15",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "57ad8e86-6b99-4381-9a51-c30ea554f066",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        45
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "10",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "43e3dc95-a16b-4462-8327-63db9a9ad9d0",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        46
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "5",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "cd94d3bd-0353-4532-91ed-153ef1bd4c8d",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        47
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "2",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "c253e7f7-9141-493e-98e9-abcdcff38435",
+      "IsActive": true,
+      "Description": "MAIN_TEFlapsNeedle [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        48
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_TEFlapsNeedle",
+      "PmdgDataArrayIndex": 0,
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "1",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "156cb935-74ae-491d-a1e7-8b643153d1d7",
+      "IsActive": true,
+      "Description": "MAIN_annunSPEEDBRAKE_ARMED",
+      "OutputType": "LED",
+      "Outputs": [
+        49
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunSPEEDBRAKE_ARMED"
+    },
+    {
+      "Id": "1bbf1e4d-57f7-40c8-977f-9b21298429ea",
+      "IsActive": true,
+      "Description": "MAIN_annunSPEEDBRAKE_EXTENDED",
+      "OutputType": "LED",
+      "Outputs": [
+        50
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunSPEEDBRAKE_EXTENDED"
+    },
+    {
+      "Id": "c62997b6-e77c-45a0-8b97-96ffd3fe960e",
+      "IsActive": true,
+      "Description": "MAIN_annunCABIN_ALTITUDE",
+      "OutputType": "LED",
+      "Outputs": [
+        51
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunCABIN_ALTITUDE"
+    },
+    {
+      "Id": "401ffa8e-a848-4289-a0be-0d80ee681dbd",
+      "IsActive": true,
+      "Description": "MAIN_annunTAKEOFF_CONFIG",
+      "OutputType": "LED",
+      "Outputs": [
+        52
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunTAKEOFF_CONFIG"
+    },
+    {
+      "Id": "86430254-938f-4ee2-a746-62ed4bc02c37",
+      "IsActive": true,
+      "Description": "MAIN_annunBELOW_GS [0]",
+      "OutputType": "LED",
+      "Outputs": [
+        56
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "MAIN_annunBELOW_GS",
+      "PmdgDataArrayIndex": 0
+    }
+  ]
+}
