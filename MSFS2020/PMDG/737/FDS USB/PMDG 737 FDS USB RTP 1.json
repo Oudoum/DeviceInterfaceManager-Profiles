@@ -1,0 +1,1111 @@
+{
+  "DeviceName": "JetMAX 737 RADIO",
+  "InputCreators": [
+    {
+      "Id": "41bccbde-aab2-41e5-844e-e8132577b1e3",
+      "IsActive": true,
+      "Description": "COM1_TRANSFER",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70353,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "89ce75b9-af3d-467f-b469-e0fa2ee15b97",
+      "IsActive": true,
+      "Description": "ADF_TRANSFER",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70459,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "66fe2c9b-8495-4313-a5f8-443ad53d7f3f",
+      "IsActive": true,
+      "Description": "NAV1_TRANSFER",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70361,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "970e1a1d-9386-4134-b088-4668c1c9f689",
+      "IsActive": true,
+      "Description": "NAV2_TRANSFER",
+      "InputType": "Switch",
+      "Input": 1,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70477,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "2d520f24-d959-48e1-864d-55ce3b77aeec",
+      "IsActive": true,
+      "Description": "COM1_PNL_OFF",
+      "InputType": "Switch",
+      "Input": 2,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70535,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "96c6f8bd-923d-44eb-90f7-d9da64c200a3",
+      "IsActive": true,
+      "Description": "COM1_VHF1",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70536,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "34a16f81-b1c4-4216-a0ca-09f913ecef07",
+      "IsActive": true,
+      "Description": "COM1_VHF1",
+      "InputType": "Switch",
+      "Input": 3,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_COM1_SELECTOR",
+      "DataPress": 0,
+      "OnRelease": false
+    },
+    {
+      "Id": "dc5a66f8-568b-4639-b938-06232a20d0fe",
+      "IsActive": true,
+      "Description": "COM1_VHF2",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70538,
+      "PmdgMousePress": 536870912,
+      "PmdgMouseRelease": 131072,
+      "OnRelease": false
+    },
+    {
+      "Id": "e3d153cd-db33-4e75-975b-66df4128545b",
+      "IsActive": true,
+      "Description": "COM1_VHF2",
+      "InputType": "Switch",
+      "Input": 4,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_COM1_SELECTOR",
+      "DataPress": 1,
+      "OnRelease": false
+    },
+    {
+      "Id": "55d6e4a1-1f92-43a2-9dfe-7c24f7654181",
+      "IsActive": true,
+      "Description": "COM1_ADF",
+      "InputType": "Switch",
+      "Input": 5,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_COM1_SELECTOR",
+      "DataPress": 2,
+      "OnRelease": false
+    },
+    {
+      "Id": "51f79f6f-2d16-4a97-895b-2c3051891d98",
+      "IsActive": true,
+      "Description": "COM1_NAV1",
+      "InputType": "Switch",
+      "Input": 6,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_COM1_SELECTOR",
+      "DataPress": 3,
+      "OnRelease": false
+    },
+    {
+      "Id": "c8e43416-8584-4f64-956c-3414571712e9",
+      "IsActive": true,
+      "Description": "COM1_NAV2",
+      "InputType": "Switch",
+      "Input": 7,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_COM1_SELECTOR",
+      "DataPress": 4,
+      "OnRelease": false
+    },
+    {
+      "Id": "b7904efd-7d17-4503-8e2f-f6a85b1238b0",
+      "IsActive": true,
+      "Description": "COM1_DUMMY",
+      "InputType": "Switch",
+      "Input": 8,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:DIMVAR_COM1_SELECTOR",
+      "DataPress": 5,
+      "OnRelease": false
+    },
+    {
+      "Id": "04dd9864-2181-493c-b686-3e89bf15d31e",
+      "IsActive": true,
+      "Description": "COM1_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70359,
+      "PmdgMousePress": 8192,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "5452a747-8db3-4f7d-9033-63e47208ef4a",
+      "IsActive": true,
+      "Description": "COM1_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70359,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "da258a71-8eaf-4d5e-9d3f-1d46b3969842",
+      "IsActive": true,
+      "Description": "COM1_OUTER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70358,
+      "PmdgMousePress": 8192,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "9bd28b5f-0d57-4c87-a7a6-86f155a95594",
+      "IsActive": true,
+      "Description": "COM1_OUTER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70358,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "a59faf63-8d02-4433-aece-997eb2125ea8",
+      "IsActive": true,
+      "Description": "ADF_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70454,
+      "PmdgMousePress": 8192,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "1434dddf-9c8c-44a5-8621-141e411942b4",
+      "IsActive": true,
+      "Description": "ADF_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70454,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "8c0c8861-bd46-4838-8d6d-7b61d17d1a4c",
+      "IsActive": true,
+      "Description": "ADF_OUTER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70456,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "74f11849-bb53-47b8-8359-ce4b9a7a3269",
+      "IsActive": true,
+      "Description": "ADF_MIDDLE_SELECTOR",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70455,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "cde618dd-cac7-418f-8140-28fce18d63bd",
+      "IsActive": true,
+      "Description": "NAV1_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70364,
+      "PmdgMousePress": 8192,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "2eeef36b-d371-444f-8564-08e2092b29a2",
+      "IsActive": true,
+      "Description": "NAV1_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70364,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "15e1fa5f-d5ad-4b17-94dd-6d04123b0b12",
+      "IsActive": true,
+      "Description": "NAV1_OUTER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70365,
+      "PmdgMousePress": 8192,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f698f28d-6a7f-40d4-a04d-a7818ae3c126",
+      "IsActive": true,
+      "Description": "NAV1_OUTER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70365,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "c86ba19c-8093-4294-b33f-17b4d589626e",
+      "IsActive": true,
+      "Description": "NAV2_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 9,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70481,
+      "PmdgMousePress": 8192,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "e0b632d7-059a-4a86-b0e5-c795322f3a22",
+      "IsActive": true,
+      "Description": "NAV2_INNER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 10,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70481,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "6e7a84c6-541a-4d74-b51c-ee6cada40e5d",
+      "IsActive": true,
+      "Description": "NAV2_OUTER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 11,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70480,
+      "PmdgMousePress": 8192,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "f7b62b77-c603-4f30-93f5-1f75eabdc785",
+      "IsActive": true,
+      "Description": "NAV2_OUTER_SELECTOR",
+      "InputType": "Switch",
+      "Input": 12,
+      "EventType": "PMDG737",
+      "PmdgEvent": 70480,
+      "PmdgMousePress": 16384,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    }
+  ],
+  "OutputCreators": [
+    {
+      "Id": "5599444a-24d6-4386-b154-be639bd731d3",
+      "IsActive": true,
+      "Description": "COM1_ACT_OFF",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:1",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "9e7441a3-eee2-4b91-a51a-13d49f4ec8a5",
+      "IsActive": true,
+      "Description": "COM1_ACT_VHF1",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:1",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "90c78fdf-6d1f-4c37-9efa-6ac0b3f4d136",
+      "IsActive": true,
+      "Description": "COM1_ACT_VHF2",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM ACTIVE FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "678bf7c1-ffe5-424c-a660-ac52da7daef5",
+      "IsActive": true,
+      "Description": "COM1_ACT_ADF",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "ADF ACTIVE FREQUENCY:1",
+      "Unit": "Hz",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "$ % 10 == 0\r\n? $ / 100\r\n:  $ / 1000"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 16,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b1a9cb75-1888-4ab0-b6f7-3850529927f5",
+      "IsActive": true,
+      "Description": "COM1_ACT_NAV1",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "NAV ACTIVE FREQUENCY:1",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "af5e15f6-0adb-4f01-8f81-2f1622cbbb8b",
+      "IsActive": true,
+      "Description": "COM1_ACT_NAV2",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        1
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "NAV ACTIVE FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "5c0dad64-5cf9-4a56-96ed-027ee2840771",
+      "IsActive": true,
+      "Description": "COM1 _STBY_OFF",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        7
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:1",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 0,
+      "DecimalPointCheckedSum": 0,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": true
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "c807460a-2afe-4f9f-8ba2-17e3edcd6e6a",
+      "IsActive": true,
+      "Description": "COM1_STBY_VHF1",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        7
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:1",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "8f4bc3a9-d407-4bcc-9101-3d9589cb5935",
+      "IsActive": true,
+      "Description": "COM1_STBY_VHF2",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        7
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "COM STANDBY FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "859d85d3-6466-49d4-abe0-47fa8bf85240",
+      "IsActive": true,
+      "Description": "COM1_STBY_ADF",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        7
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ADF_StandbyFrequency",
+      "Modifiers": [
+        {
+          "$type": "Transformation",
+          "IsActive": true,
+          "Expression": "$ % 10 == 0\r\n? $ / 1\r\n:  $ / 10"
+        }
+      ],
+      "IsPadded": true,
+      "PaddingCharacter": " ",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 16,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "2",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "5af3506d-8ecc-42b6-811a-02ae6195d8db",
+      "IsActive": true,
+      "Description": "COM1_STBY_NAV1",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        7
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "NAV STANDBY FREQUENCY:1",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "3",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "a252c5fb-8ffb-457d-889b-5694f01f14c3",
+      "IsActive": true,
+      "Description": "COM1_STBY_NAV2",
+      "OutputType": "7 Segment",
+      "Outputs": [
+        7
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "NAV STANDBY FREQUENCY:2",
+      "Unit": "MHz",
+      "IsPadded": false,
+      "PaddingCharacter": "0",
+      "DigitCount": 6,
+      "DigitCheckedSum": 63,
+      "DecimalPointCheckedSum": 4,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+          "Operator": "=",
+          "ComparisonValue": "1",
+          "IsOrOperator": false
+        },
+        {
+          "IsActive": true,
+          "ReferenceId": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+          "Operator": "=",
+          "ComparisonValue": "4",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b7b440f5-9582-46c7-a5cc-8f037c46dae8",
+      "IsActive": true,
+      "Description": "COM1_BUS_OFF",
+      "OutputType": "LED",
+      "Outputs": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "DataType": "PMDG737",
+      "PmdgData": "ELEC_BusPowered",
+      "PmdgDataArrayIndex": 15
+    },
+    {
+      "Id": "1e991af5-e4c8-46eb-aece-db6600e1ec34",
+      "IsActive": true,
+      "Description": "COM1_DUMMY_NAV1_VHF2",
+      "OutputType": "Dataline",
+      "Outputs": [
+        9
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:DIMVAR_COM1_SELECTOR",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "1",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "3",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "5",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "-1",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "ed2c6608-41b3-49c2-aed4-94bff5591fc4",
+      "IsActive": true,
+      "Description": "COM1_NAV2_NAV1_VHF1",
+      "OutputType": "Dataline",
+      "Outputs": [
+        10
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:DIMVAR_COM1_SELECTOR",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "0",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "3",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "4",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "-1",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    },
+    {
+      "Id": "f0af2f0c-dde0-4a03-afce-91cc429d5782",
+      "IsActive": true,
+      "Description": "COM1_ADF_VHF2_VHF1",
+      "OutputType": "Dataline",
+      "Outputs": [
+        11
+      ],
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:DIMVAR_COM1_SELECTOR",
+      "Modifiers": [
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "0",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "1",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "\u2260",
+          "Value": "2",
+          "TrueValue": "",
+          "FalseValue": "-1"
+        },
+        {
+          "$type": "Comparison",
+          "IsActive": true,
+          "Operator": "=",
+          "Value": "-1",
+          "TrueValue": "1",
+          "FalseValue": "0"
+        }
+      ]
+    }
+  ]
+}
