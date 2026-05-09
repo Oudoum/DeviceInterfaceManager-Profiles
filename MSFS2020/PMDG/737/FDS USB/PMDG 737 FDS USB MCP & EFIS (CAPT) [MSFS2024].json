@@ -387,46 +387,322 @@
     {
       "Id": "6f88c372-66ad-48e1-b4b9-01ad7b210c68",
       "IsActive": true,
-      "Description": "EFIS LEFT MINS DOWN",
+      "Description": "EFIS LEFT MINS -1 =\u003E -10",
       "InputType": "Switch",
       "Input": 57,
-      "EventType": "PMDG737",
-      "PmdgEvent": 69987,
-      "PmdgMousePress": 8192,
-      "OnRelease": false
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": -30,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "2b3427ff-3669-44fb-9b8c-d05a8fae4b65",
+      "IsActive": true,
+      "Description": "EFIS LEFT MINS 0 =\u003E -1",
+      "InputType": "Switch",
+      "Input": 57,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "d61782ec-38aa-4cf2-915e-aa859f2b2a59",
+      "IsActive": true,
+      "Description": "EFIS LEFT MINS 1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": 57,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "cd363cae-2a25-4397-81eb-40f5f4d5e539",
+      "IsActive": true,
+      "Description": "EFIS LEFT MINS 10 =\u003E 1",
+      "InputType": "Switch",
+      "Input": 57,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "30",
+          "IsOrOperator": false
+        }
+      ]
     },
     {
       "Id": "316b8d65-b389-4e60-ae29-3982e840f0c9",
       "IsActive": true,
-      "Description": "EFIS LEFT MINS UP",
+      "Description": "EFIS LEFT MINS -10 =\u003E -1",
       "InputType": "Switch",
       "Input": 58,
-      "EventType": "PMDG737",
-      "PmdgEvent": 69987,
-      "PmdgMousePress": 16384,
-      "OnRelease": false
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "-30",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "357e32d7-b1ab-4a7f-8e37-58b8c867c579",
+      "IsActive": true,
+      "Description": "EFIS LEFT MINS -1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": 58,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "9cfbd737-a84d-4ab9-826e-de7ee76b49a9",
+      "IsActive": true,
+      "Description": "EFIS LEFT MINS 0 =\u003E 1",
+      "InputType": "Switch",
+      "Input": 58,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "88ccc6d2-0100-4b0b-a26c-f5d25b14ca4b",
+      "IsActive": true,
+      "Description": "EFIS LEFT MINS 1 =\u003E 10",
+      "InputType": "Switch",
+      "Input": 58,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CAMinsKnob",
+      "DataPress": 30,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
     },
     {
       "Id": "1a3658d7-f9f0-484b-821e-3f3fce425054",
       "IsActive": true,
-      "Description": "EFIS LEFT BARO DOWN",
+      "Description": "EFIS LEFT BARO -1 =\u003E -10",
       "InputType": "Switch",
       "Input": 59,
-      "EventType": "PMDG737",
-      "PmdgEvent": 69997,
-      "PmdgMousePress": 8192,
-      "OnRelease": false
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": -30,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "22846ddd-9dab-4e9b-ac6e-70217b325770",
+      "IsActive": true,
+      "Description": "EFIS LEFT BARO 0 =\u003E -1",
+      "InputType": "Switch",
+      "Input": 59,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "61c05041-9cb9-439f-b99c-61149b911208",
+      "IsActive": true,
+      "Description": "EFIS LEFT BARO 1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": 59,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "8f7dcd77-7cc5-4c63-9563-d89094e3565c",
+      "IsActive": true,
+      "Description": "EFIS LEFT BARO 10 =\u003E 1",
+      "InputType": "Switch",
+      "Input": 59,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "30",
+          "IsOrOperator": false
+        }
+      ]
     },
     {
       "Id": "306fa47e-7173-4ddc-9505-dfdfc197ce97",
       "IsActive": true,
-      "Description": "EFIS LEFT BARO UP",
+      "Description": "EFIS LEFT BARO -10 =\u003E -1",
       "InputType": "Switch",
       "Input": 60,
-      "EventType": "PMDG737",
-      "PmdgEvent": 69997,
-      "PmdgMousePress": 16384,
-      "OnRelease": false
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": -5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "-30",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "b892754a-b46c-430b-b436-4112d4a061a6",
+      "IsActive": true,
+      "Description": "EFIS LEFT BARO -1 =\u003E 0",
+      "InputType": "Switch",
+      "Input": 60,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 0,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "-5",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "76d3e285-a2f0-4ab2-9a05-ab9284d842b1",
+      "IsActive": true,
+      "Description": "EFIS LEFT BARO 0 =\u003E 1",
+      "InputType": "Switch",
+      "Input": 60,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 5,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "0",
+          "IsOrOperator": false
+        }
+      ]
+    },
+    {
+      "Id": "6b5af185-2b67-42ce-b14f-27ec61a2f04a",
+      "IsActive": true,
+      "Description": "EFIS LEFT BARO 1 =\u003E 10",
+      "InputType": "Switch",
+      "Input": 60,
+      "EventType": "MSFS/SimConnect/LVar",
+      "Event": "L:CABaroKnob",
+      "DataPress": 30,
+      "OnRelease": false,
+      "Preconditions": [
+        {
+          "IsActive": true,
+          "ReferenceId": "ed996450-dfb6-4b0c-b15a-92759494da41",
+          "Operator": "=",
+          "ComparisonValue": "5",
+          "IsOrOperator": false
+        }
+      ]
     },
     {
       "Id": "1ab11eac-ae33-4366-a9fc-5967107e8eeb",
@@ -1488,6 +1764,22 @@
           "IsOrOperator": false
         }
       ]
+    },
+    {
+      "Id": "24347347-d11b-4bd7-8248-ce52cf11f0ac",
+      "IsActive": true,
+      "Description": "EFIS LEFT MINIMUMS",
+      "OutputType": "Dataline",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:CAMinsKnob"
+    },
+    {
+      "Id": "ed996450-dfb6-4b0c-b15a-92759494da41",
+      "IsActive": true,
+      "Description": "EFIS LEFT BARO",
+      "OutputType": "Dataline",
+      "DataType": "MSFS/SimConnect/LVar",
+      "Data": "L:CABaroKnob"
     }
   ]
 }
